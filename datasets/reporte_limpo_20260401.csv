@@ -1,0 +1,774 @@
+Numero de orden|Palco|Nombre del comercio|Evento|Fecha|Total|Producto|Categoria|Talle|Cantidad|Precio Unitario|Total Producto|Correo del Comprador|Telefono del Comprador|N de identificacion del Comprador|Cantidad restante de beneficio|Metodo de pago|Ultimos digitos de la tarjeta|Dispositivo Clover|Delivery|Estado de facturacion|Es pre compra|Estado
+643503|1|GB - ILHA 1|-|2026-04-01 17:24:22|44|Cabaré Ice Limão|Bebidas Alcoólicas|1|2|12|24||||1|Mastercard Debit|4947|C046LG51934016||Pendiente Facturar|0|2
+643503|1|GB - ILHA 1|-|2026-04-01 17:24:22|44|Água de coco 300ml|Bebidas sem álcool|1|2|10|20||||1|Mastercard Debit|4947|C046LG51934016||Pendiente Facturar|0|2
+643508|1|GB - ILHA 1|-|2026-04-01 17:29:36|18|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Credi|1378|C046LG52835596||Pendiente Facturar|0|2
+643508|1|GB - ILHA 1|-|2026-04-01 17:29:36|18|Água|Bebidas sem álcool|1|1|8|8||||1|Mastercard Credi|1378|C046LG52835596||Pendiente Facturar|0|2
+643531|1|GB - ILHA 1|-|2026-04-01 17:55:15|18|Itaipava Pilsen 350ml|Cervejas|1|3|6|18|||82748813.0|1|Mastercard Credi|3803|C046LG51944863||Pendiente Facturar|0|2
+643538|1|GB - ILHA 1|-|2026-04-01 18:02:08|35|Crepe francês|Alimentos|1|1|35|35||||1|Elo Credit|2575|C046LG52835596||Pendiente Facturar|0|2
+643589|1|GB - ILHA 1|-|2026-04-01 18:20:19|35|Crepe francês|Alimentos|1|1|35|35||||1|Visa Credito|2829|C046LG52835596||Pendiente Facturar|0|2
+643591|1|GB - ILHA 1|-|2026-04-01 18:20:32|26|Amendoim Bahia|Alimentos|1|1|10|10||||1|Visa Credito|2867|C046LG51934016||Pendiente Facturar|0|2
+643591|1|GB - ILHA 1|-|2026-04-01 18:20:32|26|Água|Bebidas sem álcool|1|2|8|16||||1|Visa Credito|2867|C046LG51934016||Pendiente Facturar|0|2
+643605|1|GB - ILHA 1|-|2026-04-01 18:25:06|15|Coxão|Alimentos|1|1|15|15||||1|EFECTIVO||C046LG52835596||Pendiente Facturar|0|2
+643619|1|GB - ILHA 1|-|2026-04-01 18:28:48|32|Cabaré Ice Limão|Bebidas Alcoólicas|1|1|12|12||||1|Mastercard Debit|4947|C046LG52835596||Pendiente Facturar|0|2
+643619|1|GB - ILHA 1|-|2026-04-01 18:28:48|32|Água de coco 300ml|Bebidas sem álcool|1|2|10|20||||1|Mastercard Debit|4947|C046LG52835596||Pendiente Facturar|0|2
+643657|1|GB - ILHA 1|-|2026-04-01 18:34:57|35|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Credito|5265|C046LG51934016||Pendiente Facturar|0|2
+643657|1|GB - ILHA 1|-|2026-04-01 18:34:57|35|Coxão|Alimentos|1|1|15|15||||1|Visa Credito|5265|C046LG51934016||Pendiente Facturar|0|2
+643721|1|GB - ILHA 1|-|2026-04-01 18:45:43|9|Água|Bebidas sem álcool|1|1|4|4|||45448400.0|1|Mastercard Credi|3492|C046LG51934016||Pendiente Facturar|0|2
+643721|1|GB - ILHA 1|-|2026-04-01 18:45:43|9|Refrigerante|Bebidas sem álcool|1|1|5|5|||45448400.0|1|Mastercard Credi|3492|C046LG51934016||Pendiente Facturar|0|2
+643735|1|GB - ILHA 1|-|2026-04-01 18:47:53|40| Pipoca caramelizada|Alimentos|1|1|25|25||||1|Mastercard Credi|2251|C046LG52835596||Pendiente Facturar|0|2
+643735|1|GB - ILHA 1|-|2026-04-01 18:47:53|40|Coxão|Alimentos|1|1|15|15||||1|Mastercard Credi|2251|C046LG52835596||Pendiente Facturar|0|2
+643737|1|GB - ILHA 1|-|2026-04-01 18:48:31|70|Black Princess 350ml|Cervejas|1|3|14|42||||1|Visa Credito|1804|C046LG51934016||Pendiente Facturar|0|2
+643737|1|GB - ILHA 1|-|2026-04-01 18:48:31|70|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Credito|1804|C046LG51934016||Pendiente Facturar|0|2
+643737|1|GB - ILHA 1|-|2026-04-01 18:48:31|70|Água|Bebidas sem álcool|1|1|8|8||||1|Visa Credito|1804|C046LG51934016||Pendiente Facturar|0|2
+643744|1|GB - ILHA 1|-|2026-04-01 18:49:27|45|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Debito|1385|C046LG51934016||Pendiente Facturar|0|2
+643744|1|GB - ILHA 1|-|2026-04-01 18:49:27|45|Crepe francês|Alimentos|1|1|35|35||||1|Visa Debito|1385|C046LG51934016||Pendiente Facturar|0|2
+643745|1|GB - ILHA 1|-|2026-04-01 18:49:41|44|Itaipava 0.0 350ml (sem álcool)|Cervejas|1|4|11|44||||1|Pix| |C046LG52835596||Pendiente Facturar|0|2
+643774|1|GB - ILHA 1|-|2026-04-01 18:54:34|10|Água de coco 300ml|Bebidas sem álcool|1|1|10|10||||1|Visa Credito|6092|C046LG51944863||Pendiente Facturar|0|2
+643806|1|GB - ILHA 1|-|2026-04-01 19:00:22|76|Amendoim Bahia|Alimentos|1|2|10|20||||1|Mastercard Credi|5173|C046LG51934016||Pendiente Facturar|0|2
+643806|1|GB - ILHA 1|-|2026-04-01 19:00:22|76|Itaipava Premium 473ml (latão)|Cervejas|1|4|10|40||||1|Mastercard Credi|5173|C046LG51934016||Pendiente Facturar|0|2
+643806|1|GB - ILHA 1|-|2026-04-01 19:00:22|76|Água|Bebidas sem álcool|1|2|8|16||||1|Mastercard Credi|5173|C046LG51934016||Pendiente Facturar|0|2
+643844|1|GB - ILHA 1|-|2026-04-01 19:04:00|20|Itaipava Premium 473ml (latão)|Cervejas|1|2|10|20||||1|Visa Debito|2878|C046LG51944863||Pendiente Facturar|0|2
+643855|1|GB - ILHA 1|-|2026-04-01 19:04:40|63|Crepe francês|Alimentos|1|1|35|35||||1|Mastercard Credi|7237|C046LG51934016||Pendiente Facturar|0|2
+643855|1|GB - ILHA 1|-|2026-04-01 19:04:40|63|Black Princess 350ml|Cervejas|1|2|14|28||||1|Mastercard Credi|7237|C046LG51934016||Pendiente Facturar|0|2
+643867|1|GB - ILHA 1|-|2026-04-01 19:05:38|45|Crepe francês|Alimentos|1|1|35|35||||1|Visa Credito|5142|C046LG52835596||Pendiente Facturar|0|2
+643867|1|GB - ILHA 1|-|2026-04-01 19:05:38|45|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Credito|5142|C046LG52835596||Pendiente Facturar|0|2
+643903|1|GB - ILHA 1|-|2026-04-01 19:08:59|70|Crepe francês|Alimentos|1|2|35|70||||1|Visa Credito|8565|C046LG51944863||Pendiente Facturar|0|2
+643934|1|GB - ILHA 1|-|2026-04-01 19:11:59|52|Amendoim Bahia|Alimentos|1|1|10|10|||2167800.0|1|Visa Credito|9193|C046LG52835596||Pendiente Facturar|0|2
+643934|1|GB - ILHA 1|-|2026-04-01 19:11:59|52|Água|Bebidas sem álcool|1|1|4|4|||2167800.0|1|Visa Credito|9193|C046LG52835596||Pendiente Facturar|0|2
+643934|1|GB - ILHA 1|-|2026-04-01 19:11:59|52|Pipoca To De Boa|Alimentos|1|1|20|20|||2167800.0|1|Visa Credito|9193|C046LG52835596||Pendiente Facturar|0|2
+643934|1|GB - ILHA 1|-|2026-04-01 19:11:59|52|Itaipava Pilsen 350ml|Cervejas|1|3|6|18|||2167800.0|1|Visa Credito|9193|C046LG52835596||Pendiente Facturar|0|2
+643940|1|GB - ILHA 1|-|2026-04-01 19:12:48|144|Vinho Orfila Tinto|Bebidas Alcoólicas|1|1|120|120||||1|Mastercard Debit|1218|C046LG51934016||Pendiente Facturar|0|2
+643940|1|GB - ILHA 1|-|2026-04-01 19:12:48|144|Água|Bebidas sem álcool|1|3|8|24||||1|Mastercard Debit|1218|C046LG51934016||Pendiente Facturar|0|2
+643953|1|GB - ILHA 1|-|2026-04-01 19:14:13|45|Crepe francês|Alimentos|1|1|35|35||||1|Pix| |C046LG52835596||Pendiente Facturar|0|2
+643953|1|GB - ILHA 1|-|2026-04-01 19:14:13|45|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Pix| |C046LG52835596||Pendiente Facturar|0|2
+643954|1|GB - ILHA 1|-|2026-04-01 19:14:14|45|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Credito|3549|C046LG51934016||Pendiente Facturar|0|2
+643954|1|GB - ILHA 1|-|2026-04-01 19:14:14|45|Crepe francês|Alimentos|1|1|35|35||||1|Visa Credito|3549|C046LG51934016||Pendiente Facturar|0|2
+643976|1|GB - ILHA 1|-|2026-04-01 19:15:47|48|Pipoca To De Boa|Alimentos|1|2|20|40||||1|Mastercard Credi|9034|C046LG51934016||Pendiente Facturar|0|2
+643976|1|GB - ILHA 1|-|2026-04-01 19:15:47|48|Água|Bebidas sem álcool|1|1|8|8||||1|Mastercard Credi|9034|C046LG51934016||Pendiente Facturar|0|2
+643980|1|GB - ILHA 1|-|2026-04-01 19:16:07|34|Água com Gás 500ml|Bebidas sem álcool|1|1|8|8||||1|Pix| |C046LG52835596||Pendiente Facturar|0|2
+643980|1|GB - ILHA 1|-|2026-04-01 19:16:07|34|Petra 350ml|Cervejas|1|2|13|26||||1|Pix| |C046LG52835596||Pendiente Facturar|0|2
+644028|1|GB - ILHA 1|-|2026-04-01 19:19:34|38|Água|Bebidas sem álcool|1|1|8|8||||1|Mastercard Debit|8325|C046LG52835596||Pendiente Facturar|0|2
+644028|1|GB - ILHA 1|-|2026-04-01 19:19:34|38|Refrigerante|Bebidas sem álcool|1|3|10|30||||1|Mastercard Debit|8325|C046LG52835596||Pendiente Facturar|0|2
+644055|1|GB - ILHA 1|-|2026-04-01 19:21:26|23|Água|Bebidas sem álcool|1|1|8|8||||1|Mastercard Credi|4928|C046LG52835596||Pendiente Facturar|0|2
+644055|1|GB - ILHA 1|-|2026-04-01 19:21:26|23|X Burguer|Alimentos|1|1|15|15||||1|Mastercard Credi|4928|C046LG52835596||Pendiente Facturar|0|2
+644057|1|GB - ILHA 1|-|2026-04-01 19:21:32|10|Itaipava Premium 473ml (latão)|Cervejas|1|1|10|10||||1|Visa Credito|8565|C046LG51944863||Pendiente Facturar|0|2
+644063|1|GB - ILHA 1|-|2026-04-01 19:21:56|35|Crepe francês|Alimentos|1|1|35|35||||1|Visa Credito|5493|C046LG51934016||Pendiente Facturar|0|2
+644102|1|GB - ILHA 1|-|2026-04-01 19:24:33|35|Crepe francês|Alimentos|1|1|35|35||||1|Visa Credito|3394|C046LG52835596||Pendiente Facturar|0|2
+644109|1|GB - ILHA 1|-|2026-04-01 19:25:11|124|Amendoim Bahia|Alimentos|1|2|10|20||||1|Mastercard Credi|1286|C046LG51934016||Pendiente Facturar|0|2
+644109|1|GB - ILHA 1|-|2026-04-01 19:25:11|124|Black Princess 350ml|Cervejas|1|2|14|28||||1|Mastercard Credi|1286|C046LG51934016||Pendiente Facturar|0|2
+644109|1|GB - ILHA 1|-|2026-04-01 19:25:11|124|Crepe francês|Alimentos|1|1|35|35||||1|Mastercard Credi|1286|C046LG51934016||Pendiente Facturar|0|2
+644109|1|GB - ILHA 1|-|2026-04-01 19:25:11|124| Pipoca caramelizada|Alimentos|1|1|25|25||||1|Mastercard Credi|1286|C046LG51934016||Pendiente Facturar|0|2
+644109|1|GB - ILHA 1|-|2026-04-01 19:25:11|124|Água|Bebidas sem álcool|1|2|8|16||||1|Mastercard Credi|1286|C046LG51934016||Pendiente Facturar|0|2
+644116|1|GB - ILHA 1|-|2026-04-01 19:25:37|8|Água|Bebidas sem álcool|1|1|8|8||||1|Visa Credito|6119|C046LG52835596||Pendiente Facturar|0|2
+644125|1|GB - ILHA 1|-|2026-04-01 19:26:14|35|Crepe francês|Alimentos|1|1|35|35||||1|Pix| |C046LG51934016||Pendiente Facturar|0|2
+644158|1|GB - ILHA 1|-|2026-04-01 19:28:13|35|Crepe francês|Alimentos|1|1|35|35||||1|Visa Credito|0580|C046LG52835596||Pendiente Facturar|0|2
+644168|1|GB - ILHA 1|-|2026-04-01 19:28:49|35|Crepe francês|Alimentos|1|1|35|35||||1|Mastercard Credi|9745|C046LG52835596||Pendiente Facturar|0|2
+644176|1|GB - ILHA 1|-|2026-04-01 19:29:20|56|Black Princess 350ml|Cervejas|1|4|14|56||||1|Visa Credito|5475|C046LG51934016||Pendiente Facturar|0|2
+644184|1|GB - ILHA 1|-|2026-04-01 19:29:55|48|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Credito|8864|C046LG52835596||Pendiente Facturar|0|2
+644184|1|GB - ILHA 1|-|2026-04-01 19:29:55|48|Black Princess 350ml|Cervejas|1|2|14|28||||1|Visa Credito|8864|C046LG52835596||Pendiente Facturar|0|2
+644192|1|GB - ILHA 1|-|2026-04-01 19:30:11|25|Coxão|Alimentos|1|1|15|15||||1|Mastercard Credi|6295|C046LG51934016||Pendiente Facturar|0|2
+644192|1|GB - ILHA 1|-|2026-04-01 19:30:11|25|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Credi|6295|C046LG51934016||Pendiente Facturar|0|2
+644204|1|GB - ILHA 1|-|2026-04-01 19:31:11|16|Água|Bebidas sem álcool|1|2|8|16||||1|Mastercard Credi|8536|C046LG52835596||Pendiente Facturar|0|2
+644217|1|GB - ILHA 1|-|2026-04-01 19:31:45|42|Itaipava Pilsen 350ml|Cervejas|1|7|6|42|||60500.0|1|Visa Credito|2433|C046LG51934016||Pendiente Facturar|0|2
+644236|1|GB - ILHA 1|-|2026-04-01 19:32:59|45|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Debito|9961|C046LG51934016||Pendiente Facturar|0|2
+644236|1|GB - ILHA 1|-|2026-04-01 19:32:59|45|Crepe francês|Alimentos|1|1|35|35||||1|Visa Debito|9961|C046LG51934016||Pendiente Facturar|0|2
+644239|1|GB - ILHA 1|-|2026-04-01 19:33:07|25|Coxão|Alimentos|1|1|15|15||||1|Mastercard Credi|3666|C046LG52835596||Pendiente Facturar|0|2
+644239|1|GB - ILHA 1|-|2026-04-01 19:33:07|25|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Credi|3666|C046LG52835596||Pendiente Facturar|0|2
+644251|1|GB - ILHA 1|-|2026-04-01 19:33:58|35|Crepe francês|Alimentos|1|1|35|35||||1|Mastercard Debit|8947|C046LG51944863||Pendiente Facturar|0|2
+644266|1|GB - ILHA 1|-|2026-04-01 19:34:54|45|Crepe francês|Alimentos|1|1|35|35||||1|Visa Credito|7943|C046LG51934016||Pendiente Facturar|0|2
+644266|1|GB - ILHA 1|-|2026-04-01 19:34:54|45|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Credito|7943|C046LG51934016||Pendiente Facturar|0|2
+644275|1|GB - ILHA 1|-|2026-04-01 19:35:33|22|Itaipava 0.0 350ml (sem álcool)|Cervejas|1|2|11|22||||1|Visa Credito|7971|C046LG52835596||Pendiente Facturar|0|2
+644277|1|GB - ILHA 1|-|2026-04-01 19:35:39|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Debit|9772|C046LG51934016||Pendiente Facturar|0|2
+644286|1|GB - ILHA 1|-|2026-04-01 19:36:22|16|Água com Gás 500ml|Bebidas sem álcool|1|1|8|8||||1|Visa Credito|0275|C046LG51934016||Pendiente Facturar|0|2
+644286|1|GB - ILHA 1|-|2026-04-01 19:36:22|16|Água|Bebidas sem álcool|1|1|8|8||||1|Visa Credito|0275|C046LG51934016||Pendiente Facturar|0|2
+644298|1|GB - ILHA 1|-|2026-04-01 19:36:57|20|Água de coco 300ml|Bebidas sem álcool|1|1|10|10||||1|Mastercard Credi|6897|C046LG52835596||Pendiente Facturar|0|2
+644298|1|GB - ILHA 1|-|2026-04-01 19:36:57|20|Itaipava Premium 473ml (latão)|Cervejas|1|1|10|10||||1|Mastercard Credi|6897|C046LG52835596||Pendiente Facturar|0|2
+644308|1|GB - ILHA 1|-|2026-04-01 19:37:45|26|Petra 350ml|Cervejas|1|2|13|26||||1|Mastercard Debit|3439|C046LG51934016||Pendiente Facturar|0|2
+644316|1|GB - ILHA 1|-|2026-04-01 19:38:25|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Credito|0275|C046LG51934016||Pendiente Facturar|0|2
+644329|1|GB - ILHA 1|-|2026-04-01 19:39:15|28|Água|Bebidas sem álcool|1|1|8|8||||1|Elo Debit|0503|C046LG51934016||Pendiente Facturar|0|2
+644329|1|GB - ILHA 1|-|2026-04-01 19:39:15|28|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Elo Debit|0503|C046LG51934016||Pendiente Facturar|0|2
+644352|1|GB - ILHA 1|-|2026-04-01 19:40:32|30|Itaipava Premium 473ml (latão)|Cervejas|1|3|10|30||||1|Mastercard Debit|1220|C046LG51934016||Pendiente Facturar|0|2
+644367|1|GB - ILHA 1|-|2026-04-01 19:41:31|51|Água com Gás 500ml|Bebidas sem álcool|1|1|8|8||||1|Visa Credito|3297|C046LG51934016||Pendiente Facturar|0|2
+644367|1|GB - ILHA 1|-|2026-04-01 19:41:31|51|Crepe francês|Alimentos|1|1|35|35||||1|Visa Credito|3297|C046LG51934016||Pendiente Facturar|0|2
+644367|1|GB - ILHA 1|-|2026-04-01 19:41:31|51|Água|Bebidas sem álcool|1|1|8|8||||1|Visa Credito|3297|C046LG51934016||Pendiente Facturar|0|2
+644444|1|GB - ILHA 1|-|2026-04-01 19:46:32|42|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|0349|C046LG51944863||Pendiente Facturar|0|2
+644444|1|GB - ILHA 1|-|2026-04-01 19:46:32|42|Itaipava 0.0 350ml (sem álcool)|Cervejas|1|2|11|22||||1|Mastercard Credi|0349|C046LG51944863||Pendiente Facturar|0|2
+644446|1|GB - ILHA 1|-|2026-04-01 19:46:33|73|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Credito|7978|C046LG52835596||Pendiente Facturar|0|2
+644446|1|GB - ILHA 1|-|2026-04-01 19:46:33|73|Água de coco 300ml|Bebidas sem álcool|1|1|10|10||||1|Visa Credito|7978|C046LG52835596||Pendiente Facturar|0|2
+644446|1|GB - ILHA 1|-|2026-04-01 19:46:33|73|Água|Bebidas sem álcool|1|1|8|8||||1|Visa Credito|7978|C046LG52835596||Pendiente Facturar|0|2
+644446|1|GB - ILHA 1|-|2026-04-01 19:46:33|73|Crepe francês|Alimentos|1|1|35|35||||1|Visa Credito|7978|C046LG52835596||Pendiente Facturar|0|2
+644457|1|GB - ILHA 1|-|2026-04-01 19:46:57|35|Crepe francês|Alimentos|1|1|35|35||||1|Visa Debito|4430|C046LG51934016||Pendiente Facturar|0|2
+644478|1|GB - ILHA 1|-|2026-04-01 19:48:22|28|Itaipava Premium 473ml (latão)|Cervejas|1|2|10|20||||1|Visa Credito|8565|C046LG51944863||Pendiente Facturar|0|2
+644478|1|GB - ILHA 1|-|2026-04-01 19:48:22|28|Água|Bebidas sem álcool|1|1|8|8||||1|Visa Credito|8565|C046LG51944863||Pendiente Facturar|0|2
+644542|1|GB - ILHA 1|-|2026-04-01 19:52:30|8|Água|Bebidas sem álcool|1|1|8|8|l****1@gmail.com|5571988**-**56|41963900.0|1|EFECTIVO||C046LG51934016||Pendiente Facturar|0|2
+644544|1|GB - ILHA 1|-|2026-04-01 19:52:38|30|Itaipava Premium 473ml (latão)|Cervejas|1|3|10|30||||1|Visa Debito|2878|C046LG51944863||Pendiente Facturar|0|2
+644584|1|GB - ILHA 1|-|2026-04-01 19:55:26|53|Pipoca To De Boa|Alimentos|1|1|20|20|l****1@gmail.com|5571988**-**56|41963900.0|1|EFECTIVO||C046LG51934016||Pendiente Facturar|0|2
+644584|1|GB - ILHA 1|-|2026-04-01 19:55:26|53|X Burguer|Alimentos|1|1|15|15|l****1@gmail.com|5571988**-**56|41963900.0|1|EFECTIVO||C046LG51934016||Pendiente Facturar|0|2
+644584|1|GB - ILHA 1|-|2026-04-01 19:55:26|53|Água|Bebidas sem álcool|1|1|8|8|l****1@gmail.com|5571988**-**56|41963900.0|1|EFECTIVO||C046LG51934016||Pendiente Facturar|0|2
+644584|1|GB - ILHA 1|-|2026-04-01 19:55:26|53|Refrigerante|Bebidas sem álcool|1|1|10|10|l****1@gmail.com|5571988**-**56|41963900.0|1|EFECTIVO||C046LG51934016||Pendiente Facturar|0|2
+644604|1|GB - ILHA 1|-|2026-04-01 19:57:07|45|X Burguer|Alimentos|1|1|15|15|l****1@gmail.com|5571988**-**56|41963900.0|1|Visa Debito|0408|C046LG51934016||Pendiente Facturar|0|2
+644604|1|GB - ILHA 1|-|2026-04-01 19:57:07|45|Pipoca To De Boa|Alimentos|1|1|20|20|l****1@gmail.com|5571988**-**56|41963900.0|1|Visa Debito|0408|C046LG51934016||Pendiente Facturar|0|2
+644604|1|GB - ILHA 1|-|2026-04-01 19:57:07|45|Refrigerante|Bebidas sem álcool|1|1|10|10|l****1@gmail.com|5571988**-**56|41963900.0|1|Visa Debito|0408|C046LG51934016||Pendiente Facturar|0|2
+644617|1|GB - ILHA 1|-|2026-04-01 19:58:07|16|Água|Bebidas sem álcool|1|2|8|16|l****1@gmail.com|5571988**-**56|41963900.0|1|Visa Credito|7182|C046LG51934016||Pendiente Facturar|0|2
+644632|1|GB - ILHA 1|-|2026-04-01 19:59:23|48|Água|Bebidas sem álcool|1|1|8|8|l****1@gmail.com|5571988**-**56|41963900.0|1|Pix| |C046LG51934016||Pendiente Facturar|0|2
+644632|1|GB - ILHA 1|-|2026-04-01 19:59:23|48|Pipoca To De Boa|Alimentos|1|1|20|20|l****1@gmail.com|5571988**-**56|41963900.0|1|Pix| |C046LG51934016||Pendiente Facturar|0|2
+644632|1|GB - ILHA 1|-|2026-04-01 19:59:23|48|Refrigerante|Bebidas sem álcool|1|1|10|10|l****1@gmail.com|5571988**-**56|41963900.0|1|Pix| |C046LG51934016||Pendiente Facturar|0|2
+644632|1|GB - ILHA 1|-|2026-04-01 19:59:23|48|Amendoim Bahia|Alimentos|1|1|10|10|l****1@gmail.com|5571988**-**56|41963900.0|1|Pix| |C046LG51934016||Pendiente Facturar|0|2
+644686|1|GB - ILHA 1|-|2026-04-01 20:04:43|24|Itaipava Pilsen 350ml|Cervejas|1|4|6|24|||5227500.0|1|Mastercard Credi|0411|C046LG52835596||Pendiente Facturar|0|2
+644696|1|GB - ILHA 1|-|2026-04-01 20:06:21|28|Black Princess 350ml|Cervejas|1|2|14|28|l****1@gmail.com|5571988**-**56|41963900.0|1|Visa Debito|4079|C046LG51934016||Pendiente Facturar|0|2
+644699|1|GB - ILHA 1|-|2026-04-01 20:07:02|30|Itaipava Premium 473ml (latão)|Cervejas|1|3|10|30||||1|Mastercard Credi|7237|C046LG51944863||Pendiente Facturar|0|2
+644706|1|GB - ILHA 1|-|2026-04-01 20:08:39|35|Crepe francês|Alimentos|1|1|35|35|l****1@gmail.com|5571988**-**56|41963900.0|1|Visa Credito|6425|C046LG51934016||Pendiente Facturar|0|2
+644747|1|GB - ILHA 1|-|2026-04-01 20:16:10|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|3575|C035LT44220763||Pendiente Facturar|0|2
+644755|1|GB - ILHA 1|-|2026-04-01 20:18:46|16|Água com Gás 500ml|Bebidas sem álcool|1|1|8|8|l****1@gmail.com|5571988**-**56|41963900.0|1|Mastercard Credi|7739|C046LG51934016||Pendiente Facturar|0|2
+644755|1|GB - ILHA 1|-|2026-04-01 20:18:46|16|Água|Bebidas sem álcool|1|1|8|8|l****1@gmail.com|5571988**-**56|41963900.0|1|Mastercard Credi|7739|C046LG51934016||Pendiente Facturar|0|2
+644770|1|GB - ILHA 1|-|2026-04-01 20:22:03|20|Itaipava Premium 473ml (latão)|Cervejas|1|2|10|20|l****1@gmail.com|5571988**-**56|41963900.0|1|Visa Credito|9906|C046LG51934016||Pendiente Facturar|0|2
+644787|1|GB - ILHA 1|-|2026-04-01 20:26:48|18|Água de coco 300ml|Bebidas sem álcool|1|1|10|10|l****1@gmail.com|5571988**-**56|41963900.0|1|Mastercard Credi|1482|C046LG51934016||Pendiente Facturar|0|2
+644787|1|GB - ILHA 1|-|2026-04-01 20:26:48|18|Água|Bebidas sem álcool|1|1|8|8|l****1@gmail.com|5571988**-**56|41963900.0|1|Mastercard Credi|1482|C046LG51934016||Pendiente Facturar|0|2
+644802|1|GB - ILHA 1|-|2026-04-01 20:29:23|35|Crepe francês|Alimentos|1|1|35|35||||1|Mastercard Debit|7768|C046LG51944863||Pendiente Facturar|0|2
+644804|1|GB - ILHA 1|-|2026-04-01 20:29:29|12|Itaipava Pilsen 350ml|Cervejas|1|2|6|12|||29044800.0|1|Visa Credito|2921|C046LG52835596||Pendiente Facturar|0|2
+644812|1|GB - ILHA 1|-|2026-04-01 20:31:03|35|Crepe francês|Alimentos|1|1|35|35|l****1@gmail.com|5571988**-**56|41963900.0|1|Mastercard Credi|3709|C046LG51934016||Pendiente Facturar|0|2
+644820|1|GB - ILHA 1|-|2026-04-01 20:32:37|30|Itaipava Premium 473ml (latão)|Cervejas|1|3|10|30||||1|Mastercard Credi|7862|C046LG51944863||Pendiente Facturar|0|2
+644867|1|GB - ILHA 1|-|2026-04-01 20:42:10|30|Itaipava Premium 473ml (latão)|Cervejas|1|3|10|30||||1|Pix| |C046LG51944863||Pendiente Facturar|0|2
+644870|1|GB - ILHA 1|-|2026-04-01 20:42:41|34|Cabaré Ice Limão|Bebidas Alcoólicas|1|1|12|12||||1|Mastercard Credi|3933|C046LG51934016||Pendiente Facturar|0|2
+644870|1|GB - ILHA 1|-|2026-04-01 20:42:41|34|Itaipava Pilsen 350ml|Cervejas|1|1|12|12||||1|Mastercard Credi|3933|C046LG51934016||Pendiente Facturar|0|2
+644870|1|GB - ILHA 1|-|2026-04-01 20:42:41|34|Água de coco 300ml|Bebidas sem álcool|1|1|10|10||||1|Mastercard Credi|3933|C046LG51934016||Pendiente Facturar|0|2
+644881|1|GB - ILHA 1|-|2026-04-01 20:44:29|30|Coxão|Alimentos|1|2|15|30||||1|Pix| |C046LG52835596||Pendiente Facturar|0|2
+644901|1|GB - ILHA 1|-|2026-04-01 20:49:38|14|Black Princess 350ml|Cervejas|1|1|14|14||||1|Mastercard Credi|0897|C046LG51934016||Pendiente Facturar|0|2
+644905|1|GB - ILHA 1|-|2026-04-01 20:50:09|8|Água com Gás 500ml|Bebidas sem álcool|1|1|8|8||||1|Visa Debito|3026|C046LG51944863||Pendiente Facturar|0|2
+644911|1|GB - ILHA 1|-|2026-04-01 20:50:56|14|Black Princess 350ml|Cervejas|1|1|14|14||||1|Visa Credito|4986|C046LG52835596||Pendiente Facturar|0|2
+644920|1|GB - ILHA 1|-|2026-04-01 20:52:04|20|Itaipava Premium 473ml (latão)|Cervejas|1|2|10|20||||1|Visa Credito|6739|C046LG52835596||Pendiente Facturar|0|2
+644962|1|GB - ILHA 1|-|2026-04-01 20:56:01|11|Itaipava 0.0 350ml (sem álcool)|Cervejas|1|1|11|11||||1|Visa Credito|7971|C046LG52835596||Pendiente Facturar|0|2
+644967|1|GB - ILHA 1|-|2026-04-01 20:56:17|28|Água|Bebidas sem álcool|1|1|8|8||||1|Mastercard Debit|2519|C046LG51944863||Pendiente Facturar|0|2
+644967|1|GB - ILHA 1|-|2026-04-01 20:56:17|28|Itaipava Premium 473ml (latão)|Cervejas|1|2|10|20||||1|Mastercard Debit|2519|C046LG51944863||Pendiente Facturar|0|2
+644977|1|GB - ILHA 1|-|2026-04-01 20:56:54|14|Black Princess 350ml|Cervejas|1|1|14|14||||1|Mastercard Debit|7476|C046LG52835596||Pendiente Facturar|0|2
+644994|1|GB - ILHA 1|-|2026-04-01 20:57:42|45|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Credito|0692|C046LG51944863||Pendiente Facturar|0|2
+644994|1|GB - ILHA 1|-|2026-04-01 20:57:42|45|Crepe francês|Alimentos|1|1|35|35||||1|Visa Credito|0692|C046LG51944863||Pendiente Facturar|0|2
+644997|1|GB - ILHA 1|-|2026-04-01 20:57:56|40|Pipoca To De Boa|Alimentos|1|2|20|40||||1|Elo Credit|0174|C046LG52835596||Pendiente Facturar|0|2
+645007|1|GB - ILHA 1|-|2026-04-01 20:58:25|8|Água com Gás 500ml|Bebidas sem álcool|1|1|8|8||||1|Visa Credito|3297|C035LT44220763||Pendiente Facturar|0|2
+645021|1|GB - ILHA 1|-|2026-04-01 20:59:14|15|Kibe|Alimentos|1|1|15|15||||1|Amex|3554|C035LT44220763||Pendiente Facturar|0|2
+645036|1|GB - ILHA 1|-|2026-04-01 20:59:45|16|Água com Gás 500ml|Bebidas sem álcool|1|2|8|16||||1|Mastercard Credi|0765|C046LG51944863||Pendiente Facturar|0|2
+645076|1|GB - ILHA 1|-|2026-04-01 21:01:41|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Debit|3439|C046LG52835596||Pendiente Facturar|0|2
+645082|1|GB - ILHA 1|-|2026-04-01 21:01:59|35|Crepe francês|Alimentos|1|1|35|35||||1|Visa Credito|0275|C046LG51944863||Pendiente Facturar|0|2
+645096|1|GB - ILHA 1|-|2026-04-01 21:02:49|70|Crepe francês|Alimentos|1|2|35|70||||1|Pix| |C046LG52835596||Pendiente Facturar|0|2
+645100|1|GB - ILHA 1|-|2026-04-01 21:03:18|18|Água|Bebidas sem álcool|1|1|8|8||||1|Mastercard Debit|9083|C035LT44220763||Pendiente Facturar|0|2
+645100|1|GB - ILHA 1|-|2026-04-01 21:03:18|18|Amendoim Bahia|Alimentos|1|1|10|10||||1|Mastercard Debit|9083|C035LT44220763||Pendiente Facturar|0|2
+645152|1|GB - ILHA 1|-|2026-04-01 21:06:24|35|Crepe francês|Alimentos|1|1|35|35||||1|Mastercard Debit|5777|C046LG52835596||Pendiente Facturar|0|2
+645176|1|GB - ILHA 1|-|2026-04-01 21:07:46|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Credito|6682|C046LG52835596||Pendiente Facturar|0|2
+645185|1|GB - ILHA 1|-|2026-04-01 21:08:22|20|Itaipava Premium 473ml (latão)|Cervejas|1|2|10|20||||1|Visa Credito|1937|C046LG51944863||Pendiente Facturar|0|2
+645196|1|GB - ILHA 1|-|2026-04-01 21:09:13|35|Crepe francês|Alimentos|1|1|35|35||||1|Mastercard Credi|9343|C046LG51934016||Pendiente Facturar|0|2
+645202|1|GB - ILHA 1|-|2026-04-01 21:10:05|8|Água com Gás 500ml|Bebidas sem álcool|1|1|8|8||||1|Mastercard Credi|2465|C046LG51944863||Pendiente Facturar|0|2
+645219|1|GB - ILHA 1|-|2026-04-01 21:11:08|8|Água|Bebidas sem álcool|1|1|8|8||||1|Mastercard Credi|1378|C046LG52835596||Pendiente Facturar|0|2
+645232|1|GB - ILHA 1|-|2026-04-01 21:12:16|30|Itaipava Premium 473ml (latão)|Cervejas|1|3|10|30||||1|Pix| |C046LG51944863||Pendiente Facturar|0|2
+645233|1|GB - ILHA 1|-|2026-04-01 21:12:35|15|Kibe|Alimentos|1|1|15|15||||1|Mastercard Credi|6767|C046LG52835596||Pendiente Facturar|0|2
+645253|1|GB - ILHA 1|-|2026-04-01 21:14:37|20|Itaipava Premium 473ml (latão)|Cervejas|1|1|10|10||||1|Mastercard Credi|6897|C046LG52835596||Pendiente Facturar|0|2
+645253|1|GB - ILHA 1|-|2026-04-01 21:14:37|20|Amendoim Bahia|Alimentos|1|1|10|10||||1|Mastercard Credi|6897|C046LG52835596||Pendiente Facturar|0|2
+645256|1|GB - ILHA 1|-|2026-04-01 21:14:56|70|Black Princess 350ml|Cervejas|1|5|14|70||||1|Visa Debito|0086|C046LG51944863||Pendiente Facturar|0|2
+645262|1|GB - ILHA 1|-|2026-04-01 21:16:01|14|Black Princess 350ml|Cervejas|1|1|14|14||||1|Mastercard Debit|3179|C046LG51944863||Pendiente Facturar|0|2
+645280|1|GB - ILHA 1|-|2026-04-01 21:20:01|10|Itaipava Premium 473ml (latão)|Cervejas|1|1|10|10||||1|Visa Credito|8565|C046LG51944863||Pendiente Facturar|0|2
+645316|1|GB - ILHA 1|-|2026-04-01 21:30:45|35|Energético TNT 269ml|Bebidas sem álcool|1|1|15|15||||1|Visa Credito|2528|C035LT44220763||Pendiente Facturar|0|2
+645316|1|GB - ILHA 1|-|2026-04-01 21:30:45|35|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Credito|2528|C035LT44220763||Pendiente Facturar|0|2
+645323|1|GB - ILHA 1|-|2026-04-01 21:33:50|70|Crepe francês|Alimentos|1|2|35|70||||1|Pix| |C046LG51934016||Pendiente Facturar|0|2
+645331|1|GB - ILHA 1|-|2026-04-01 21:38:57|35|Crepe francês|Alimentos|1|1|35|35||||1|Visa Debito|1203|C046LG51934016||Pendiente Facturar|0|2
+645336|1|GB - ILHA 1|-|2026-04-01 21:40:58|20|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Credi|6140|C046LG52835596||Pendiente Facturar|0|2
+645336|1|GB - ILHA 1|-|2026-04-01 21:40:58|20|Itaipava Premium 473ml (latão)|Cervejas|1|1|10|10||||1|Mastercard Credi|6140|C046LG52835596||Pendiente Facturar|0|2
+645358|1|GB - ILHA 1|-|2026-04-01 21:48:22|35|Crepe francês|Alimentos|1|1|35|35||||1|Visa Debito|2878|C046LG51934016||Pendiente Facturar|0|2
+645362|1|GB - ILHA 1|-|2026-04-01 21:49:51|8|Água|Bebidas sem álcool|1|1|8|8||||1|Visa Credito|1937|C046LG51944863||Pendiente Facturar|0|2
+645364|1|GB - ILHA 1|-|2026-04-01 21:50:15|42|Black Princess 350ml|Cervejas|1|3|14|42||||1|Visa Credito|8939|C046LG51934016||Pendiente Facturar|0|2
+645373|1|GB - ILHA 1|-|2026-04-01 21:54:05|4|Água|Bebidas sem álcool|1|1|4|4|||44577900.0|1|Mastercard Debit|1220|C046LG51944863||Pendiente Facturar|0|2
+645374|1|GB - ILHA 1|-|2026-04-01 21:54:41|8|Água|Bebidas sem álcool|1|1|8|8||||1|Mastercard Credi|9155|C046LG51934016||Pendiente Facturar|0|2
+645399|1|GB - ILHA 1|-|2026-04-01 22:10:23|14|Black Princess 350ml|Cervejas|1|1|14|14||||1|Visa Debito|4079|C046LG51934016||Pendiente Facturar|0|2
+643553|1|GB - ILHA 3|-|2026-04-01 18:07:14|15|Açaí 250ml|Alimentos|1|1|15|15||||1|Mastercard Debit|1428|C046LT50850604||Pendiente Facturar|0|2
+643570|1|GB - ILHA 3|-|2026-04-01 18:14:19|30|Refrigerante|Bebidas sem álcool|1|3|10|30||||1|Amex|4999|C046LT50850604||Pendiente Facturar|0|2
+643585|1|GB - ILHA 3|-|2026-04-01 18:19:04|15|X Burguer|Alimentos|1|1|15|15||||1|Mastercard Debit|6888|C046LT50850604||Pendiente Facturar|0|2
+643642|1|GB - ILHA 3|-|2026-04-01 18:33:12|26|Água|Bebidas sem álcool|1|2|6|12|||9274400.0|1|Mastercard Debit|6539|C046LT50850604||Pendiente Facturar|0|2
+643642|1|GB - ILHA 3|-|2026-04-01 18:33:12|26|Black Princess 350ml|Cervejas|1|1|14|14|||9274400.0|1|Mastercard Debit|6539|C046LT50850604||Pendiente Facturar|0|2
+643685|1|GB - ILHA 3|-|2026-04-01 18:40:18|106|Água|Bebidas sem álcool|1|2|8|16||||1|Visa Debito|9117|C046LT50850604||Pendiente Facturar|0|2
+643685|1|GB - ILHA 3|-|2026-04-01 18:40:18|106|Refrigerante|Bebidas sem álcool|1|3|10|30||||1|Visa Debito|9117|C046LT50850604||Pendiente Facturar|0|2
+643685|1|GB - ILHA 3|-|2026-04-01 18:40:18|106|Pipoca To De Boa|Alimentos|1|3|20|60||||1|Visa Debito|9117|C046LT50850604||Pendiente Facturar|0|2
+643749|1|GB - ILHA 3|-|2026-04-01 18:50:02|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Pix| |C046LG52836389||Pendiente Facturar|0|2
+643879|1|GB - ILHA 3|-|2026-04-01 19:06:31|12|Água|Bebidas sem álcool|1|2|6|12|||32965800.0|1|Mastercard Credi|9813|C046LG52836389||Pendiente Facturar|0|2
+643992|1|GB - ILHA 3|-|2026-04-01 19:16:59|10|Amendoim Bahia|Alimentos|1|1|10|10||||1|Visa Debito|2474|C046LT50850604||Pendiente Facturar|0|2
+644089|1|GB - ILHA 3|-|2026-04-01 19:23:27|33|Itaipava Pilsen 350ml|Cervejas|1|4|6|24|||7496800.0|1|Visa Credito|2849|C046LT50850604||Pendiente Facturar|0|2
+644089|1|GB - ILHA 3|-|2026-04-01 19:23:27|33|Refrigerante|Bebidas sem álcool|1|1|5|5|||7496800.0|1|Visa Credito|2849|C046LT50850604||Pendiente Facturar|0|2
+644089|1|GB - ILHA 3|-|2026-04-01 19:23:27|33|Água|Bebidas sem álcool|1|1|4|4|||7496800.0|1|Visa Credito|2849|C046LT50850604||Pendiente Facturar|0|2
+644260|1|GB - ILHA 3|-|2026-04-01 19:34:40|24|Itaipava Pilsen 350ml|Cervejas|1|4|6|24|||3472600.0|1|Visa Credito|0334|C046LG52836389||Pendiente Facturar|0|2
+644290|1|GB - ILHA 3|-|2026-04-01 19:36:33|42|Itaipava Pilsen 350ml|Cervejas|1|7|6|42|||3083600.0|1|Mastercard Credi|0362|C046LG52836389||Pendiente Facturar|0|2
+644311|1|GB - ILHA 3|-|2026-04-01 19:38:11|10|Amendoim Bahia|Alimentos|1|1|10|10||||1|Visa Debito|5696|C046LG52836389||Pendiente Facturar|0|2
+644327|1|GB - ILHA 3|-|2026-04-01 19:39:10|55|Amendoim Bahia|Alimentos|1|4|10|40||||1|Mastercard Credi|1060|C046LG52836389||Pendiente Facturar|0|2
+644327|1|GB - ILHA 3|-|2026-04-01 19:39:10|55|X Burguer|Alimentos|1|1|15|15||||1|Mastercard Credi|1060|C046LG52836389||Pendiente Facturar|0|2
+644381|1|GB - ILHA 3|-|2026-04-01 19:42:29|20|Itaipava Premium 473ml (latão)|Cervejas|1|2|10|20||||1|Visa Credito|2375|C046LG52836389||Pendiente Facturar|0|2
+644399|1|GB - ILHA 3|-|2026-04-01 19:43:46|23|Água com Gás 500ml|Bebidas sem álcool|1|1|8|8||||1|Pix| |C046LG52836389||Pendiente Facturar|0|2
+644399|1|GB - ILHA 3|-|2026-04-01 19:43:46|23|X Burguer|Alimentos|1|1|15|15||||1|Pix| |C046LG52836389||Pendiente Facturar|0|2
+644417|1|GB - ILHA 3|-|2026-04-01 19:44:49|4|Água|Bebidas sem álcool|1|1|4|4|||37722500.0|1|Mastercard Credi|5366|C046LG52836389||Pendiente Facturar|0|2
+644438|1|GB - ILHA 3|-|2026-04-01 19:46:19|15|Coxão|Alimentos|1|1|15|15||||1|EFECTIVO||C046LG52836389||Pendiente Facturar|0|2
+644455|1|GB - ILHA 3|-|2026-04-01 19:46:53|24|Itaipava Pilsen 350ml|Cervejas|1|4|6|24|||1430100.0|1|Mastercard Credi|1022|C046LT50850604||Pendiente Facturar|0|2
+644467|1|GB - ILHA 3|-|2026-04-01 19:47:34|30|Coxão|Alimentos|1|1|15|15||||1|Visa Credito|7813|C046LG52836389||Pendiente Facturar|0|2
+644467|1|GB - ILHA 3|-|2026-04-01 19:47:34|30|X Burguer|Alimentos|1|1|15|15||||1|Visa Credito|7813|C046LG52836389||Pendiente Facturar|0|2
+644473|1|GB - ILHA 3|-|2026-04-01 19:48:04|22|Água|Bebidas sem álcool|1|1|4|4|||1430100.0|1|Mastercard Credi|2335|C046LT50850604||Pendiente Facturar|0|2
+644473|1|GB - ILHA 3|-|2026-04-01 19:48:04|22|Itaipava Pilsen 350ml|Cervejas|1|3|6|18|||1430100.0|1|Mastercard Credi|2335|C046LT50850604||Pendiente Facturar|0|2
+644490|1|GB - ILHA 3|-|2026-04-01 19:49:19|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|2335|C046LT50850604||Pendiente Facturar|0|2
+644496|1|GB - ILHA 3|-|2026-04-01 19:49:32|10|Amendoim Bahia|Alimentos|1|1|10|10||||1|Visa Credito|7440|C046LG52836389||Pendiente Facturar|0|2
+644511|1|GB - ILHA 3|-|2026-04-01 19:50:37|36|Água|Bebidas sem álcool|1|2|8|16||||1|Mastercard Debit|7013|C046LG52836389||Pendiente Facturar|0|2
+644511|1|GB - ILHA 3|-|2026-04-01 19:50:37|36|Amendoim Bahia|Alimentos|1|2|10|20||||1|Mastercard Debit|7013|C046LG52836389||Pendiente Facturar|0|2
+644512|1|GB - ILHA 3|-|2026-04-01 19:50:38|42|Itaipava Pilsen 350ml|Cervejas|1|7|6|42|||31427700.0|1|Visa Credito|5186|C046LT50850604||Pendiente Facturar|0|2
+644528|1|GB - ILHA 3|-|2026-04-01 19:51:42|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Credito|4877|C046LT50850604||Pendiente Facturar|0|2
+644537|1|GB - ILHA 3|-|2026-04-01 19:52:05|40|Amendoim Bahia|Alimentos|1|2|10|20||||1|Mastercard Credi|9088|C046LG52836389||Pendiente Facturar|0|2
+644537|1|GB - ILHA 3|-|2026-04-01 19:52:05|40|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|9088|C046LG52836389||Pendiente Facturar|0|2
+644561|1|GB - ILHA 3|-|2026-04-01 19:53:44|15|Energético TNT 269ml|Bebidas sem álcool|1|1|15|15||||1|Visa Credito|4672|C046LT50850604||Pendiente Facturar|0|2
+644572|1|GB - ILHA 3|-|2026-04-01 19:54:40|10|Refrigerante|Bebidas sem álcool|1|1|10|10|||32671200.0|1|Mastercard Credi|3310|C046LG52836389||Pendiente Facturar|0|2
+644763|1|GB - ILHA 3|-|2026-04-01 20:20:31|12|Itaipava Pilsen 350ml|Cervejas|1|2|6|12|||6034300.0|1|Pix| |C046LG52836389||Pendiente Facturar|0|2
+644776|1|GB - ILHA 3|-|2026-04-01 20:23:49|25|X Burguer|Alimentos|1|1|15|15||||1|Mastercard Debit|2265|C046LG52836389||Pendiente Facturar|0|2
+644776|1|GB - ILHA 3|-|2026-04-01 20:23:49|25|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Debit|2265|C046LG52836389||Pendiente Facturar|0|2
+644779|1|GB - ILHA 3|-|2026-04-01 20:24:26|42|Itaipava Pilsen 350ml|Cervejas|1|7|6|42|||82727859.0|1|Mastercard Debit|3631|C046LT50850604||Pendiente Facturar|0|2
+644781|1|GB - ILHA 3|-|2026-04-01 20:24:45|50|Coxão|Alimentos|1|2|15|30||||1|EFECTIVO||C046LG52836389||Pendiente Facturar|0|2
+644781|1|GB - ILHA 3|-|2026-04-01 20:24:45|50|Refrigerante|Bebidas sem álcool|1|2|10|20||||1|EFECTIVO||C046LG52836389||Pendiente Facturar|0|2
+644844|1|GB - ILHA 3|-|2026-04-01 20:36:33|26|Petra 350ml|Cervejas|1|2|13|26||||1|EFECTIVO||C046LG52836389||Pendiente Facturar|0|2
+644858|1|GB - ILHA 3|-|2026-04-01 20:39:27|40|Itaipava Premium 473ml (latão)|Cervejas|1|4|10|40||||1|EFECTIVO||C046LG52836389||Pendiente Facturar|0|2
+644939|1|GB - ILHA 3|-|2026-04-01 20:54:48|20|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Credi|7407|C046LG52836389||Pendiente Facturar|0|2
+644939|1|GB - ILHA 3|-|2026-04-01 20:54:48|20|Amendoim Bahia|Alimentos|1|1|10|10||||1|Mastercard Credi|7407|C046LG52836389||Pendiente Facturar|0|2
+644990|1|GB - ILHA 3|-|2026-04-01 20:57:29|18|Água|Bebidas sem álcool|1|1|4|4|||82715449.0|1|Mastercard Debit|6539|C046LG52836389||Pendiente Facturar|0|2
+644990|1|GB - ILHA 3|-|2026-04-01 20:57:29|18|Black Princess 350ml|Cervejas|1|1|14|14|||82715449.0|1|Mastercard Debit|6539|C046LG52836389||Pendiente Facturar|0|2
+645015|1|GB - ILHA 3|-|2026-04-01 20:58:53|50|Dose de Red|Doses|1|1|20|20||||1|Visa Credito|6594|C046LG52836389||Pendiente Facturar|0|2
+645015|1|GB - ILHA 3|-|2026-04-01 20:58:53|50|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Credito|6594|C046LG52836389||Pendiente Facturar|0|2
+645015|1|GB - ILHA 3|-|2026-04-01 20:58:53|50|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Credito|6594|C046LG52836389||Pendiente Facturar|0|2
+645048|1|GB - ILHA 3|-|2026-04-01 21:00:13|10|Amendoim Bahia|Alimentos|1|1|10|10||||1|Visa Debito|5496|C046LG52836389||Pendiente Facturar|0|2
+645077|1|GB - ILHA 3|-|2026-04-01 21:01:43|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|EFECTIVO||C046LG52836389||Pendiente Facturar|0|2
+645117|1|GB - ILHA 3|-|2026-04-01 21:04:21|16|Água|Bebidas sem álcool|1|2|8|16||||1|EFECTIVO||C046LG52836389||Pendiente Facturar|0|2
+645289|1|GB - ILHA 3|-|2026-04-01 21:22:26|30|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Debito|9117|C046LG52836389||Pendiente Facturar|0|2
+645289|1|GB - ILHA 3|-|2026-04-01 21:22:26|30|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Debito|9117|C046LG52836389||Pendiente Facturar|0|2
+645327|1|GB - ILHA 3|-|2026-04-01 21:36:51|12|Itaipava Pilsen 350ml|Cervejas|1|1|12|12|l****s@gmail.com|5571991**-**36|34960300.0|1|Mastercard Debit|1988|C046LG52836389||Pendiente Facturar|0|2
+645347|1|GB - ILHA 3|-|2026-04-01 21:44:51|15|Coxão|Alimentos|1|1|15|15||||1|Mastercard Credi|1595|C035LT44210448||Pendiente Facturar|0|2
+645352|1|GB - ILHA 3|-|2026-04-01 21:47:11|20|Pipoca To De Boa|Alimentos|1|1|20|20|||82727859.0|1|Mastercard Debit|9423|C046LT50850604||Pendiente Facturar|0|2
+643547|1|GB - TERRAÇO|-|2026-04-01 18:05:25|15|Acarajé com camarão|Alimentos|1|1|15|15||||1|Visa Credito|6092|C046LG52812251||Pendiente Facturar|0|2
+643555|1|GB - TERRAÇO|-|2026-04-01 18:07:33|15|Acarajé com camarão|Alimentos|1|1|15|15||||1|Pix| |C046LG52812251||Pendiente Facturar|0|2
+643559|1|GB - TERRAÇO|-|2026-04-01 18:09:33|30|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Credito|2867|C046LG52812251||Pendiente Facturar|0|2
+643559|1|GB - TERRAÇO|-|2026-04-01 18:09:33|30|Churrasquinho|Alimentos|1|1|20|20||||1|Visa Credito|2867|C046LG52812251||Pendiente Facturar|0|2
+643564|1|GB - TERRAÇO|-|2026-04-01 18:11:45|20|Churrasquinho|Alimentos|1|1|20|20||||1|Visa Credito|6119|C046LG51944912||Pendiente Facturar|0|2
+643566|1|GB - TERRAÇO|-|2026-04-01 18:12:19|26|Acarajé sem camarão|Alimentos|1|2|13|26||||1|Mastercard Debit|7108|C046LG52812251||Pendiente Facturar|0|2
+643578|1|GB - TERRAÇO|-|2026-04-01 18:16:30|25|Churrasquinho|Alimentos|1|1|20|20|||32671200.0|1|Visa Credito|1475|C046LG51944912||Pendiente Facturar|0|2
+643578|1|GB - TERRAÇO|-|2026-04-01 18:16:30|25|Refrigerante|Bebidas sem álcool|1|1|5|5|||32671200.0|1|Visa Credito|1475|C046LG51944912||Pendiente Facturar|0|2
+643581|1|GB - TERRAÇO|-|2026-04-01 18:16:48|120|Churrasquinho|Alimentos|1|2|20|40||||1|Mastercard Credi|9798|C046LG52812251||Pendiente Facturar|0|2
+643581|1|GB - TERRAÇO|-|2026-04-01 18:16:48|120|Copo de chopp|Cervejas|1|5|16|80||||1|Mastercard Credi|9798|C046LG52812251||Pendiente Facturar|0|2
+643587|1|GB - TERRAÇO|-|2026-04-01 18:19:51|40|Churrasquinho|Alimentos|1|2|20|40||||1|Amex|4999|C046LG51944912||Pendiente Facturar|0|2
+643600|1|GB - TERRAÇO|-|2026-04-01 18:23:53|13|Acarajé sem camarão|Alimentos|1|1|13|13||||1|Pix| |C046LG52812251||Pendiente Facturar|0|2
+643620|1|GB - TERRAÇO|-|2026-04-01 18:28:51|32|Copo de chopp|Cervejas|1|2|16|32||||1|Visa Credito|2413|C046LG52812251||Pendiente Facturar|0|2
+643647|1|GB - TERRAÇO|-|2026-04-01 18:33:50|32|Copo de chopp|Cervejas|1|2|16|32||||1|Mastercard Credi|7237|C046LG52812251||Pendiente Facturar|0|2
+643769|1|GB - TERRAÇO|-|2026-04-01 18:53:17|52|Copo de chopp|Cervejas|1|2|16|32||||1|Visa Credito|2375|C046LG51944912||Pendiente Facturar|0|2
+643769|1|GB - TERRAÇO|-|2026-04-01 18:53:17|52|Churrasquinho|Alimentos|1|1|20|20||||1|Visa Credito|2375|C046LG51944912||Pendiente Facturar|0|2
+643803|1|GB - TERRAÇO|-|2026-04-01 19:00:12|18|Itaipava Pilsen 350ml|Cervejas|1|3|6|18|||32671200.0|1|Mastercard Credi|3690|C046LG51944912||Pendiente Facturar|0|2
+643849|1|GB - TERRAÇO|-|2026-04-01 19:04:18|32|Copo de chopp|Cervejas|1|2|16|32||||1|Pix| |C046LG51944912||Pendiente Facturar|0|2
+644366|1|GB - TERRAÇO|-|2026-04-01 19:41:31|44|Pastel de camarão|Alimentos|1|2|22|0||||1|Mastercard Credi|8628|C046LG51944912||Pendiente Facturar|0|8
+644392|1|GB - TERRAÇO|-|2026-04-01 19:43:19|24|Itaipava Pilsen 350ml|Cervejas|1|4|6|24|||6005700.0|1|Visa Debito|2709|C046LG51944912||Pendiente Facturar|0|2
+644409|1|GB - TERRAÇO|-|2026-04-01 19:44:29|24|Itaipava Pilsen 350ml|Cervejas|1|4|6|24|||1779900.0|1|Visa Debito|2205|C046LG51944912||Pendiente Facturar|0|2
+644450|1|GB - TERRAÇO|-|2026-04-01 19:46:37|23|Refrigerante|Bebidas sem álcool|1|1|5|5|||180900.0|1|Mastercard Debit|1156|C046LG51944912||Pendiente Facturar|0|2
+644450|1|GB - TERRAÇO|-|2026-04-01 19:46:37|23|Itaipava Pilsen 350ml|Cervejas|1|3|6|18|||180900.0|1|Mastercard Debit|1156|C046LG51944912||Pendiente Facturar|0|2
+644543|1|GB - TERRAÇO|-|2026-04-01 19:52:35|40|Pastel diversos sabores|Alimentos|1|2|20|40||||1|Mastercard Credi|8628|C046LG51944912||Pendiente Facturar|0|2
+645225|1|GB - TERRAÇO|-|2026-04-01 21:11:40|20|Churrasquinho|Alimentos|1|1|20|20||||1|Visa Debito|2709|C046LG51944912||Pendiente Facturar|0|2
+643446|1|GB - HAMBURGUERIA|-|2026-04-01 15:02:12|47|Crepe francês|Alimentos|1|1|35|35|||32481800.0|1|· EFECTIVO - $27.00, · EFECTIVO - $20.00||||Pendiente Facturar|0|10
+643446|1|GB - HAMBURGUERIA|-|2026-04-01 15:02:12|47|Itaipava Pilsen 350ml|Cervejas|1|2|6|12|||32481800.0|1|· EFECTIVO - $27.00, · EFECTIVO - $20.00||||Pendiente Facturar|0|10
+643455|1|GB - HAMBURGUERIA|-|2026-04-01 15:38:52|15|Energético TNT 269ml|Bebidas sem álcool|1|1|15|15||||1|Visa Credito|0010|C046LT51510706||Pendiente Facturar|0|2
+643460|1|GB - HAMBURGUERIA|-|2026-04-01 16:10:37|76|Crepe francês|Alimentos|1|1|35|35|||32481800.0|1|· EFECTIVO - $47.00, · EFECTIVO - $20.00, · EFECTIVO - $9.00||||Pendiente Facturar|0|10
+643460|1|GB - HAMBURGUERIA|-|2026-04-01 16:10:37|76|Kibe|Alimentos|1|1|15|15|||32481800.0|1|· EFECTIVO - $47.00, · EFECTIVO - $20.00, · EFECTIVO - $9.00||||Pendiente Facturar|0|10
+643460|1|GB - HAMBURGUERIA|-|2026-04-01 16:10:37|76|Itaipava Pilsen 350ml|Cervejas|1|2|6|12|||32481800.0|1|· EFECTIVO - $47.00, · EFECTIVO - $20.00, · EFECTIVO - $9.00||||Pendiente Facturar|0|10
+643460|1|GB - HAMBURGUERIA|-|2026-04-01 16:10:37|76|Black Princess 350ml|Cervejas|1|1|14|14|||32481800.0|1|· EFECTIVO - $47.00, · EFECTIVO - $20.00, · EFECTIVO - $9.00||||Pendiente Facturar|0|10
+643501|1|GB - HAMBURGUERIA|-|2026-04-01 17:22:35|50|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Credi|4928|C046LT51510706||Pendiente Facturar|0|2
+643501|1|GB - HAMBURGUERIA|-|2026-04-01 17:22:35|50|Salmão e camarão|Temakis|1|1|40|40||||1|Mastercard Credi|4928|C046LT51510706||Pendiente Facturar|0|2
+643511|1|GB - HAMBURGUERIA|-|2026-04-01 17:33:17|45|Combo grand american|Hamburgueria|1|1|45|45||||1|Mastercard Debit|1966|C046LG51922863||Pendiente Facturar|0|2
+643561|1|GB - HAMBURGUERIA|-|2026-04-01 18:09:52|83|Combo crispy onion|Hamburgueria|1|1|50|50||||1|· TARJETA - Visa Credito - $50.00, · TARJETA - Visa Debito - $33.00||||Pendiente Facturar|0|2
+643561|1|GB - HAMBURGUERIA|-|2026-04-01 18:09:52|83|Smoked|Hamburgueria|1|1|33|33||||1|· TARJETA - Visa Credito - $50.00, · TARJETA - Visa Debito - $33.00||||Pendiente Facturar|0|2
+643596|1|GB - HAMBURGUERIA|-|2026-04-01 18:22:58|53|Combo smoked|Hamburgueria|1|1|53|53||||1|Visa Credito|6119|C046LG52835950||Pendiente Facturar|0|2
+643618|1|GB - HAMBURGUERIA|-|2026-04-01 18:28:10|50|Cheese burger|Hamburgueria|1|2|25|50||||1|Visa Debito|9526|C046LG51922863||Pendiente Facturar|0|2
+643622|1|GB - HAMBURGUERIA|-|2026-04-01 18:29:17|25|Cheese burger|Hamburgueria|1|1|25|25||||1|Mastercard Debit|8155|C046LG51922863||Pendiente Facturar|0|2
+643629|1|GB - HAMBURGUERIA|-|2026-04-01 18:31:28|50|Salmão e camarão sem arroz|Temakis|1|1|50|50||||1|Amex|1778|C046LT51510706||Pendiente Facturar|0|2
+643643|1|GB - HAMBURGUERIA|-|2026-04-01 18:33:14|50|Salmão e camarão sem arroz|Temakis|1|1|50|50||||1|Visa Credito|5455|C046LT51510706||Pendiente Facturar|0|2
+643661|1|GB - HAMBURGUERIA|-|2026-04-01 18:36:00|50|Salmão e camarão sem arroz|Temakis|1|1|50|50||||1|Mastercard Credi|0688|C046LT51510706||Pendiente Facturar|0|2
+643669|1|GB - HAMBURGUERIA|-|2026-04-01 18:37:26|100|Pipoca To De Boa|Alimentos|1|5|20|100||||1|EFECTIVO||C046LG52824560||Pendiente Facturar|0|2
+643674|1|GB - HAMBURGUERIA|-|2026-04-01 18:38:21|25|Cheese burger|Hamburgueria|1|1|25|25||||1|Visa Credito|3781|C046LG52835950||Pendiente Facturar|0|2
+643675|1|GB - HAMBURGUERIA|-|2026-04-01 18:38:22|50|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Credi|8113|C046LT51510706||Pendiente Facturar|0|2
+643675|1|GB - HAMBURGUERIA|-|2026-04-01 18:38:22|50|Salmão e camarão|Temakis|1|1|40|40||||1|Mastercard Credi|8113|C046LT51510706||Pendiente Facturar|0|2
+643682|1|GB - HAMBURGUERIA|-|2026-04-01 18:39:39|45|Combo cheese burger|Hamburgueria|1|1|45|45||||1|Visa Credito|5729|C046LG52835950||Pendiente Facturar|0|2
+643683|1|GB - HAMBURGUERIA|-|2026-04-01 18:40:00|112|Itaipava 0.0 350ml (sem álcool)|Cervejas|1|2|11|22||||1|Mastercard Credi|9866|C046LG51922863||Pendiente Facturar|0|2
+643683|1|GB - HAMBURGUERIA|-|2026-04-01 18:40:00|112|Combo grand american|Hamburgueria|1|1|45|45||||1|Mastercard Credi|9866|C046LG51922863||Pendiente Facturar|0|2
+643683|1|GB - HAMBURGUERIA|-|2026-04-01 18:40:00|112|Combo cheese burger|Hamburgueria|1|1|45|45||||1|Mastercard Credi|9866|C046LG51922863||Pendiente Facturar|0|2
+643689|1|GB - HAMBURGUERIA|-|2026-04-01 18:40:46|46|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|EFECTIVO||C046LG52870846||Pendiente Facturar|0|2
+643689|1|GB - HAMBURGUERIA|-|2026-04-01 18:40:46|46|Pipoca To De Boa|Alimentos|1|1|20|20||||1|EFECTIVO||C046LG52870846||Pendiente Facturar|0|2
+643689|1|GB - HAMBURGUERIA|-|2026-04-01 18:40:46|46|Água|Bebidas sem álcool|1|2|8|16||||1|EFECTIVO||C046LG52870846||Pendiente Facturar|0|2
+643695|1|GB - HAMBURGUERIA|-|2026-04-01 18:41:43|40|Salmão e camarão|Temakis|1|1|40|0|afnterraco@gmail.com|||1|EFECTIVO||C046LT51510706||Pendiente Facturar|0|8
+643723|1|GB - HAMBURGUERIA|-|2026-04-01 18:45:48|154|Acarajé com camarão|Alimentos|1|1|15|15||||1|Visa Credito|2413|C046LG52835950||Pendiente Facturar|0|2
+643723|1|GB - HAMBURGUERIA|-|2026-04-01 18:45:48|154|Combo smoked|Hamburgueria|1|1|53|53||||1|Visa Credito|2413|C046LG52835950||Pendiente Facturar|0|2
+643723|1|GB - HAMBURGUERIA|-|2026-04-01 18:45:48|154|Água com Gás 500ml|Bebidas sem álcool|1|1|8|8||||1|Visa Credito|2413|C046LG52835950||Pendiente Facturar|0|2
+643723|1|GB - HAMBURGUERIA|-|2026-04-01 18:45:48|154|Petra 350ml|Cervejas|1|6|13|78||||1|Visa Credito|2413|C046LG52835950||Pendiente Facturar|0|2
+643734|1|GB - HAMBURGUERIA|-|2026-04-01 18:47:45|50|Salmão sem arroz|Temakis|1|1|50|50||||1|Mastercard Credi|2654|C046LT51510706||Pendiente Facturar|0|2
+643748|1|GB - HAMBURGUERIA|-|2026-04-01 18:50:00|40|Vinho especial|Bebidas Alcoólicas|1|1|40|40||||1|Visa Credito|6092|C046LT51510706||Pendiente Facturar|0|2
+643751|1|GB - HAMBURGUERIA|-|2026-04-01 18:50:47|40|Salmão|Temakis|1|1|40|40||||1|Visa Credito|7965|C046LT51510706||Pendiente Facturar|0|2
+643780|1|GB - HAMBURGUERIA|-|2026-04-01 18:56:09|43|Smoked|Hamburgueria|1|1|33|33||||1|Mastercard Credi|5754|C046LG52835950||Pendiente Facturar|0|2
+643780|1|GB - HAMBURGUERIA|-|2026-04-01 18:56:09|43|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Credi|5754|C046LG52835950||Pendiente Facturar|0|2
+643798|1|GB - HAMBURGUERIA|-|2026-04-01 18:59:03|100|Salmão e camarão sem arroz|Temakis|1|2|50|100||||1|Visa Credito|6193|C046LT51510706||Pendiente Facturar|0|2
+643800|1|GB - HAMBURGUERIA|-|2026-04-01 18:59:28|63|Kibe|Alimentos|1|1|15|15||||1|Mastercard Debit|6539|C046LG51922863||Pendiente Facturar|0|2
+643800|1|GB - HAMBURGUERIA|-|2026-04-01 18:59:28|63|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Debit|6539|C046LG51922863||Pendiente Facturar|0|2
+643800|1|GB - HAMBURGUERIA|-|2026-04-01 18:59:28|63|Amendoim Bahia|Alimentos|1|1|10|10||||1|Mastercard Debit|6539|C046LG51922863||Pendiente Facturar|0|2
+643800|1|GB - HAMBURGUERIA|-|2026-04-01 18:59:28|63|Black Princess 350ml|Cervejas|1|2|14|28||||1|Mastercard Debit|6539|C046LG51922863||Pendiente Facturar|0|2
+643814|1|GB - HAMBURGUERIA|-|2026-04-01 19:01:01|25|Cheese burger|Hamburgueria|1|1|25|25||||1|Visa Credito|0964|C046LG51922863||Pendiente Facturar|0|2
+643861|1|GB - HAMBURGUERIA|-|2026-04-01 19:05:00|40|Salmão|Temakis|1|1|40|40||||1|Visa Debito|3491|C046LT51510706||Pendiente Facturar|0|2
+643880|1|GB - HAMBURGUERIA|-|2026-04-01 19:06:34|56|Black Princess 350ml|Cervejas|1|4|14|56||||1|Amex|0244|C046LG52824560||Pendiente Facturar|0|2
+643883|1|GB - HAMBURGUERIA|-|2026-04-01 19:06:45|50|Combo crispy onion|Hamburgueria|1|1|50|50||||1|Visa Credito|5589|C046LG51922863||Pendiente Facturar|0|2
+643892|1|GB - HAMBURGUERIA|-|2026-04-01 19:07:41|50|Combo crispy onion|Hamburgueria|1|1|50|50||||1|Mastercard Debit|3575|C046LG52835950||Pendiente Facturar|0|2
+643906|1|GB - HAMBURGUERIA|-|2026-04-01 19:09:09|69|Crispy onion|Hamburgueria|1|1|30|30||||1|Mastercard Debit|6823|C046LG51922863||Pendiente Facturar|0|2
+643906|1|GB - HAMBURGUERIA|-|2026-04-01 19:09:09|69|Grand american|Hamburgueria|1|1|29|29||||1|Mastercard Debit|6823|C046LG51922863||Pendiente Facturar|0|2
+643906|1|GB - HAMBURGUERIA|-|2026-04-01 19:09:09|69|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Debit|6823|C046LG51922863||Pendiente Facturar|0|2
+643913|1|GB - HAMBURGUERIA|-|2026-04-01 19:09:27|280|Vinho especial|Bebidas Alcoólicas|1|4|40|160||||1|Mastercard Debit|0530|C046LT51510706||Pendiente Facturar|0|2
+643913|1|GB - HAMBURGUERIA|-|2026-04-01 19:09:27|280|Vinho|Bebidas Alcoólicas|1|4|30|120||||1|Mastercard Debit|0530|C046LT51510706||Pendiente Facturar|0|2
+643917|1|GB - HAMBURGUERIA|-|2026-04-01 19:09:44|50|Salmão|Temakis|1|1|40|40||||1|Mastercard Debit|9891|C046LG52870846||Pendiente Facturar|0|2
+643917|1|GB - HAMBURGUERIA|-|2026-04-01 19:09:44|50|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Debit|9891|C046LG52870846||Pendiente Facturar|0|2
+643959|1|GB - HAMBURGUERIA|-|2026-04-01 19:14:41|90|Salmão|Temakis|1|1|40|40||||1|Mastercard Credi|8536|C046LT51510706||Pendiente Facturar|0|2
+643959|1|GB - HAMBURGUERIA|-|2026-04-01 19:14:41|90|Salmão sem arroz|Temakis|1|1|50|50||||1|Mastercard Credi|8536|C046LT51510706||Pendiente Facturar|0|2
+643974|1|GB - HAMBURGUERIA|-|2026-04-01 19:15:42|160|Vinho especial|Bebidas Alcoólicas|1|4|40|160||||1|Visa Credito|9773|C046LT51510706||Pendiente Facturar|0|2
+643977|1|GB - HAMBURGUERIA|-|2026-04-01 19:15:56|25|Cheese burger|Hamburgueria|1|1|25|25||||1|Visa Credito|5715|C046LG51922863||Pendiente Facturar|0|2
+643993|1|GB - HAMBURGUERIA|-|2026-04-01 19:17:02|53|Combo smoked|Hamburgueria|1|1|53|53||||1|Mastercard Credi|5960|C046LG52835950||Pendiente Facturar|0|2
+643997|1|GB - HAMBURGUERIA|-|2026-04-01 19:17:18|50|Salmão sem arroz|Temakis|1|1|50|50||||1|Visa Credito|5493|C046LT51510706||Pendiente Facturar|0|2
+644016|1|GB - HAMBURGUERIA|-|2026-04-01 19:18:43|106|Combo smoked|Hamburgueria|1|2|53|106||||1|Mastercard Credi|9034|C046LG52835950||Pendiente Facturar|0|2
+644019|1|GB - HAMBURGUERIA|-|2026-04-01 19:18:58|28|Black Princess 350ml|Cervejas|1|2|14|28||||1|Mastercard Debit|9126|C046LG52824560||Pendiente Facturar|0|2
+644025|1|GB - HAMBURGUERIA|-|2026-04-01 19:19:17|50|Salmão sem arroz|Temakis|1|1|50|50||||1|Visa Credito|4359|C046LT51510706||Pendiente Facturar|0|2
+644038|1|GB - HAMBURGUERIA|-|2026-04-01 19:20:19|50|Combo crispy onion|Hamburgueria|1|1|50|50||||1|Visa Credito|2900|C046LG51922863||Pendiente Facturar|0|2
+644041|1|GB - HAMBURGUERIA|-|2026-04-01 19:20:38|30|Vinho|Bebidas Alcoólicas|1|1|30|30||||1|Mastercard Credi|1965|C046LT51510706||Pendiente Facturar|0|2
+644080|1|GB - HAMBURGUERIA|-|2026-04-01 19:23:06|18|Itaipava Pilsen 350ml|Cervejas|1|3|6|18|||32965800.0|1|Mastercard Credi|2838|C046LG52870846||Pendiente Facturar|0|2
+644094|1|GB - HAMBURGUERIA|-|2026-04-01 19:23:56|30|Crispy onion|Hamburgueria|1|1|30|30||||1|Mastercard Credi|9798|C046LG52835950||Pendiente Facturar|0|2
+644110|1|GB - HAMBURGUERIA|-|2026-04-01 19:25:12|40|Salmão e camarão|Temakis|1|1|40|40||||1|Mastercard Credi|4882|C046LT51510706||Pendiente Facturar|0|2
+644124|1|GB - HAMBURGUERIA|-|2026-04-01 19:26:01|52|Petra 350ml|Cervejas|1|4|13|52||||1|Pix| |C046LG52870846||Pendiente Facturar|0|2
+644129|1|GB - HAMBURGUERIA|-|2026-04-01 19:26:28|95|Combo crispy onion|Hamburgueria|1|1|50|50||||1|Visa Credito|6092|C046LG52835950||Pendiente Facturar|0|2
+644129|1|GB - HAMBURGUERIA|-|2026-04-01 19:26:28|95|Combo grand american|Hamburgueria|1|1|45|45||||1|Visa Credito|6092|C046LG52835950||Pendiente Facturar|0|2
+644135|1|GB - HAMBURGUERIA|-|2026-04-01 19:26:48|184|Combo smoked|Hamburgueria|1|3|53|159||||1|Visa Credito|1381|C046LG51922863||Pendiente Facturar|0|2
+644135|1|GB - HAMBURGUERIA|-|2026-04-01 19:26:48|184|Cheese burger|Hamburgueria|1|1|25|25||||1|Visa Credito|1381|C046LG51922863||Pendiente Facturar|0|2
+644142|1|GB - HAMBURGUERIA|-|2026-04-01 19:27:18|40|Vinho especial|Bebidas Alcoólicas|1|1|40|40||||1|Visa Credito|5653|C046LT51510706||Pendiente Facturar|0|2
+644173|1|GB - HAMBURGUERIA|-|2026-04-01 19:29:08|50|Salmão e camarão sem arroz|Temakis|1|1|50|50||||1|Amex|3963|C046LT51510706||Pendiente Facturar|0|2
+644187|1|GB - HAMBURGUERIA|-|2026-04-01 19:30:03|40|Salmão e camarão|Temakis|1|1|40|40||||1|Elo Credit|8132|C046LT51510706||Pendiente Facturar|0|2
+644244|1|GB - HAMBURGUERIA|-|2026-04-01 19:33:36|85|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Credi|5283|C046LG52835950||Pendiente Facturar|0|2
+644244|1|GB - HAMBURGUERIA|-|2026-04-01 19:33:36|85|Cheese burger|Hamburgueria|1|3|25|75||||1|Mastercard Credi|5283|C046LG52835950||Pendiente Facturar|0|2
+644245|1|GB - HAMBURGUERIA|-|2026-04-01 19:33:47|8|Água|Bebidas sem álcool|1|1|8|8||||1|Pix| |C046LG52824560||Pendiente Facturar|0|2
+644246|1|GB - HAMBURGUERIA|-|2026-04-01 19:33:47|40|Salmão e camarão|Temakis|1|1|40|40||||1|Mastercard Credi|7808|C046LT51510706||Pendiente Facturar|0|2
+644262|1|GB - HAMBURGUERIA|-|2026-04-01 19:34:48|74|Combo grand american|Hamburgueria|1|1|45|45||||1|Mastercard Credi|6126|C046LG52870846||Pendiente Facturar|0|2
+644262|1|GB - HAMBURGUERIA|-|2026-04-01 19:34:48|74|Grand american|Hamburgueria|1|1|29|29||||1|Mastercard Credi|6126|C046LG52870846||Pendiente Facturar|0|2
+644265|1|GB - HAMBURGUERIA|-|2026-04-01 19:34:53|59|Crispy onion|Hamburgueria|1|1|30|30||||1|Mastercard Credi|3832|C046LG51922863||Pendiente Facturar|0|2
+644265|1|GB - HAMBURGUERIA|-|2026-04-01 19:34:53|59|Grand american|Hamburgueria|1|1|29|29||||1|Mastercard Credi|3832|C046LG51922863||Pendiente Facturar|0|2
+644270|1|GB - HAMBURGUERIA|-|2026-04-01 19:35:03|40|Salmão|Temakis|1|1|40|40||||1|Pix| |C046LT51510706||Pendiente Facturar|0|2
+644355|1|GB - HAMBURGUERIA|-|2026-04-01 19:41:05|140|Salmão|Temakis|1|1|40|40||||1|Mastercard Credi|7626|C046LT51510706||Pendiente Facturar|0|2
+644355|1|GB - HAMBURGUERIA|-|2026-04-01 19:41:05|140|Salmão sem arroz|Temakis|1|2|50|100||||1|Mastercard Credi|7626|C046LT51510706||Pendiente Facturar|0|2
+644362|1|GB - HAMBURGUERIA|-|2026-04-01 19:41:24|53|Combo smoked|Hamburgueria|1|1|53|53||||1|Visa Credito|6715|C046LG51922863||Pendiente Facturar|0|2
+644369|1|GB - HAMBURGUERIA|-|2026-04-01 19:41:38|45|Combo cheese burger|Hamburgueria|1|1|45|45||||1|Visa Credito|7527|C046LG52870846||Pendiente Facturar|0|2
+644404|1|GB - HAMBURGUERIA|-|2026-04-01 19:44:05|240|Vinho|Bebidas Alcoólicas|1|8|30|240||||1|||||Pendiente Facturar|0|10
+644439|1|GB - HAMBURGUERIA|-|2026-04-01 19:46:20|240|Vinho|Bebidas Alcoólicas|1|8|30|240||||1|· TARJETA - Mastercard Credi - $120.00, · TARJETA - Visa Credito - $120.00||||Pendiente Facturar|0|2
+644440|1|GB - HAMBURGUERIA|-|2026-04-01 19:46:29|15|Coxão|Alimentos|1|1|15|15||||1|Visa Credito|9973|C046LG51922863||Pendiente Facturar|0|2
+644480|1|GB - HAMBURGUERIA|-|2026-04-01 19:48:32|45|Combo cheese burger|Hamburgueria|1|1|45|45||||1|Pix| |C046LG51922863||Pendiente Facturar|0|2
+644484|1|GB - HAMBURGUERIA|-|2026-04-01 19:48:49|40|Pipoca To De Boa|Alimentos|1|2|20|40||||1|Mastercard Credi|3948|C046LG52870846||Pendiente Facturar|0|2
+644520|1|GB - HAMBURGUERIA|-|2026-04-01 19:51:00|86|Smoked|Hamburgueria|1|1|33|33||||1|Mastercard Credi|3849|C046LG52835950||Pendiente Facturar|0|2
+644520|1|GB - HAMBURGUERIA|-|2026-04-01 19:51:00|86|Combo smoked|Hamburgueria|1|1|53|53||||1|Mastercard Credi|3849|C046LG52835950||Pendiente Facturar|0|2
+644530|1|GB - HAMBURGUERIA|-|2026-04-01 19:51:54|210|Vinho|Bebidas Alcoólicas|1|4|30|120||||1|Visa Credito|6481|C046LT51510706||Pendiente Facturar|0|2
+644530|1|GB - HAMBURGUERIA|-|2026-04-01 19:51:54|210|Amendoim Bahia|Alimentos|1|1|10|10||||1|Visa Credito|6481|C046LT51510706||Pendiente Facturar|0|2
+644530|1|GB - HAMBURGUERIA|-|2026-04-01 19:51:54|210|Salmão|Temakis|1|2|40|80||||1|Visa Credito|6481|C046LT51510706||Pendiente Facturar|0|2
+644545|1|GB - HAMBURGUERIA|-|2026-04-01 19:52:38|10|Água|Bebidas sem álcool|1|1|4|4|||82743750.0|1|Visa Credito|6553|C046LG52824560||Pendiente Facturar|0|2
+644545|1|GB - HAMBURGUERIA|-|2026-04-01 19:52:38|10|Itaipava Pilsen 350ml|Cervejas|1|1|6|6|||82743750.0|1|Visa Credito|6553|C046LG52824560||Pendiente Facturar|0|2
+644557|1|GB - HAMBURGUERIA|-|2026-04-01 19:53:33|120|Vinho|Bebidas Alcoólicas|1|4|30|120||||1|Visa Credito|2066|C046LT51510706||Pendiente Facturar|0|2
+644588|1|GB - HAMBURGUERIA|-|2026-04-01 19:55:37|40|Salmão e camarão|Temakis|1|1|40|40||||1|Mastercard Debit|7808|C046LG52870846||Pendiente Facturar|0|2
+644597|1|GB - HAMBURGUERIA|-|2026-04-01 19:56:25|75|Combo crispy onion|Hamburgueria|1|1|50|50||||1|Visa Credito|1917|C046LG52835950||Pendiente Facturar|0|2
+644597|1|GB - HAMBURGUERIA|-|2026-04-01 19:56:25|75|Cheese burger|Hamburgueria|1|1|25|25||||1|Visa Credito|1917|C046LG52835950||Pendiente Facturar|0|2
+644624|1|GB - HAMBURGUERIA|-|2026-04-01 19:58:28|45|Combo cheese burger|Hamburgueria|1|1|45|45||||1|Mastercard Credi|1482|C046LG52835950||Pendiente Facturar|0|2
+644637|1|GB - HAMBURGUERIA|-|2026-04-01 19:59:47|25|Cheese burger|Hamburgueria|1|1|25|25||||1|Mastercard Credi|3492|C046LG52835950||Pendiente Facturar|0|2
+644645|1|GB - HAMBURGUERIA|-|2026-04-01 20:00:57|120|Vinho|Bebidas Alcoólicas|1|4|30|120||||1|Visa Credito|1621|C046LT51510706||Pendiente Facturar|0|2
+644646|1|GB - HAMBURGUERIA|-|2026-04-01 20:01:02|406|Combo grand american|Hamburgueria|1|3|45|135||||1|· TARJETA - Visa Debito - $6.00, · EFECTIVO - $400.00||||Pendiente Facturar|0|2
+644646|1|GB - HAMBURGUERIA|-|2026-04-01 20:01:02|406|Combo smoked|Hamburgueria|1|2|53|106||||1|· TARJETA - Visa Debito - $6.00, · EFECTIVO - $400.00||||Pendiente Facturar|0|2
+644646|1|GB - HAMBURGUERIA|-|2026-04-01 20:01:02|406|Cheese burger|Hamburgueria|1|2|25|50||||1|· TARJETA - Visa Debito - $6.00, · EFECTIVO - $400.00||||Pendiente Facturar|0|2
+644646|1|GB - HAMBURGUERIA|-|2026-04-01 20:01:02|406|Batata frita|Hamburgueria|1|1|25|25||||1|· TARJETA - Visa Debito - $6.00, · EFECTIVO - $400.00||||Pendiente Facturar|0|2
+644646|1|GB - HAMBURGUERIA|-|2026-04-01 20:01:02|406|Combo cheese burger|Hamburgueria|1|2|45|90||||1|· TARJETA - Visa Debito - $6.00, · EFECTIVO - $400.00||||Pendiente Facturar|0|2
+644660|1|GB - HAMBURGUERIA|-|2026-04-01 20:02:28|16|Água com Gás 500ml|Bebidas sem álcool|1|2|8|16||||1|Mastercard Credi|6027|C046LT51510706||Pendiente Facturar|0|2
+644667|1|GB - HAMBURGUERIA|-|2026-04-01 20:02:54|33|Smoked|Hamburgueria|1|1|33|33||||1|Mastercard Debit|9299|C046LG52824560||Pendiente Facturar|0|2
+644689|1|GB - HAMBURGUERIA|-|2026-04-01 20:04:51|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Debito|4243|C046LG52824560||Pendiente Facturar|0|2
+644695|1|GB - HAMBURGUERIA|-|2026-04-01 20:05:55|50|Combo grand melt|Hamburgueria|1|1|50|50||||1|Visa Credito|6092|C046LG52835950||Pendiente Facturar|0|2
+644712|1|GB - HAMBURGUERIA|-|2026-04-01 20:09:39|26|Petra 350ml|Cervejas|1|2|13|26||||1|Mastercard Debit|9815|C046LG52824560||Pendiente Facturar|0|2
+644713|1|GB - HAMBURGUERIA|-|2026-04-01 20:09:50|28|Black Princess 350ml|Cervejas|1|2|14|28||||1|Visa Credito|3099|C046LG52870846||Pendiente Facturar|0|2
+644718|1|GB - HAMBURGUERIA|-|2026-04-01 20:11:17|106|Combo smoked|Hamburgueria|1|2|53|106||||1|Amex|8410|C046LG51922863||Pendiente Facturar|0|2
+644728|1|GB - HAMBURGUERIA|-|2026-04-01 20:12:45|40|Salmão|Temakis|1|1|40|40||||1|Mastercard Credi|4828|C046LT51510706||Pendiente Facturar|0|2
+644731|1|GB - HAMBURGUERIA|-|2026-04-01 20:13:32|33|Smoked|Hamburgueria|1|1|33|33||||1|Mastercard Credi|1069|C046LG51922863||Pendiente Facturar|0|2
+644739|1|GB - HAMBURGUERIA|-|2026-04-01 20:14:50|30|Crispy onion|Hamburgueria|1|1|30|30||||1|Mastercard Credi|5596|C046LG51922863||Pendiente Facturar|0|2
+644741|1|GB - HAMBURGUERIA|-|2026-04-01 20:15:23|83|Cheese burger|Hamburgueria|1|2|25|50||||1|Visa Credito|3122|C046LG52835950||Pendiente Facturar|0|2
+644741|1|GB - HAMBURGUERIA|-|2026-04-01 20:15:23|83|Smoked|Hamburgueria|1|1|33|33||||1|Visa Credito|3122|C046LG52835950||Pendiente Facturar|0|2
+644752|1|GB - HAMBURGUERIA|-|2026-04-01 20:17:55|300|Cheese burger|Hamburgueria|1|12|25|300||||1|Mastercard Credi|5627|C046LG51922863||Pendiente Facturar|0|2
+644756|1|GB - HAMBURGUERIA|-|2026-04-01 20:18:52|28|Água com Gás 500ml|Bebidas sem álcool|1|1|8|8||||1|Mastercard Credi|6018|C046LG52870846||Pendiente Facturar|0|2
+644756|1|GB - HAMBURGUERIA|-|2026-04-01 20:18:52|28|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|6018|C046LG52870846||Pendiente Facturar|0|2
+644758|1|GB - HAMBURGUERIA|-|2026-04-01 20:19:55|40|Salmão e camarão|Temakis|1|1|40|40||||1|Visa Credito|3219|C046LT51510706||Pendiente Facturar|0|2
+644759|1|GB - HAMBURGUERIA|-|2026-04-01 20:19:56|50|Cheese burger|Hamburgueria|1|2|25|50||||1|Mastercard Credi|8186|C046LG52870846||Pendiente Facturar|0|2
+644767|1|GB - HAMBURGUERIA|-|2026-04-01 20:21:06|50|Salmão e camarão sem arroz|Temakis|1|1|50|50||||1|Visa Credito|3100|C046LT51510706||Pendiente Facturar|0|2
+644778|1|GB - HAMBURGUERIA|-|2026-04-01 20:24:23|24|Cabaré Ice Limão|Bebidas Alcoólicas|1|2|12|24||||1|Mastercard Credi|7500|C046LG52824560||Pendiente Facturar|0|2
+644785|1|GB - HAMBURGUERIA|-|2026-04-01 20:26:05|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|9966|C046LG52824560||Pendiente Facturar|0|2
+644805|1|GB - HAMBURGUERIA|-|2026-04-01 20:29:29|26|Petra 350ml|Cervejas|1|2|13|26||||1|Mastercard Debit|9730|C046LG52870846||Pendiente Facturar|0|2
+644808|1|GB - HAMBURGUERIA|-|2026-04-01 20:30:03|50|Salmão e camarão sem arroz|Temakis|1|1|50|50||||1|Visa Credito|5919|C046LT51510706||Pendiente Facturar|0|2
+644809|1|GB - HAMBURGUERIA|-|2026-04-01 20:30:16|50|Combo crispy onion|Hamburgueria|1|1|50|50||||1|Pix| |C046LG51922863||Pendiente Facturar|0|2
+644813|1|GB - HAMBURGUERIA|-|2026-04-01 20:31:30|25|Cheese burger|Hamburgueria|1|1|25|25||||1|Pix| |C046LG52835950||Pendiente Facturar|0|2
+644825|1|GB - HAMBURGUERIA|-|2026-04-01 20:33:04|6|Itaipava Pilsen 350ml|Cervejas|1|1|6|6|||30613100.0|1|Elo Debit|9200|C046LG52870846||Pendiente Facturar|0|2
+644831|1|GB - HAMBURGUERIA|-|2026-04-01 20:34:25|18|Itaipava Pilsen 350ml|Cervejas|1|3|6|18|||30613100.0|1|EFECTIVO||C046LG52870846||Pendiente Facturar|0|2
+644836|1|GB - HAMBURGUERIA|-|2026-04-01 20:35:15|25|Cheese burger|Hamburgueria|1|1|25|25||||1|Mastercard Debit|8817|C046LG52835950||Pendiente Facturar|0|2
+644842|1|GB - HAMBURGUERIA|-|2026-04-01 20:36:00|50|Cheese burger|Hamburgueria|1|2|25|50||||1|Visa Credito|6158|C046LG52824560||Pendiente Facturar|0|2
+644852|1|GB - HAMBURGUERIA|-|2026-04-01 20:38:37|28|Black Princess 350ml|Cervejas|1|2|14|28||||1|Mastercard Credi|7778|C046LG52824560||Pendiente Facturar|0|2
+644878|1|GB - HAMBURGUERIA|-|2026-04-01 20:43:45|160|Vinho especial|Bebidas Alcoólicas|1|4|40|160||||1|Mastercard Credi|2465|C046LT51510706||Pendiente Facturar|0|2
+644890|1|GB - HAMBURGUERIA|-|2026-04-01 20:46:29|45|Combo grand american|Hamburgueria|1|1|45|45||||1|Mastercard Credi|4010|C046LG51922863||Pendiente Facturar|0|2
+644893|1|GB - HAMBURGUERIA|-|2026-04-01 20:47:48|25|Cheese burger|Hamburgueria|1|1|25|25||||1|Mastercard Credi|6594|C046LG52870846||Pendiente Facturar|0|2
+644899|1|GB - HAMBURGUERIA|-|2026-04-01 20:48:44|50|Cheese burger|Hamburgueria|1|2|25|50||||1|Visa Credito|8156|C046LG52835950||Pendiente Facturar|0|2
+644932|1|GB - HAMBURGUERIA|-|2026-04-01 20:54:32|273|Grand american|Hamburgueria|1|1|29|29||||1|Mastercard Credi|1707|C046LG51922863||Pendiente Facturar|0|2
+644932|1|GB - HAMBURGUERIA|-|2026-04-01 20:54:32|273|Cheese burger|Hamburgueria|1|5|25|125||||1|Mastercard Credi|1707|C046LG51922863||Pendiente Facturar|0|2
+644932|1|GB - HAMBURGUERIA|-|2026-04-01 20:54:32|273|Combo smoked|Hamburgueria|1|1|53|53||||1|Mastercard Credi|1707|C046LG51922863||Pendiente Facturar|0|2
+644932|1|GB - HAMBURGUERIA|-|2026-04-01 20:54:32|273|Smoked|Hamburgueria|1|2|33|66||||1|Mastercard Credi|1707|C046LG51922863||Pendiente Facturar|0|2
+644959|1|GB - HAMBURGUERIA|-|2026-04-01 20:55:50|18|Água|Bebidas sem álcool|1|1|8|8||||1|Elo Debit|2957|C046LG52824560||Pendiente Facturar|0|2
+644959|1|GB - HAMBURGUERIA|-|2026-04-01 20:55:50|18|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Elo Debit|2957|C046LG52824560||Pendiente Facturar|0|2
+644995|1|GB - HAMBURGUERIA|-|2026-04-01 20:57:45|48|Black Princess 350ml|Cervejas|1|2|14|28||||1|Mastercard Credi|7027|C046LG52824560||Pendiente Facturar|0|2
+644995|1|GB - HAMBURGUERIA|-|2026-04-01 20:57:45|48|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|7027|C046LG52824560||Pendiente Facturar|0|2
+644998|1|GB - HAMBURGUERIA|-|2026-04-01 20:57:57|40|Salmão|Temakis|1|1|40|40||||1|Mastercard Credi|7387|C046LT51510706||Pendiente Facturar|0|2
+645009|1|GB - HAMBURGUERIA|-|2026-04-01 20:58:36|45|Combo grand american|Hamburgueria|1|1|45|45|afnhamburgueria@gmail.com|||1|Mastercard Debit|2534|C046LG52835950||Pendiente Facturar|0|2
+645029|1|GB - HAMBURGUERIA|-|2026-04-01 20:59:27|33|Smoked|Hamburgueria|1|1|33|33|afnhamburgueria@gmail.com|||1|Mastercard Debit|9814|C046LG52835950||Pendiente Facturar|0|2
+645059|1|GB - HAMBURGUERIA|-|2026-04-01 21:00:46|58|Grand american|Hamburgueria|1|2|29|58|afnhamburgueria@gmail.com|||1|Mastercard Credi|4071|C046LG52835950||Pendiente Facturar|0|2
+645088|1|GB - HAMBURGUERIA|-|2026-04-01 21:02:21|40|Vinho especial|Bebidas Alcoólicas|1|1|40|40||||1|Visa Credito|5653|C046LT51510706||Pendiente Facturar|0|2
+645101|1|GB - HAMBURGUERIA|-|2026-04-01 21:03:19|55|Cheese burger|Hamburgueria|1|1|25|25|||2876000.0|1|Elo Debit|8204|C046LG52824560||Pendiente Facturar|0|2
+645101|1|GB - HAMBURGUERIA|-|2026-04-01 21:03:19|55|Petra 350ml|Cervejas|1|1|13|13|||2876000.0|1|Elo Debit|8204|C046LG52824560||Pendiente Facturar|0|2
+645101|1|GB - HAMBURGUERIA|-|2026-04-01 21:03:19|55|Água|Bebidas sem álcool|1|2|6|12|||2876000.0|1|Elo Debit|8204|C046LG52824560||Pendiente Facturar|0|2
+645101|1|GB - HAMBURGUERIA|-|2026-04-01 21:03:19|55|Refrigerante|Bebidas sem álcool|1|1|5|5|||2876000.0|1|Elo Debit|8204|C046LG52824560||Pendiente Facturar|0|2
+645103|1|GB - HAMBURGUERIA|-|2026-04-01 21:03:31|40|Salmão e camarão|Temakis|1|1|40|40||||1|Mastercard Credi|1965|C046LT51510706||Pendiente Facturar|0|2
+645125|1|GB - HAMBURGUERIA|-|2026-04-01 21:04:38|50|Salmão e camarão sem arroz|Temakis|1|1|50|50||||1|Mastercard Credi|6027|C046LT51510706||Pendiente Facturar|0|2
+645146|1|GB - HAMBURGUERIA|-|2026-04-01 21:05:56|40|Salmão|Temakis|1|1|40|40||||1|Visa Debito|7059|C046LT51510706||Pendiente Facturar|0|2
+645159|1|GB - HAMBURGUERIA|-|2026-04-01 21:06:50|29|Grand american|Hamburgueria|1|1|29|29||||1|Visa Credito|8291|C046LG52870846||Pendiente Facturar|0|2
+645161|1|GB - HAMBURGUERIA|-|2026-04-01 21:06:54|16|Água|Bebidas sem álcool|1|2|8|16||||1|Elo Credit|7036|C046LG52824560||Pendiente Facturar|0|2
+645178|1|GB - HAMBURGUERIA|-|2026-04-01 21:07:51|40|Crispy onion|Hamburgueria|1|1|30|30||||1|Amex|0397|C046LG51922863||Pendiente Facturar|0|2
+645178|1|GB - HAMBURGUERIA|-|2026-04-01 21:07:51|40|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Amex|0397|C046LG51922863||Pendiente Facturar|0|2
+645189|1|GB - HAMBURGUERIA|-|2026-04-01 21:08:46|30|Açaí 250ml|Alimentos|1|2|15|0||||1|Visa Credito|7882|C046LG52870846||Pendiente Facturar|0|8
+645215|1|GB - HAMBURGUERIA|-|2026-04-01 21:11:00|15|Açaí 250ml|Alimentos|1|1|15|15||||1|Visa Credito|7882|C046LG52870846||Pendiente Facturar|0|2
+645220|1|GB - HAMBURGUERIA|-|2026-04-01 21:11:16|40|Salmão|Temakis|1|1|40|40||||1|Visa Debito|0408|C046LT51510706||Pendiente Facturar|0|2
+645226|1|GB - HAMBURGUERIA|-|2026-04-01 21:11:46|25|Cheese burger|Hamburgueria|1|1|25|25||||1|Elo Debit|2422|C046LG52824560||Pendiente Facturar|0|2
+645235|1|GB - HAMBURGUERIA|-|2026-04-01 21:12:41|6|Itaipava Pilsen 350ml|Cervejas|1|1|6|6|||2876000.0|1|Visa Debito|0186|C046LG52870846||Pendiente Facturar|0|2
+645236|1|GB - HAMBURGUERIA|-|2026-04-01 21:12:47|40|Salmão e camarão|Temakis|1|1|40|40||||1|Mastercard Credi|1286|C046LT51510706||Pendiente Facturar|0|2
+645244|1|GB - HAMBURGUERIA|-|2026-04-01 21:13:32|25|Batata frita|Hamburgueria|1|1|25|25||||1|Visa Credito|1983|C046LG51922863||Pendiente Facturar|0|2
+645250|1|GB - HAMBURGUERIA|-|2026-04-01 21:14:22|40|Salmão|Temakis|1|1|40|40||||1|Elo Debit|9807|C046LT51510706||Pendiente Facturar|0|2
+645259|1|GB - HAMBURGUERIA|-|2026-04-01 21:15:21|36|Cabaré Ice Limão|Bebidas Alcoólicas|1|3|12|36||||1|Mastercard Credi|7500|C046LG52824560||Pendiente Facturar|0|2
+645265|1|GB - HAMBURGUERIA|-|2026-04-01 21:16:32|26|Petra 350ml|Cervejas|1|2|13|26||||1|Visa Debito|3906|C046LG52870846||Pendiente Facturar|0|2
+645273|1|GB - HAMBURGUERIA|-|2026-04-01 21:17:48|30|Crispy onion|Hamburgueria|1|1|30|30||||1|Pix| |C046LG51922863||Pendiente Facturar|0|2
+645279|1|GB - HAMBURGUERIA|-|2026-04-01 21:19:34|53|Combo smoked|Hamburgueria|1|1|53|53||||1|Mastercard Credi|0897|C046LG51922863||Pendiente Facturar|0|2
+645285|1|GB - HAMBURGUERIA|-|2026-04-01 21:20:36|45|Combo cheese burger|Hamburgueria|1|1|45|45||||1|Pix| |C046LG51922863||Pendiente Facturar|0|2
+645286|1|GB - HAMBURGUERIA|-|2026-04-01 21:20:54|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Debito|8286|C046LG52870846||Pendiente Facturar|0|2
+645291|1|GB - HAMBURGUERIA|-|2026-04-01 21:23:28|58|Batata frita|Hamburgueria|1|1|25|25||||1|Mastercard Credi|4337|C046LG52824560||Pendiente Facturar|0|2
+645291|1|GB - HAMBURGUERIA|-|2026-04-01 21:23:28|58|Smoked|Hamburgueria|1|1|33|33||||1|Mastercard Credi|4337|C046LG52824560||Pendiente Facturar|0|2
+645319|1|GB - HAMBURGUERIA|-|2026-04-01 21:31:47|25|Cheese burger|Hamburgueria|1|1|25|25||||1|Mastercard Debit|4628|C046LG52824560||Pendiente Facturar|0|2
+645334|1|GB - HAMBURGUERIA|-|2026-04-01 21:40:40|40|Salmão grelhado|Temakis|1|1|40|40||||1|Mastercard Debit|6838|C046LG52824560||Pendiente Facturar|0|2
+645335|1|GB - HAMBURGUERIA|-|2026-04-01 21:40:51|120|Vinho|Bebidas Alcoólicas|1|4|30|120||||1|Mastercard Debit|2715|C046LT51510706||Pendiente Facturar|0|2
+645341|1|GB - HAMBURGUERIA|-|2026-04-01 21:43:17|40|Salmão|Temakis|1|1|40|40||||1|Mastercard Credi|5627|C046LG52824560||Pendiente Facturar|0|2
+645345|1|GB - HAMBURGUERIA|-|2026-04-01 21:44:46|14|Black Princess 350ml|Cervejas|1|1|14|14||||1|Visa Credito|9193|C046LG52824560||Pendiente Facturar|0|2
+645360|1|GB - HAMBURGUERIA|-|2026-04-01 21:48:50|106|Combo smoked|Hamburgueria|1|2|53|106||||1|Pix| |C046LG52870846||Pendiente Facturar|0|2
+645371|1|GB - HAMBURGUERIA|-|2026-04-01 21:53:00|24|Cabaré Ice Limão|Bebidas Alcoólicas|1|2|12|24||||1|Mastercard Credi|7500|C046LG52824560||Pendiente Facturar|0|2
+645382|1|GB - HAMBURGUERIA|-|2026-04-01 21:59:37|24|Água|Bebidas sem álcool|1|1|8|8||||1|EFECTIVO||C046LG52824560||Pendiente Facturar|0|2
+645382|1|GB - HAMBURGUERIA|-|2026-04-01 21:59:37|24|Copo de chopp|Cervejas|1|1|16|16||||1|EFECTIVO||C046LG52824560||Pendiente Facturar|0|2
+645400|1|GB - HAMBURGUERIA|-|2026-04-01 22:10:24|35|Crepe francês|Alimentos|1|1|35|35||||1|||||Pendiente Facturar|0|10
+643474|1|GB - ILHA 4|-|2026-04-01 16:44:28|15|Energético TNT 269ml|Bebidas sem álcool|1|1|15|15||||1|Pix| |C046LG52836139||Pendiente Facturar|0|2
+643499|1|GB - ILHA 4|-|2026-04-01 17:20:45|10|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Debito|5257|C046LG52836139||Pendiente Facturar|0|2
+643692|1|GB - ILHA 4|-|2026-04-01 18:40:55|50|X Burguer|Alimentos|1|2|15|30||||1|Mastercard Credi|6896|C046LG52836139||Pendiente Facturar|0|2
+643692|1|GB - ILHA 4|-|2026-04-01 18:40:55|50|Refrigerante|Bebidas sem álcool|1|2|10|20||||1|Mastercard Credi|6896|C046LG52836139||Pendiente Facturar|0|2
+643736|1|GB - ILHA 4|-|2026-04-01 18:48:09|100|Black Princess 350ml|Cervejas|1|4|14|56||||1|Elo Debit|7141|C046LG52836139||Pendiente Facturar|0|2
+643736|1|GB - ILHA 4|-|2026-04-01 18:48:09|100|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Elo Debit|7141|C046LG52836139||Pendiente Facturar|0|2
+643736|1|GB - ILHA 4|-|2026-04-01 18:48:09|100|Cabaré Ice Limão|Bebidas Alcoólicas|1|2|12|24||||1|Elo Debit|7141|C046LG52836139||Pendiente Facturar|0|2
+643760|1|GB - ILHA 4|-|2026-04-01 18:52:13|25| Pipoca caramelizada|Alimentos|1|1|25|25||||1|EFECTIVO||C046LG52836139||Pendiente Facturar|0|2
+643770|1|GB - ILHA 4|-|2026-04-01 18:53:37|30|Amendoim Bahia|Alimentos|1|3|10|30||||1|Visa Debito|9084|C046LT51110523||Pendiente Facturar|0|2
+643833|1|GB - ILHA 4|-|2026-04-01 19:03:08|30|X Burguer|Alimentos|1|1|15|15||||1|Visa Debito|9421|C046LG52836139||Pendiente Facturar|0|2
+643833|1|GB - ILHA 4|-|2026-04-01 19:03:08|30|Coxão|Alimentos|1|1|15|15||||1|Visa Debito|9421|C046LG52836139||Pendiente Facturar|0|2
+643847|1|GB - ILHA 4|-|2026-04-01 19:04:13|50|Pipoca To De Boa|Alimentos|1|1|20|20||||1|EFECTIVO||C046LG52836139||Pendiente Facturar|0|2
+643847|1|GB - ILHA 4|-|2026-04-01 19:04:13|50|Amendoim Bahia|Alimentos|1|3|10|30||||1|EFECTIVO||C046LG52836139||Pendiente Facturar|0|2
+644118|1|GB - ILHA 4|-|2026-04-01 19:25:42|15|Kibe|Alimentos|1|1|15|15||||1|Visa Credito|7427|C046LG52836139||Pendiente Facturar|0|2
+644138|1|GB - ILHA 4|-|2026-04-01 19:27:03|15|Kibe|Alimentos|1|1|15|15||||1|Visa Credito|7427|C046LG52836139||Pendiente Facturar|0|2
+644157|1|GB - ILHA 4|-|2026-04-01 19:28:13|35|Crepe francês|Alimentos|1|1|35|35||||1|Mastercard Credi|6359|C046LG52836139||Pendiente Facturar|0|2
+644185|1|GB - ILHA 4|-|2026-04-01 19:29:58|70|Crepe francês|Alimentos|1|2|35|70||||1|Visa Credito|7427|C046LG52836139||Pendiente Facturar|0|2
+644227|1|GB - ILHA 4|-|2026-04-01 19:32:29|20|Refrigerante|Bebidas sem álcool|1|2|10|20||||1|Mastercard Credi|3832|C046LG52836139||Pendiente Facturar|0|2
+644273|1|GB - ILHA 4|-|2026-04-01 19:35:25|60|Itaipava Premium 473ml (latão)|Cervejas|1|6|10|60||||1|Mastercard Credi|9679|C046LG52836139||Pendiente Facturar|0|2
+644301|1|GB - ILHA 4|-|2026-04-01 19:37:23|75|Itaipava Premium 473ml (latão)|Cervejas|1|6|10|60||||1|Pix| |C046LG52836139||Pendiente Facturar|0|2
+644301|1|GB - ILHA 4|-|2026-04-01 19:37:23|75|Coxão|Alimentos|1|1|15|15||||1|Pix| |C046LG52836139||Pendiente Facturar|0|2
+644397|1|GB - ILHA 4|-|2026-04-01 19:43:38|35|Água Tônica 350ml|Bebidas sem álcool|1|1|10|10||||1|Visa Debito|9084|C046LG52836139||Pendiente Facturar|0|2
+644397|1|GB - ILHA 4|-|2026-04-01 19:43:38|35| Pipoca caramelizada|Alimentos|1|1|25|25||||1|Visa Debito|9084|C046LG52836139||Pendiente Facturar|0|2
+644470|1|GB - ILHA 4|-|2026-04-01 19:47:57|71|Pipoca To De Boa|Alimentos|1|2|20|40||||1|Visa Credito|7067|C046LG52836139||Pendiente Facturar|0|2
+644470|1|GB - ILHA 4|-|2026-04-01 19:47:57|71|Água|Bebidas sem álcool|1|2|8|16||||1|Visa Credito|7067|C046LG52836139||Pendiente Facturar|0|2
+644470|1|GB - ILHA 4|-|2026-04-01 19:47:57|71|X Burguer|Alimentos|1|1|15|15||||1|Visa Credito|7067|C046LG52836139||Pendiente Facturar|0|2
+644514|1|GB - ILHA 4|-|2026-04-01 19:50:45|31|Água|Bebidas sem álcool|1|2|8|16||||1|Mastercard Credi|1622|C046LG52836139||Pendiente Facturar|0|2
+644514|1|GB - ILHA 4|-|2026-04-01 19:50:45|31|Coxão|Alimentos|1|1|15|15||||1|Mastercard Credi|1622|C046LG52836139||Pendiente Facturar|0|2
+644553|1|GB - ILHA 4|-|2026-04-01 19:53:10|30|Itaipava Pilsen 350ml|Cervejas|1|5|6|30|||4020700.0|1|Visa Debito|5492|C046LG52836139||Pendiente Facturar|0|2
+644586|1|GB - ILHA 4|-|2026-04-01 19:55:34|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Debit|1953|C046LG52836139||Pendiente Facturar|0|2
+644618|1|GB - ILHA 4|-|2026-04-01 19:58:07|20|Amendoim Bahia|Alimentos|1|2|10|20||||1|Mastercard Debit|9856|C046LG52836139||Pendiente Facturar|0|2
+644630|1|GB - ILHA 4|-|2026-04-01 19:59:13|20|Itaipava Premium 473ml (latão)|Cervejas|1|2|10|20||||1|Visa Credito|4276|C046LG52836139||Pendiente Facturar|0|2
+644704|1|GB - ILHA 4|-|2026-04-01 20:07:59|350|Vinho Dv Catena|Bebidas Alcoólicas|1|1|350|350||||1|Visa Debito|5594|C046LG52836139||Pendiente Facturar|0|2
+644717|1|GB - ILHA 4|-|2026-04-01 20:11:08|20|Itaipava Premium 473ml (latão)|Cervejas|1|2|10|20||||1|Mastercard Credi|5870|C046LT51110523||Pendiente Facturar|0|2
+644734|1|GB - ILHA 4|-|2026-04-01 20:14:20|20|Amendoim Bahia|Alimentos|1|2|10|20||||1|Visa Debito|7672|C046LT51110523||Pendiente Facturar|0|2
+644783|1|GB - ILHA 4|-|2026-04-01 20:25:40|10|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Credito|7276|C046LG52836139||Pendiente Facturar|0|2
+644791|1|GB - ILHA 4|-|2026-04-01 20:27:11|8|Água|Bebidas sem álcool|1|1|8|8||||1|Visa Debito|2123|C046LG52836139||Pendiente Facturar|0|2
+644821|1|GB - ILHA 4|-|2026-04-01 20:32:51|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Pix| |C046LG52836139||Pendiente Facturar|0|2
+644833|1|GB - ILHA 4|-|2026-04-01 20:34:27|35|Crepe francês|Alimentos|1|1|35|35||||1|Visa Credito|1381|C046LG52836139||Pendiente Facturar|0|2
+644837|1|GB - ILHA 4|-|2026-04-01 20:35:23|92|Amendoim Bahia|Alimentos|1|4|10|40||||1|Pix| |C046LT51110523||Pendiente Facturar|0|2
+644837|1|GB - ILHA 4|-|2026-04-01 20:35:23|92|Petra 350ml|Cervejas|1|4|13|52||||1|Pix| |C046LT51110523||Pendiente Facturar|0|2
+644863|1|GB - ILHA 4|-|2026-04-01 20:39:50|46|Itaipava Pilsen 350ml|Cervejas|1|7|6|42|||39845200.0|1|Visa Credito|9256|C046LT51110523||Pendiente Facturar|0|2
+644863|1|GB - ILHA 4|-|2026-04-01 20:39:50|46|Água|Bebidas sem álcool|1|1|4|4|||39845200.0|1|Visa Credito|9256|C046LT51110523||Pendiente Facturar|0|2
+644873|1|GB - ILHA 4|-|2026-04-01 20:42:56|35|Crepe francês|Alimentos|1|1|35|35||||1|Visa Credito|7276|C046LG52836139||Pendiente Facturar|0|2
+644879|1|GB - ILHA 4|-|2026-04-01 20:43:50|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Credito|7427|C046LG52836139||Pendiente Facturar|0|2
+644887|1|GB - ILHA 4|-|2026-04-01 20:45:58|35|Crepe francês|Alimentos|1|1|35|35||||1|Visa Credito|6733|C046LT51110523||Pendiente Facturar|0|2
+644888|1|GB - ILHA 4|-|2026-04-01 20:46:11|30|Energético TNT 269ml|Bebidas sem álcool|1|1|15|15||||1|Pix| |C046LG52836139||Pendiente Facturar|0|2
+644888|1|GB - ILHA 4|-|2026-04-01 20:46:11|30|X Burguer|Alimentos|1|1|15|15||||1|Pix| |C046LG52836139||Pendiente Facturar|0|2
+644896|1|GB - ILHA 4|-|2026-04-01 20:48:12|20|Dose de Red|Doses|1|1|20|20||||1|Pix| |C046LG52836139||Pendiente Facturar|0|2
+644909|1|GB - ILHA 4|-|2026-04-01 20:50:21|45|Kibe|Alimentos|1|1|15|15||||1|Mastercard Credi|3666|C046LG52836139||Pendiente Facturar|0|2
+644909|1|GB - ILHA 4|-|2026-04-01 20:50:21|45|Amendoim Bahia|Alimentos|1|2|10|20||||1|Mastercard Credi|3666|C046LG52836139||Pendiente Facturar|0|2
+644909|1|GB - ILHA 4|-|2026-04-01 20:50:21|45|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Credi|3666|C046LG52836139||Pendiente Facturar|0|2
+644919|1|GB - ILHA 4|-|2026-04-01 20:52:00|20|Amendoim Bahia|Alimentos|1|2|10|20||||1|Pix| |C046LG52836139||Pendiente Facturar|0|2
+644922|1|GB - ILHA 4|-|2026-04-01 20:52:39|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Credito|1860|C046LT51110523||Pendiente Facturar|0|2
+644941|1|GB - ILHA 4|-|2026-04-01 20:54:52|25|X Burguer|Alimentos|1|1|15|15||||1|Visa Credito|0575|C046LG52836139||Pendiente Facturar|0|2
+644941|1|GB - ILHA 4|-|2026-04-01 20:54:52|25|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Credito|0575|C046LG52836139||Pendiente Facturar|0|2
+644965|1|GB - ILHA 4|-|2026-04-01 20:56:08|15|Coxão|Alimentos|1|1|15|15||||1|Mastercard Credi|1910|C046LG52836139||Pendiente Facturar|0|2
+644972|1|GB - ILHA 4|-|2026-04-01 20:56:38|25|X Burguer|Alimentos|1|1|15|15||||1|Visa Debito|6571|C046LT51110523||Pendiente Facturar|0|2
+644972|1|GB - ILHA 4|-|2026-04-01 20:56:38|25|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Debito|6571|C046LT51110523||Pendiente Facturar|0|2
+644986|1|GB - ILHA 4|-|2026-04-01 20:57:21|20|Refrigerante|Bebidas sem álcool|1|2|10|20||||1|Mastercard Credi|1910|C046LG52836139||Pendiente Facturar|0|2
+644996|1|GB - ILHA 4|-|2026-04-01 20:57:46|16|Água com Gás 500ml|Bebidas sem álcool|1|2|8|16||||1|Visa Credito|5019|C046LT51110523||Pendiente Facturar|0|2
+645008|1|GB - ILHA 4|-|2026-04-01 20:58:35|38|Itaipava Premium 473ml (latão)|Cervejas|1|3|10|30||||1|Mastercard Credi|6902|C046LG52836139||Pendiente Facturar|0|2
+645008|1|GB - ILHA 4|-|2026-04-01 20:58:35|38|Água|Bebidas sem álcool|1|1|8|8||||1|Mastercard Credi|6902|C046LG52836139||Pendiente Facturar|0|2
+645019|1|GB - ILHA 4|-|2026-04-01 20:59:08|32|Pipoca To De Boa|Alimentos|1|1|20|20|||3940700.0|1|Mastercard Credi|7660|C046LT51110523||Pendiente Facturar|0|2
+645019|1|GB - ILHA 4|-|2026-04-01 20:59:08|32|Água|Bebidas sem álcool|1|2|6|12|||3940700.0|1|Mastercard Credi|7660|C046LT51110523||Pendiente Facturar|0|2
+645033|1|GB - ILHA 4|-|2026-04-01 20:59:37|8|Água com Gás 500ml|Bebidas sem álcool|1|1|8|8||||1|Pix| |C046LG52836139||Pendiente Facturar|0|2
+645057|1|GB - ILHA 4|-|2026-04-01 21:00:43|30|Coxão|Alimentos|1|2|15|30||||1|Mastercard Debit|4052|C046LG52836139||Pendiente Facturar|0|2
+645102|1|GB - ILHA 4|-|2026-04-01 21:03:25|35|Crepe francês|Alimentos|1|1|35|35||||1|Mastercard Credi|6359|C046LG52836139||Pendiente Facturar|0|2
+645126|1|GB - ILHA 4|-|2026-04-01 21:04:43|40|Itaipava Premium 473ml (latão)|Cervejas|1|4|10|40||||1|Visa Credito|6733|C046LT51110523||Pendiente Facturar|0|2
+645164|1|GB - ILHA 4|-|2026-04-01 21:07:07|12|Itaipava Pilsen 350ml|Cervejas|1|2|6|12|||4020700.0|1|Mastercard Credi|5507|C046LG52836139||Pendiente Facturar|0|2
+645199|1|GB - ILHA 4|-|2026-04-01 21:09:35|30|Itaipava Premium 473ml (latão)|Cervejas|1|3|10|30||||1|Mastercard Credi|8628|C046LT51110523||Pendiente Facturar|0|2
+645218|1|GB - ILHA 4|-|2026-04-01 21:11:06|30|Kibe|Alimentos|1|2|15|30||||1|Mastercard Debit|0071|C046LT51110523||Pendiente Facturar|0|2
+645237|1|GB - ILHA 4|-|2026-04-01 21:12:49|33|Amendoim Bahia|Alimentos|1|2|10|20||||1|Pix| |C046LG52836139||Pendiente Facturar|0|2
+645237|1|GB - ILHA 4|-|2026-04-01 21:12:49|33|Acarajé sem camarão|Alimentos|1|1|13|13||||1|Pix| |C046LG52836139||Pendiente Facturar|0|2
+645251|1|GB - ILHA 4|-|2026-04-01 21:14:26|35|Crepe francês|Alimentos|1|1|35|35||||1|Visa Credito|4986|C046LG52836139||Pendiente Facturar|0|2
+645260|1|GB - ILHA 4|-|2026-04-01 21:15:46|30|Acarajé com camarão|Alimentos|1|2|15|30||||1|Visa Credito|2891|C046LG52836139||Pendiente Facturar|0|2
+645263|1|GB - ILHA 4|-|2026-04-01 21:16:09|18|Itaipava Pilsen 350ml|Cervejas|1|3|6|18|||30613100.0|1|Elo Debit|9200|C046LT51110523||Pendiente Facturar|0|2
+645290|1|GB - ILHA 4|-|2026-04-01 21:23:02|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|5133|C046LG52836139||Pendiente Facturar|0|2
+645293|1|GB - ILHA 4|-|2026-04-01 21:24:04|30|Itaipava Premium 473ml (latão)|Cervejas|1|3|10|30||||1|Mastercard Credi|2385|C046LG52836139||Pendiente Facturar|0|2
+645298|1|GB - ILHA 4|-|2026-04-01 21:26:42|40|Itaipava Premium 473ml (latão)|Cervejas|1|1|10|10||||1|Visa Credito|0575|C046LG52836139||Pendiente Facturar|0|2
+645298|1|GB - ILHA 4|-|2026-04-01 21:26:42|40|Amendoim Bahia|Alimentos|1|3|10|30||||1|Visa Credito|0575|C046LG52836139||Pendiente Facturar|0|2
+645305|1|GB - ILHA 4|-|2026-04-01 21:27:59|8|Água|Bebidas sem álcool|1|1|8|8||||1|Mastercard Credi|0019|C046LG52836139||Pendiente Facturar|0|2
+645337|1|GB - ILHA 4|-|2026-04-01 21:41:31|30|Itaipava Premium 473ml (latão)|Cervejas|1|3|10|30||||1|Elo Credit|0741|C046LG52836139||Pendiente Facturar|0|2
+645355|1|GB - ILHA 4|-|2026-04-01 21:47:58|26|Petra 350ml|Cervejas|1|2|13|26||||1|Visa Credito|2900|C046LG52836139||Pendiente Facturar|0|2
+645402|1|GB - ILHA 4|-|2026-04-01 22:17:00|30|Itaipava Premium 473ml (latão)|Cervejas|1|3|10|30||||1|Mastercard Credi|2385|C046LG52836139||Pendiente Facturar|0|2
+645404|1|GB - ILHA 4|-|2026-04-01 22:19:29|52|Petra 350ml|Cervejas|1|4|13|52||||1|Pix| |C046LG52836139||Pendiente Facturar|0|2
+643465|1|GB - ILHA 2|-|2026-04-01 16:25:03|10|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|EFECTIVO||C046LG51956381||Pendiente Facturar|0|2
+643466|1|GB - ILHA 2|-|2026-04-01 16:25:50|15|Abará com camarão|Alimentos|1|1|15|15||||1|EFECTIVO||C046LG51956381||Pendiente Facturar|0|2
+643560|1|GB - ILHA 2|-|2026-04-01 18:09:43|15|Abará com camarão|Alimentos|1|1|15|15||||1|Pix| |C046LG52835666||Pendiente Facturar|0|2
+643649|1|GB - ILHA 2|-|2026-04-01 18:34:04|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Debit|0611|C046LG52835666||Pendiente Facturar|0|2
+643659|1|GB - ILHA 2|-|2026-04-01 18:35:42|30|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Credi|8838|C046LG52835666||Pendiente Facturar|0|2
+643659|1|GB - ILHA 2|-|2026-04-01 18:35:42|30|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|8838|C046LG52835666||Pendiente Facturar|0|2
+643662|1|GB - ILHA 2|-|2026-04-01 18:36:01|8|Água|Bebidas sem álcool|1|1|8|8||||1|Visa Credito|3781|C046LG51944686||Pendiente Facturar|0|2
+643666|1|GB - ILHA 2|-|2026-04-01 18:36:59|24|Pipoca To De Boa|Alimentos|1|1|20|20|||12301100.0|1|Visa Credito|5493|C046LG52835666||Pendiente Facturar|0|2
+643666|1|GB - ILHA 2|-|2026-04-01 18:36:59|24|Água|Bebidas sem álcool|1|1|4|4|||12301100.0|1|Visa Credito|5493|C046LG52835666||Pendiente Facturar|0|2
+643670|1|GB - ILHA 2|-|2026-04-01 18:37:58|4|Água|Bebidas sem álcool|1|1|4|4|||1056100.0|1|Visa Credito|5493|C046LG52835666||Pendiente Facturar|0|2
+643741|1|GB - ILHA 2|-|2026-04-01 18:48:53|54|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Credi|9944|C046LG52835666||Pendiente Facturar|0|2
+643741|1|GB - ILHA 2|-|2026-04-01 18:48:53|54|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|9944|C046LG52835666||Pendiente Facturar|0|2
+643741|1|GB - ILHA 2|-|2026-04-01 18:48:53|54|Água com Gás 500ml|Bebidas sem álcool|1|1|8|8||||1|Mastercard Credi|9944|C046LG52835666||Pendiente Facturar|0|2
+643741|1|GB - ILHA 2|-|2026-04-01 18:48:53|54|Água|Bebidas sem álcool|1|2|8|16||||1|Mastercard Credi|9944|C046LG52835666||Pendiente Facturar|0|2
+643757|1|GB - ILHA 2|-|2026-04-01 18:51:37|8|Água|Bebidas sem álcool|1|1|8|8||||1|Mastercard Credi|2654|C046LG52835666||Pendiente Facturar|0|2
+643777|1|GB - ILHA 2|-|2026-04-01 18:55:15|28|Black Princess 350ml|Cervejas|1|2|14|28||||1|Visa Credito|1283|C046LG51944686||Pendiente Facturar|0|2
+643781|1|GB - ILHA 2|-|2026-04-01 18:56:22|30|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Credito|5455|C046LG52835666||Pendiente Facturar|0|2
+643781|1|GB - ILHA 2|-|2026-04-01 18:56:22|30|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Credito|5455|C046LG52835666||Pendiente Facturar|0|2
+643815|1|GB - ILHA 2|-|2026-04-01 19:01:03|20|Refrigerante|Bebidas sem álcool|1|1|5|5|||89200.0|1|Mastercard Credi|4883|C046LG51944686||Pendiente Facturar|0|2
+643815|1|GB - ILHA 2|-|2026-04-01 19:01:03|20|Acarajé com camarão|Alimentos|1|1|15|15|||89200.0|1|Mastercard Credi|4883|C046LG51944686||Pendiente Facturar|0|2
+643835|1|GB - ILHA 2|-|2026-04-01 19:03:16|60|Pipoca To De Boa|Alimentos|1|3|20|60||||1|Visa Debito|3528|C046LG52835666||Pendiente Facturar|0|2
+643897|1|GB - ILHA 2|-|2026-04-01 19:08:13|25|Água Tônica 350ml|Bebidas sem álcool|1|2|10|20|||2575000.0|1|Visa Credito|0186|C046LG52835666||Pendiente Facturar|0|2
+643897|1|GB - ILHA 2|-|2026-04-01 19:08:13|25|Refrigerante|Bebidas sem álcool|1|1|5|5|||2575000.0|1|Visa Credito|0186|C046LG52835666||Pendiente Facturar|0|2
+643916|1|GB - ILHA 2|-|2026-04-01 19:09:35|33|Acarajé sem camarão|Alimentos|1|1|15|15||||1|Mastercard Debit|3575|C046LG51956381||Pendiente Facturar|0|2
+643916|1|GB - ILHA 2|-|2026-04-01 19:09:35|33|Acarajé com camarão|Alimentos|1|1|18|18||||1|Mastercard Debit|3575|C046LG51956381||Pendiente Facturar|0|2
+643946|1|GB - ILHA 2|-|2026-04-01 19:13:33|35|Acarajé sem camarão|Alimentos|1|1|15|15||||1|Mastercard Credi|5152|C046LG52835666||Pendiente Facturar|0|2
+643946|1|GB - ILHA 2|-|2026-04-01 19:13:33|35|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|5152|C046LG52835666||Pendiente Facturar|0|2
+643963|1|GB - ILHA 2|-|2026-04-01 19:14:52|33|Acarajé com camarão|Alimentos|1|1|18|18||||1|Pix| |C046LG51944686||Pendiente Facturar|0|2
+643963|1|GB - ILHA 2|-|2026-04-01 19:14:52|33|Acarajé sem camarão|Alimentos|1|1|15|15||||1|Pix| |C046LG51944686||Pendiente Facturar|0|2
+643964|1|GB - ILHA 2|-|2026-04-01 19:15:02|25|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Credito|8010|C046LG52835666||Pendiente Facturar|0|2
+643964|1|GB - ILHA 2|-|2026-04-01 19:15:02|25|Kibe|Alimentos|1|1|15|15||||1|Visa Credito|8010|C046LG52835666||Pendiente Facturar|0|2
+643975|1|GB - ILHA 2|-|2026-04-01 19:15:47|40|Pipoca To De Boa|Alimentos|1|2|20|40||||1|Mastercard Credi|1023|C046LG52835666||Pendiente Facturar|0|2
+643983|1|GB - ILHA 2|-|2026-04-01 19:16:25|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Credito|1475|C046LG52835666||Pendiente Facturar|0|2
+644036|1|GB - ILHA 2|-|2026-04-01 19:20:10|32|Água|Bebidas sem álcool|1|2|8|16||||1|Mastercard Credi|5026|C046LG52835666||Pendiente Facturar|0|2
+644036|1|GB - ILHA 2|-|2026-04-01 19:20:10|32|Água com Gás 500ml|Bebidas sem álcool|1|2|8|16||||1|Mastercard Credi|5026|C046LG52835666||Pendiente Facturar|0|2
+644040|1|GB - ILHA 2|-|2026-04-01 19:20:26|8|Água|Bebidas sem álcool|1|1|8|8||||1|Visa Credito|1199|C046LG51956381||Pendiente Facturar|0|2
+644047|1|GB - ILHA 2|-|2026-04-01 19:20:52|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|2654|C046LG52835666||Pendiente Facturar|0|2
+644072|1|GB - ILHA 2|-|2026-04-01 19:22:23|76|Pipoca To De Boa|Alimentos|1|3|20|60||||1|Mastercard Credi|3227|C046LG52835666||Pendiente Facturar|0|2
+644072|1|GB - ILHA 2|-|2026-04-01 19:22:23|76|Água|Bebidas sem álcool|1|2|8|16||||1|Mastercard Credi|3227|C046LG52835666||Pendiente Facturar|0|2
+644085|1|GB - ILHA 2|-|2026-04-01 19:23:19|20|Amendoim Bahia|Alimentos|1|2|10|20||||1|Mastercard Credi|3227|C046LG52835666||Pendiente Facturar|0|2
+644086|1|GB - ILHA 2|-|2026-04-01 19:23:20|193|Acarajé com camarão|Alimentos|1|2|18|36||||1|Visa Debito|7059|C046LG51956381||Pendiente Facturar|0|2
+644086|1|GB - ILHA 2|-|2026-04-01 19:23:20|193|Água|Bebidas sem álcool|1|4|8|32||||1|Visa Debito|7059|C046LG51956381||Pendiente Facturar|0|2
+644086|1|GB - ILHA 2|-|2026-04-01 19:23:20|193|Acarajé sem camarão|Alimentos|1|1|15|15||||1|Visa Debito|7059|C046LG51956381||Pendiente Facturar|0|2
+644086|1|GB - ILHA 2|-|2026-04-01 19:23:20|193|Água de coco 300ml|Bebidas sem álcool|1|2|10|20||||1|Visa Debito|7059|C046LG51956381||Pendiente Facturar|0|2
+644086|1|GB - ILHA 2|-|2026-04-01 19:23:20|193|Amendoim Bahia|Alimentos|1|3|10|30||||1|Visa Debito|7059|C046LG51956381||Pendiente Facturar|0|2
+644086|1|GB - ILHA 2|-|2026-04-01 19:23:20|193|Refrigerante|Bebidas sem álcool|1|2|10|20||||1|Visa Debito|7059|C046LG51956381||Pendiente Facturar|0|2
+644086|1|GB - ILHA 2|-|2026-04-01 19:23:20|193|Pipoca To De Boa|Alimentos|1|2|20|40||||1|Visa Debito|7059|C046LG51956381||Pendiente Facturar|0|2
+644099|1|GB - ILHA 2|-|2026-04-01 19:24:30|80|Água com Gás 500ml|Bebidas sem álcool|1|3|8|24||||1|Mastercard Credi|5283|C046LG52835666||Pendiente Facturar|0|2
+644099|1|GB - ILHA 2|-|2026-04-01 19:24:30|80|Pipoca To De Boa|Alimentos|1|2|20|40||||1|Mastercard Credi|5283|C046LG52835666||Pendiente Facturar|0|2
+644099|1|GB - ILHA 2|-|2026-04-01 19:24:30|80|Água|Bebidas sem álcool|1|2|8|16||||1|Mastercard Credi|5283|C046LG52835666||Pendiente Facturar|0|2
+644117|1|GB - ILHA 2|-|2026-04-01 19:25:41|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|8137|C046LG52835666||Pendiente Facturar|0|2
+644130|1|GB - ILHA 2|-|2026-04-01 19:26:28|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|6016|C046LG51956381||Pendiente Facturar|0|2
+644141|1|GB - ILHA 2|-|2026-04-01 19:27:12|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Debit|7336|C046LG51956381||Pendiente Facturar|0|2
+644152|1|GB - ILHA 2|-|2026-04-01 19:27:51|74|Água|Bebidas sem álcool|1|2|6|12|||4550600.0|1|Visa Credito|2637|C046LG52835666||Pendiente Facturar|0|2
+644152|1|GB - ILHA 2|-|2026-04-01 19:27:51|74|Itaipava Pilsen 350ml|Cervejas|1|7|6|42|||4550600.0|1|Visa Credito|2637|C046LG52835666||Pendiente Facturar|0|2
+644152|1|GB - ILHA 2|-|2026-04-01 19:27:51|74|Pipoca To De Boa|Alimentos|1|1|20|20|||4550600.0|1|Visa Credito|2637|C046LG52835666||Pendiente Facturar|0|2
+644159|1|GB - ILHA 2|-|2026-04-01 19:28:25|20|Dose de Red|Doses|1|1|20|20||||1|Mastercard Debit|8067|C046LG51956381||Pendiente Facturar|0|2
+644172|1|GB - ILHA 2|-|2026-04-01 19:29:02|80|Água de coco 300ml|Bebidas sem álcool|1|4|10|40||||1|Visa Debito|2558|C046LG52835666||Pendiente Facturar|0|2
+644172|1|GB - ILHA 2|-|2026-04-01 19:29:02|80|Refrigerante|Bebidas sem álcool|1|2|10|20||||1|Visa Debito|2558|C046LG52835666||Pendiente Facturar|0|2
+644172|1|GB - ILHA 2|-|2026-04-01 19:29:02|80|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Debito|2558|C046LG52835666||Pendiente Facturar|0|2
+644175|1|GB - ILHA 2|-|2026-04-01 19:29:16|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|1382|C046LG51956381||Pendiente Facturar|0|2
+644190|1|GB - ILHA 2|-|2026-04-01 19:30:05|10|Amendoim Bahia|Alimentos|1|1|10|10||||1|Mastercard Credi|6016|C046LG51956381||Pendiente Facturar|0|2
+644200|1|GB - ILHA 2|-|2026-04-01 19:30:46|40|Pipoca To De Boa|Alimentos|1|2|20|40||||1|Visa Credito|3188|C046LG52835666||Pendiente Facturar|0|2
+644218|1|GB - ILHA 2|-|2026-04-01 19:31:47|50|X Burguer|Alimentos|1|2|15|30||||1|Mastercard Credi|9953|C046LG51956381||Pendiente Facturar|0|2
+644218|1|GB - ILHA 2|-|2026-04-01 19:31:47|50|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|9953|C046LG51956381||Pendiente Facturar|0|2
+644222|1|GB - ILHA 2|-|2026-04-01 19:32:04|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|4456|C046LG52835666||Pendiente Facturar|0|2
+644231|1|GB - ILHA 2|-|2026-04-01 19:32:52|44|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Credito|0671|C046LG52835666||Pendiente Facturar|0|2
+644231|1|GB - ILHA 2|-|2026-04-01 19:32:52|44|Água|Bebidas sem álcool|1|3|8|24||||1|Visa Credito|0671|C046LG52835666||Pendiente Facturar|0|2
+644237|1|GB - ILHA 2|-|2026-04-01 19:33:03|25|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Debit|8897|C046LG51956381||Pendiente Facturar|0|2
+644237|1|GB - ILHA 2|-|2026-04-01 19:33:03|25|X Burguer|Alimentos|1|1|15|15||||1|Mastercard Debit|8897|C046LG51956381||Pendiente Facturar|0|2
+644263|1|GB - ILHA 2|-|2026-04-01 19:34:49|30|Açaí 250ml|Alimentos|1|2|15|30||||1|Visa Credito|8565|C046LG51956381||Pendiente Facturar|0|2
+644267|1|GB - ILHA 2|-|2026-04-01 19:34:54|88|Água com Gás 500ml|Bebidas sem álcool|1|3|8|24||||1|Visa Credito|8156|C046LG52835666||Pendiente Facturar|0|2
+644267|1|GB - ILHA 2|-|2026-04-01 19:34:54|88|Refrigerante|Bebidas sem álcool|1|4|10|40||||1|Visa Credito|8156|C046LG52835666||Pendiente Facturar|0|2
+644267|1|GB - ILHA 2|-|2026-04-01 19:34:54|88|Água|Bebidas sem álcool|1|3|8|24||||1|Visa Credito|8156|C046LG52835666||Pendiente Facturar|0|2
+644283|1|GB - ILHA 2|-|2026-04-01 19:36:08|60|Pipoca To De Boa|Alimentos|1|3|20|60||||1|Visa Debito|4325|C046LG51956381||Pendiente Facturar|0|2
+644299|1|GB - ILHA 2|-|2026-04-01 19:37:10|16|Água|Bebidas sem álcool|1|2|8|16||||1|Mastercard Credi|0740|C046LG52835666||Pendiente Facturar|0|2
+644306|1|GB - ILHA 2|-|2026-04-01 19:37:42|30|Amendoim Bahia|Alimentos|1|3|10|30||||1|Visa Credito|5729|C046LG51956381||Pendiente Facturar|0|2
+644314|1|GB - ILHA 2|-|2026-04-01 19:38:21|45|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Credi|6824|C046LG52835666||Pendiente Facturar|0|2
+644314|1|GB - ILHA 2|-|2026-04-01 19:38:21|45|Coxão|Alimentos|1|1|15|15||||1|Mastercard Credi|6824|C046LG52835666||Pendiente Facturar|0|2
+644314|1|GB - ILHA 2|-|2026-04-01 19:38:21|45|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|6824|C046LG52835666||Pendiente Facturar|0|2
+644319|1|GB - ILHA 2|-|2026-04-01 19:38:47|10|Itaipava Premium 473ml (latão)|Cervejas|1|1|10|10||||1|EFECTIVO||C046LG51956381||Pendiente Facturar|0|2
+644325|1|GB - ILHA 2|-|2026-04-01 19:38:58|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Credito|2829|C046LG51944686||Pendiente Facturar|0|2
+644326|1|GB - ILHA 2|-|2026-04-01 19:39:04|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|7862|C046LG52835666||Pendiente Facturar|0|2
+644350|1|GB - ILHA 2|-|2026-04-01 19:40:25|95|Amendoim Bahia|Alimentos|1|1|10|10||||1|Mastercard Credi|9318|C046LG52835666||Pendiente Facturar|0|2
+644350|1|GB - ILHA 2|-|2026-04-01 19:40:25|95|Black Princess 350ml|Cervejas|1|5|14|70||||1|Mastercard Credi|9318|C046LG52835666||Pendiente Facturar|0|2
+644350|1|GB - ILHA 2|-|2026-04-01 19:40:25|95|Acarajé sem camarão|Alimentos|1|1|15|15||||1|Mastercard Credi|9318|C046LG52835666||Pendiente Facturar|0|2
+644351|1|GB - ILHA 2|-|2026-04-01 19:40:28|25|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Pix| |C046LG51956381||Pendiente Facturar|0|2
+644351|1|GB - ILHA 2|-|2026-04-01 19:40:28|25|Coxão|Alimentos|1|1|15|15||||1|Pix| |C046LG51956381||Pendiente Facturar|0|2
+644372|1|GB - ILHA 2|-|2026-04-01 19:41:57|84|Pipoca To De Boa|Alimentos|1|3|20|60||||1|Visa Credito|8896|C046LG51944686||Pendiente Facturar|0|2
+644372|1|GB - ILHA 2|-|2026-04-01 19:41:57|84|Água|Bebidas sem álcool|1|3|8|24||||1|Visa Credito|8896|C046LG51944686||Pendiente Facturar|0|2
+644379|1|GB - ILHA 2|-|2026-04-01 19:42:21|18|Abará com camarão|Alimentos|1|1|18|18||||1|Pix| |C046LG51956381||Pendiente Facturar|0|2
+644401|1|GB - ILHA 2|-|2026-04-01 19:43:51|55|X Burguer|Alimentos|1|1|15|15||||1|Mastercard Credi|3979|C046LG51956381||Pendiente Facturar|0|2
+644401|1|GB - ILHA 2|-|2026-04-01 19:43:51|55|Pipoca To De Boa|Alimentos|1|2|20|40||||1|Mastercard Credi|3979|C046LG51956381||Pendiente Facturar|0|2
+644402|1|GB - ILHA 2|-|2026-04-01 19:44:00|15|Açaí 250ml|Alimentos|1|1|15|15||||1|Elo Credit|6729|C046LG52835666||Pendiente Facturar|0|2
+644419|1|GB - ILHA 2|-|2026-04-01 19:44:58|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Credito|8566|C046LG52835666||Pendiente Facturar|0|2
+644431|1|GB - ILHA 2|-|2026-04-01 19:45:51|40|Pipoca To De Boa|Alimentos|1|2|20|40||||1|Mastercard Credi|0374|C046LG52835666||Pendiente Facturar|0|2
+644432|1|GB - ILHA 2|-|2026-04-01 19:46:09|20|Itaipava Premium 473ml (latão)|Cervejas|1|2|10|20||||1|Visa Debito|4053|C046LG51944686||Pendiente Facturar|0|2
+644434|1|GB - ILHA 2|-|2026-04-01 19:46:12|40|Itaipava Premium 473ml (latão)|Cervejas|1|4|10|40||||1|Visa Debito|5051|C046LG51956381||Pendiente Facturar|0|2
+644454|1|GB - ILHA 2|-|2026-04-01 19:46:52|87|Açaí 250ml|Alimentos|1|1|15|15||||1|Mastercard Credi|3365|C046LG52835666||Pendiente Facturar|0|2
+644454|1|GB - ILHA 2|-|2026-04-01 19:46:52|87|Cerveja Petra 350ml|Cervejas|1|4|13|52||||1|Mastercard Credi|3365|C046LG52835666||Pendiente Facturar|0|2
+644454|1|GB - ILHA 2|-|2026-04-01 19:46:52|87|Amendoim Bahia|Alimentos|1|2|10|20||||1|Mastercard Credi|3365|C046LG52835666||Pendiente Facturar|0|2
+644458|1|GB - ILHA 2|-|2026-04-01 19:47:01|20|Itaipava Premium 473ml (latão)|Cervejas|1|2|10|20||||1|Visa Debito|3907|C046LG51944686||Pendiente Facturar|0|2
+644476|1|GB - ILHA 2|-|2026-04-01 19:48:20|28|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Credito|0692|C046LG52835666||Pendiente Facturar|0|2
+644476|1|GB - ILHA 2|-|2026-04-01 19:48:20|28|Água|Bebidas sem álcool|1|1|8|8||||1|Visa Credito|0692|C046LG52835666||Pendiente Facturar|0|2
+644481|1|GB - ILHA 2|-|2026-04-01 19:48:33|33|Água|Bebidas sem álcool|1|1|8|8||||1|Visa Debito|9125|C046LG51956381||Pendiente Facturar|0|2
+644481|1|GB - ILHA 2|-|2026-04-01 19:48:33|33|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Debito|9125|C046LG51956381||Pendiente Facturar|0|2
+644481|1|GB - ILHA 2|-|2026-04-01 19:48:33|33|Coxão|Alimentos|1|1|15|15||||1|Visa Debito|9125|C046LG51956381||Pendiente Facturar|0|2
+644488|1|GB - ILHA 2|-|2026-04-01 19:49:09|43|Refrigerante|Bebidas sem álcool|1|2|10|20||||1|Visa Debito|5449|C046LG51944686||Pendiente Facturar|0|2
+644488|1|GB - ILHA 2|-|2026-04-01 19:49:09|43|Água com Gás 500ml|Bebidas sem álcool|1|1|8|8||||1|Visa Debito|5449|C046LG51944686||Pendiente Facturar|0|2
+644488|1|GB - ILHA 2|-|2026-04-01 19:49:09|43|Acarajé sem camarão|Alimentos|1|1|15|15||||1|Visa Debito|5449|C046LG51944686||Pendiente Facturar|0|2
+644493|1|GB - ILHA 2|-|2026-04-01 19:49:24|18|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Credi|3227|C046LG52835666||Pendiente Facturar|0|2
+644493|1|GB - ILHA 2|-|2026-04-01 19:49:24|18|Água|Bebidas sem álcool|1|1|8|8||||1|Mastercard Credi|3227|C046LG52835666||Pendiente Facturar|0|2
+644513|1|GB - ILHA 2|-|2026-04-01 19:50:41|19|Amendoim Bahia|Alimentos|1|1|10|10|||1452100.0|1|Visa Credito|2061|C046LG52835666||Pendiente Facturar|0|2
+644513|1|GB - ILHA 2|-|2026-04-01 19:50:41|19|Água|Bebidas sem álcool|1|1|4|4|||1452100.0|1|Visa Credito|2061|C046LG52835666||Pendiente Facturar|0|2
+644513|1|GB - ILHA 2|-|2026-04-01 19:50:41|19|Refrigerante|Bebidas sem álcool|1|1|5|5|||1452100.0|1|Visa Credito|2061|C046LG52835666||Pendiente Facturar|0|2
+644529|1|GB - ILHA 2|-|2026-04-01 19:51:44|55|X Burguer|Alimentos|1|1|15|15|t****o@hotmail.com|5571987**-**89|82725620.0|1|Visa Debito|0806|C046LG51956381||Pendiente Facturar|0|2
+644529|1|GB - ILHA 2|-|2026-04-01 19:51:44|55|Refrigerante|Bebidas sem álcool|1|1|10|10|t****o@hotmail.com|5571987**-**89|82725620.0|1|Visa Debito|0806|C046LG51956381||Pendiente Facturar|0|2
+644529|1|GB - ILHA 2|-|2026-04-01 19:51:44|55|Itaipava Premium 473ml (latão)|Cervejas|1|3|10|30|t****o@hotmail.com|5571987**-**89|82725620.0|1|Visa Debito|0806|C046LG51956381||Pendiente Facturar|0|2
+644547|1|GB - ILHA 2|-|2026-04-01 19:52:42|64|Água|Bebidas sem álcool|1|1|4|4|||31431700.0|1|Visa Credito|9819|C046LG52835666||Pendiente Facturar|0|2
+644547|1|GB - ILHA 2|-|2026-04-01 19:52:42|64|Pipoca To De Boa|Alimentos|1|3|20|60|||31431700.0|1|Visa Credito|9819|C046LG52835666||Pendiente Facturar|0|2
+644560|1|GB - ILHA 2|-|2026-04-01 19:53:42|4|Água|Bebidas sem álcool|1|1|4|4|||13613400.0|1|Amex|8431|C046LG52835666||Pendiente Facturar|0|2
+644562|1|GB - ILHA 2|-|2026-04-01 19:53:48|28|Acarajé com camarão|Alimentos|1|1|18|18||||1|Visa Debito|3562|C046LG51944686||Pendiente Facturar|0|2
+644562|1|GB - ILHA 2|-|2026-04-01 19:53:48|28|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Debito|3562|C046LG51944686||Pendiente Facturar|0|2
+644582|1|GB - ILHA 2|-|2026-04-01 19:55:20|10|Amendoim Bahia|Alimentos|1|1|10|10|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Credi|6981|C046LG51956381||Pendiente Facturar|0|2
+644591|1|GB - ILHA 2|-|2026-04-01 19:55:51|25|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Pix| |C046LG52835666||Pendiente Facturar|0|2
+644591|1|GB - ILHA 2|-|2026-04-01 19:55:51|25|Coxão|Alimentos|1|1|15|15||||1|Pix| |C046LG52835666||Pendiente Facturar|0|2
+644593|1|GB - ILHA 2|-|2026-04-01 19:56:01|20|Pipoca To De Boa|Alimentos|1|1|20|20|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Debit|1769|C046LG51956381||Pendiente Facturar|0|2
+644616|1|GB - ILHA 2|-|2026-04-01 19:58:03|18|Acarajé com camarão|Alimentos|1|1|18|18||||1|Mastercard Credi|3907|C046LG52835666||Pendiente Facturar|0|2
+644623|1|GB - ILHA 2|-|2026-04-01 19:58:26|325|Amendoim Bahia|Alimentos|1|10|10|100|t****o@hotmail.com|5571987**-**89|82725620.0|1|Visa Credito|2024|C046LG51956381||Pendiente Facturar|0|2
+644623|1|GB - ILHA 2|-|2026-04-01 19:58:26|325|Coxão|Alimentos|1|3|15|45|t****o@hotmail.com|5571987**-**89|82725620.0|1|Visa Credito|2024|C046LG51956381||Pendiente Facturar|0|2
+644623|1|GB - ILHA 2|-|2026-04-01 19:58:26|325|X Burguer|Alimentos|1|12|15|180|t****o@hotmail.com|5571987**-**89|82725620.0|1|Visa Credito|2024|C046LG51956381||Pendiente Facturar|0|2
+644627|1|GB - ILHA 2|-|2026-04-01 19:58:35|42|Itaipava Pilsen 350ml|Cervejas|1|7|6|42|||12939200.0|1|Elo Debit|8650|C046LG51944686||Pendiente Facturar|0|2
+644643|1|GB - ILHA 2|-|2026-04-01 20:00:32|60|Kibe|Alimentos|1|4|15|60|t****o@hotmail.com|5571987**-**89|82725620.0|1|Visa Credito|2024|C046LG51956381||Pendiente Facturar|0|2
+644648|1|GB - ILHA 2|-|2026-04-01 20:01:20|10|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Amex|3179|C046LG52835666||Pendiente Facturar|0|2
+644650|1|GB - ILHA 2|-|2026-04-01 20:01:29|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Debito|5449|C046LG51944686||Pendiente Facturar|0|2
+644654|1|GB - ILHA 2|-|2026-04-01 20:01:48|20|Amendoim Bahia|Alimentos|1|2|10|20|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Credi|0296|C046LG51956381||Pendiente Facturar|0|2
+644657|1|GB - ILHA 2|-|2026-04-01 20:02:08|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Visa Credito|4430|C046LG52835666||Pendiente Facturar|0|2
+644661|1|GB - ILHA 2|-|2026-04-01 20:02:34|50|Pipoca To De Boa|Alimentos|1|2|20|40|t****o@hotmail.com|5571987**-**89|82725620.0|1|Visa Credito|1375|C046LG51956381||Pendiente Facturar|0|2
+644661|1|GB - ILHA 2|-|2026-04-01 20:02:34|50|Refrigerante|Bebidas sem álcool|1|1|10|10|t****o@hotmail.com|5571987**-**89|82725620.0|1|Visa Credito|1375|C046LG51956381||Pendiente Facturar|0|2
+644662|1|GB - ILHA 2|-|2026-04-01 20:02:39|20|Itaipava Premium 473ml (latão)|Cervejas|1|2|10|20||||1|Mastercard Debit|1139|C046LG51944686||Pendiente Facturar|0|2
+644671|1|GB - ILHA 2|-|2026-04-01 20:03:07|46|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Pix| |C046LG52835666||Pendiente Facturar|0|2
+644671|1|GB - ILHA 2|-|2026-04-01 20:03:07|46|Cerveja Petra 350ml|Cervejas|1|2|13|26||||1|Pix| |C046LG52835666||Pendiente Facturar|0|2
+644674|1|GB - ILHA 2|-|2026-04-01 20:03:23|30|Itaipava Premium 473ml (latão)|Cervejas|1|3|10|30|t****o@hotmail.com|5571987**-**89|82725620.0|1|Visa Debito|6750|C046LG51956381||Pendiente Facturar|0|2
+644692|1|GB - ILHA 2|-|2026-04-01 20:05:03|100|Black Princess 350ml|Cervejas|1|6|14|84|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Debit|7562|C046LG51956381||Pendiente Facturar|0|2
+644692|1|GB - ILHA 2|-|2026-04-01 20:05:03|100|Água|Bebidas sem álcool|1|2|8|16|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Debit|7562|C046LG51956381||Pendiente Facturar|0|2
+644698|1|GB - ILHA 2|-|2026-04-01 20:07:00|30|Itaipava Premium 473ml (latão)|Cervejas|1|3|10|30|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Debit|0531|C046LG51956381||Pendiente Facturar|0|2
+644705|1|GB - ILHA 2|-|2026-04-01 20:08:00|30|Acarajé sem camarão|Alimentos|1|1|15|15||||1|Mastercard Credi|9017|C046LG51944686||Pendiente Facturar|0|2
+644705|1|GB - ILHA 2|-|2026-04-01 20:08:00|30|Abará sem camarão|Alimentos|1|1|15|15||||1|Mastercard Credi|9017|C046LG51944686||Pendiente Facturar|0|2
+644708|1|GB - ILHA 2|-|2026-04-01 20:09:19|10|Água de coco 300ml|Bebidas sem álcool|1|1|10|10||||1|Mastercard Debit|0250|C046LG51944686||Pendiente Facturar|0|2
+644737|1|GB - ILHA 2|-|2026-04-01 20:14:33|23|Água|Bebidas sem álcool|1|1|8|8|t****o@hotmail.com|5571987**-**89|82725620.0|1|Visa Credito|5375|C046LG51956381||Pendiente Facturar|0|2
+644737|1|GB - ILHA 2|-|2026-04-01 20:14:33|23|Coxão|Alimentos|1|1|15|15|t****o@hotmail.com|5571987**-**89|82725620.0|1|Visa Credito|5375|C046LG51956381||Pendiente Facturar|0|2
+644757|1|GB - ILHA 2|-|2026-04-01 20:19:49|28|Acarajé com camarão|Alimentos|1|1|18|18||||1|Mastercard Credi|5498|C046LG52835666||Pendiente Facturar|0|2
+644757|1|GB - ILHA 2|-|2026-04-01 20:19:49|28|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Credi|5498|C046LG52835666||Pendiente Facturar|0|2
+644765|1|GB - ILHA 2|-|2026-04-01 20:20:53|20|Pipoca To De Boa|Alimentos|1|1|20|20|t****o@hotmail.com|5571987**-**89|82725620.0|1|Pix| |C046LG51956381||Pendiente Facturar|0|2
+644768|1|GB - ILHA 2|-|2026-04-01 20:21:17|44|Água|Bebidas sem álcool|1|3|8|24||||1|Mastercard Credi|5283|C046LG52835666||Pendiente Facturar|0|2
+644768|1|GB - ILHA 2|-|2026-04-01 20:21:17|44|Amendoim Bahia|Alimentos|1|2|10|20||||1|Mastercard Credi|5283|C046LG52835666||Pendiente Facturar|0|2
+644789|1|GB - ILHA 2|-|2026-04-01 20:27:07|18|Abará com camarão|Alimentos|1|1|18|18|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Credi|5208|C046LG51956381||Pendiente Facturar|0|2
+644811|1|GB - ILHA 2|-|2026-04-01 20:30:52|28|Acarajé com camarão|Alimentos|1|1|18|18||||1|Mastercard Debit|8438|C046LG52835666||Pendiente Facturar|0|2
+644811|1|GB - ILHA 2|-|2026-04-01 20:30:52|28|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Debit|8438|C046LG52835666||Pendiente Facturar|0|2
+644814|1|GB - ILHA 2|-|2026-04-01 20:31:43|20|Pipoca To De Boa|Alimentos|1|1|20|20|t****o@hotmail.com|5571987**-**89|82725620.0|1|Visa Debito|8006|C046LG51956381||Pendiente Facturar|0|2
+644819|1|GB - ILHA 2|-|2026-04-01 20:32:31|62|Black Princess 350ml|Cervejas|1|3|14|42||||1|Mastercard Credi|7813|C046LG52835666||Pendiente Facturar|0|2
+644819|1|GB - ILHA 2|-|2026-04-01 20:32:31|62|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Mastercard Credi|7813|C046LG52835666||Pendiente Facturar|0|2
+644823|1|GB - ILHA 2|-|2026-04-01 20:33:02|10|Amendoim Bahia|Alimentos|1|1|10|10|t****o@hotmail.com|5571987**-**89|82725620.0|1|Visa Debito|8006|C046LG51956381||Pendiente Facturar|0|2
+644827|1|GB - ILHA 2|-|2026-04-01 20:33:31|10|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Credito|6193|C046LG52835666||Pendiente Facturar|0|2
+644855|1|GB - ILHA 2|-|2026-04-01 20:38:59|32|Pipoca To De Boa|Alimentos|1|1|20|20|||3988100.0|1|Visa Credito|4698|C046LG51944686||Pendiente Facturar|0|2
+644855|1|GB - ILHA 2|-|2026-04-01 20:38:59|32|Itaipava Pilsen 350ml|Cervejas|1|2|6|12|||3988100.0|1|Visa Credito|4698|C046LG51944686||Pendiente Facturar|0|2
+644857|1|GB - ILHA 2|-|2026-04-01 20:39:17|29|Refrigerante|Bebidas sem álcool|1|1|10|10|||89200.0|1|Mastercard Credi|4883|C046LG52835666||Pendiente Facturar|0|2
+644857|1|GB - ILHA 2|-|2026-04-01 20:39:17|29|Água|Bebidas sem álcool|1|1|4|4|||89200.0|1|Mastercard Credi|4883|C046LG52835666||Pendiente Facturar|0|2
+644857|1|GB - ILHA 2|-|2026-04-01 20:39:17|29|Coxão|Alimentos|1|1|15|15|||89200.0|1|Mastercard Credi|4883|C046LG52835666||Pendiente Facturar|0|2
+644865|1|GB - ILHA 2|-|2026-04-01 20:40:29|15|Coxão|Alimentos|1|1|15|15||||1|Mastercard Credi|4882|C046LG52835666||Pendiente Facturar|0|2
+644903|1|GB - ILHA 2|-|2026-04-01 20:49:55|40|Pipoca To De Boa|Alimentos|1|1|20|20|||13520200.0|1|Visa Credito|8454|C046LG52835666||Pendiente Facturar|0|2
+644903|1|GB - ILHA 2|-|2026-04-01 20:49:55|40|Coxão|Alimentos|1|1|15|15|||13520200.0|1|Visa Credito|8454|C046LG52835666||Pendiente Facturar|0|2
+644903|1|GB - ILHA 2|-|2026-04-01 20:49:55|40|Refrigerante|Bebidas sem álcool|1|1|5|5|||13520200.0|1|Visa Credito|8454|C046LG52835666||Pendiente Facturar|0|2
+644917|1|GB - ILHA 2|-|2026-04-01 20:51:41|5|Refrigerante|Bebidas sem álcool|1|1|5|5|||40743900.0|1|Mastercard Debit|1130|C046LG52835666||Pendiente Facturar|0|2
+644918|1|GB - ILHA 2|-|2026-04-01 20:51:52|15|Acarajé sem camarão|Alimentos|1|1|15|15||||1|Pix| |C046LG51944686||Pendiente Facturar|0|2
+644936|1|GB - ILHA 2|-|2026-04-01 20:54:39|8|Água|Bebidas sem álcool|1|1|8|8|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Credi|3234|C046LG51956381||Pendiente Facturar|0|2
+644942|1|GB - ILHA 2|-|2026-04-01 20:54:52|25|X Burguer|Alimentos|1|1|15|15||||1|Mastercard Credi|0026|C046LG52835666||Pendiente Facturar|0|2
+644942|1|GB - ILHA 2|-|2026-04-01 20:54:52|25|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Credi|0026|C046LG52835666||Pendiente Facturar|0|2
+644951|1|GB - ILHA 2|-|2026-04-01 20:55:28|18|Acarajé com camarão|Alimentos|1|1|18|18|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Credi|5587|C046LG51956381||Pendiente Facturar|0|2
+644957|1|GB - ILHA 2|-|2026-04-01 20:55:41|38|Black Princess 350ml|Cervejas|1|2|14|28||||1|Visa Credito|5729|C046LG51944686||Pendiente Facturar|0|2
+644957|1|GB - ILHA 2|-|2026-04-01 20:55:41|38|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Credito|5729|C046LG51944686||Pendiente Facturar|0|2
+644979|1|GB - ILHA 2|-|2026-04-01 20:56:59|38|Acarajé com camarão|Alimentos|1|1|18|18||||1|Mastercard Credi|9112|C046LG51944686||Pendiente Facturar|0|2
+644979|1|GB - ILHA 2|-|2026-04-01 20:56:59|38|Itaipava Premium 473ml (latão)|Cervejas|1|1|10|10||||1|Mastercard Credi|9112|C046LG51944686||Pendiente Facturar|0|2
+644979|1|GB - ILHA 2|-|2026-04-01 20:56:59|38|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Mastercard Credi|9112|C046LG51944686||Pendiente Facturar|0|2
+645005|1|GB - ILHA 2|-|2026-04-01 20:58:17|36|Acarajé com camarão|Alimentos|1|2|18|36||||1|Mastercard Debit|7562|C046LG51944686||Pendiente Facturar|0|2
+645030|1|GB - ILHA 2|-|2026-04-01 20:59:29|50|Dose Chivas|Doses|1|1|25|25|t****o@hotmail.com|5571987**-**89|82725620.0|1|Visa Credito|5761|C046LG51956381||Pendiente Facturar|0|2
+645030|1|GB - ILHA 2|-|2026-04-01 20:59:29|50|Amendoim Bahia|Alimentos|1|1|10|10|t****o@hotmail.com|5571987**-**89|82725620.0|1|Visa Credito|5761|C046LG51956381||Pendiente Facturar|0|2
+645030|1|GB - ILHA 2|-|2026-04-01 20:59:29|50|Energético TNT 269ml|Bebidas sem álcool|1|1|15|15|t****o@hotmail.com|5571987**-**89|82725620.0|1|Visa Credito|5761|C046LG51956381||Pendiente Facturar|0|2
+645075|1|GB - ILHA 2|-|2026-04-01 21:01:33|18|Acarajé com camarão|Alimentos|1|1|18|18|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Debit|0250|C046LG51956381||Pendiente Facturar|0|2
+645107|1|GB - ILHA 2|-|2026-04-01 21:03:38|40|Itaipava Premium 473ml (latão)|Cervejas|1|4|10|40|t****o@hotmail.com|5571987**-**89|82725620.0|1|Visa Credito|4240|C046LG51956381||Pendiente Facturar|0|2
+645131|1|GB - ILHA 2|-|2026-04-01 21:05:07|23|Água|Bebidas sem álcool|1|1|8|8||||1|Visa Credito|5080|C046LG52835666||Pendiente Facturar|0|2
+645131|1|GB - ILHA 2|-|2026-04-01 21:05:07|23|Coxão|Alimentos|1|1|15|15||||1|Visa Credito|5080|C046LG52835666||Pendiente Facturar|0|2
+645139|1|GB - ILHA 2|-|2026-04-01 21:05:27|30|Coxão|Alimentos|1|1|15|15|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Debit|5330|C046LG51956381||Pendiente Facturar|0|2
+645139|1|GB - ILHA 2|-|2026-04-01 21:05:27|30|X Burguer|Alimentos|1|1|15|15|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Debit|5330|C046LG51956381||Pendiente Facturar|0|2
+645151|1|GB - ILHA 2|-|2026-04-01 21:06:22|20|Refrigerante|Bebidas sem álcool|1|1|5|5|||33274800.0|1|Visa Credito|5394|C046LG52835666||Pendiente Facturar|0|2
+645151|1|GB - ILHA 2|-|2026-04-01 21:06:22|20|Coxão|Alimentos|1|1|15|15|||33274800.0|1|Visa Credito|5394|C046LG52835666||Pendiente Facturar|0|2
+645181|1|GB - ILHA 2|-|2026-04-01 21:08:14|15|Kibe|Alimentos|1|1|15|15||||1|Mastercard Debit|8198|C046LG51944686||Pendiente Facturar|0|2
+645183|1|GB - ILHA 2|-|2026-04-01 21:08:16|15|Açaí 250ml|Alimentos|1|1|15|15|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Credi|6332|C046LG51956381||Pendiente Facturar|0|2
+645197|1|GB - ILHA 2|-|2026-04-01 21:09:19|15|X Burguer|Alimentos|1|1|15|15|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Debit|5330|C046LG51956381||Pendiente Facturar|0|2
+645203|1|GB - ILHA 2|-|2026-04-01 21:10:24|15|X Burguer|Alimentos|1|1|15|15|t****o@hotmail.com|5571987**-**89|82725620.0|1|Pix| |C046LG51956381||Pendiente Facturar|0|2
+645208|1|GB - ILHA 2|-|2026-04-01 21:10:36|28|Amendoim Bahia|Alimentos|1|1|10|10||||1|Visa Credito|4894|C046LG51944686||Pendiente Facturar|0|2
+645208|1|GB - ILHA 2|-|2026-04-01 21:10:36|28|Água com Gás 500ml|Bebidas sem álcool|1|1|8|8||||1|Visa Credito|4894|C046LG51944686||Pendiente Facturar|0|2
+645208|1|GB - ILHA 2|-|2026-04-01 21:10:36|28|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Credito|4894|C046LG51944686||Pendiente Facturar|0|2
+645227|1|GB - ILHA 2|-|2026-04-01 21:11:57|21|Cerveja Petra 350ml|Cervejas|1|1|13|13||||1|Visa Credito|6106|C046LG52835666||Pendiente Facturar|0|2
+645227|1|GB - ILHA 2|-|2026-04-01 21:11:57|21|Água com Gás 500ml|Bebidas sem álcool|1|1|8|8||||1|Visa Credito|6106|C046LG52835666||Pendiente Facturar|0|2
+645231|1|GB - ILHA 2|-|2026-04-01 21:12:10|25|Refrigerante|Bebidas sem álcool|1|1|10|10||||1|Visa Credito|2829|C046LG51944686||Pendiente Facturar|0|2
+645231|1|GB - ILHA 2|-|2026-04-01 21:12:10|25|Coxão|Alimentos|1|1|15|15||||1|Visa Credito|2829|C046LG51944686||Pendiente Facturar|0|2
+645245|1|GB - ILHA 2|-|2026-04-01 21:13:33|30|Refrigerante|Bebidas sem álcool|1|1|10|10|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Credi|3527|C046LG51956381||Pendiente Facturar|0|2
+645245|1|GB - ILHA 2|-|2026-04-01 21:13:33|30|Pipoca To De Boa|Alimentos|1|1|20|20|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Credi|3527|C046LG51956381||Pendiente Facturar|0|2
+645248|1|GB - ILHA 2|-|2026-04-01 21:14:11|20|Pipoca To De Boa|Alimentos|1|1|20|20||||1|Pix| |C046LG52835666||Pendiente Facturar|0|2
+645257|1|GB - ILHA 2|-|2026-04-01 21:15:01|15|Açaí 250ml|Alimentos|1|1|15|15|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Debit|3048|C046LG51956381||Pendiente Facturar|0|2
+645264|1|GB - ILHA 2|-|2026-04-01 21:16:16|10|Amendoim Bahia|Alimentos|1|1|10|10|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Debit|3048|C046LG51956381||Pendiente Facturar|0|2
+645269|1|GB - ILHA 2|-|2026-04-01 21:17:13|20|Pipoca To De Boa|Alimentos|1|1|20|20|t****o@hotmail.com|5571987**-**89|82725620.0|1|Pix| |C046LG51956381||Pendiente Facturar|0|2
+645271|1|GB - ILHA 2|-|2026-04-01 21:17:23|15|Açaí 250ml|Alimentos|1|1|15|15||||1|Mastercard Credi|6896|C046LG51944686||Pendiente Facturar|0|2
+645281|1|GB - ILHA 2|-|2026-04-01 21:20:02|20|Pipoca To De Boa|Alimentos|1|1|20|20|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Credi|6373|C046LG51956381||Pendiente Facturar|0|2
+645287|1|GB - ILHA 2|-|2026-04-01 21:21:25|15|X Burguer|Alimentos|1|1|15|15|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Credi|3607|C046LG51956381||Pendiente Facturar|0|2
+645344|1|GB - ILHA 2|-|2026-04-01 21:43:31|10|Itaipava Premium 473ml (latão)|Cervejas|1|1|10|10||||1|Mastercard Credi|4142|C046LG51944686||Pendiente Facturar|0|2
+645368|1|GB - ILHA 2|-|2026-04-01 21:52:03|10|Refrigerante|Bebidas sem álcool|1|1|10|10|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Credi|9953|C046LG51956381||Pendiente Facturar|0|2
+645394|1|GB - ILHA 2|-|2026-04-01 22:07:59|24|Itaipava Premium 473ml (latão)|Cervejas|1|1|10|10|t****o@hotmail.com|5571987**-**89|82725620.0|1|EFECTIVO||C046LG51956381||Pendiente Facturar|0|2
+645394|1|GB - ILHA 2|-|2026-04-01 22:07:59|24|Black Princess 350ml|Cervejas|1|1|14|14|t****o@hotmail.com|5571987**-**89|82725620.0|1|EFECTIVO||C046LG51956381||Pendiente Facturar|0|2
+645401|1|GB - ILHA 2|-|2026-04-01 22:12:34|10|Amendoim Bahia|Alimentos|1|1|10|10|t****o@hotmail.com|5571987**-**89|82725620.0|1|Mastercard Debit|8528|C046LG51956381||Pendiente Facturar|0|2
+645405|1|GB - ILHA 2|-|2026-04-01 22:19:50|23|Acarajé sem camarão|Alimentos|1|1|15|15||||1|Visa Credito|2968|C046LG52835666||Pendiente Facturar|0|2
+645405|1|GB - ILHA 2|-|2026-04-01 22:19:50|23|Água com Gás 500ml|Bebidas sem álcool|1|1|8|8||||1|Visa Credito|2968|C046LG52835666||Pendiente Facturar|0|2
+645406|1|GB - ILHA 2|-|2026-04-01 22:23:06|39|Cerveja Petra 350ml|Cervejas|1|3|13|39|t****o@hotmail.com|5571987**-**89|82725620.0|1|Pix| |C046LG51956381||Pendiente Facturar|0|2
