@@ -10,14 +10,32 @@ This project organizes sales and event data into a SQL Server data warehouse usi
 
 Python/pandas is used in the initial source-file preparation step; SQL Server handles ingestion, transformations, and analytical modeling.
 
-## Repository structure
+## Repository Structure
 
-- `sql/DDL_bronze.sql` — Bronze table definitions.
-- `sql/proc_bronze.sql` — sales-file and event ingestion procedures.
-- `sql/DDL_silver.sql` — Silver table definitions.
-- `sql/proc_silver.sql` — data cleaning and type conversion.
-- `sql/DDL_gold.sql` — dimensional model and fact table definitions.
-- `sql/proc_gold.sql` — Gold dimension and fact loading.
+```text
+sales-data-warehouse/
+├── datasets/
+│   └── ...
+├── scripts/
+│   ├── bronze/
+│   │   ├── DDL_bronze.sql
+│   │   └── proc_bronze.sql
+│   ├── silver/
+│   │   ├── DDL_silver.sql
+│   │   └── proc_silver.sql
+│   └── gold/
+│       ├── DDL_gold.sql
+│       └── proc_gold.sql
+├── LICENSE
+└── README.md
+```
+
+- **datasets/**: Source datasets used in the project.
+- **scripts/bronze/**: SQL scripts for raw data ingestion and storage.
+- **scripts/silver/**: SQL scripts for data cleaning, standardization, and transformation.
+- **scripts/gold/**: SQL scripts for building analytical dimensions and fact tables.
+- **LICENSE**: Defines the terms under which the repository can be used.
+- **README.md**: Project overview, architecture, data processing workflow, and execution instructions.
 
 ## Layer responsibilities
 
