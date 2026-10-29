@@ -84,4 +84,4 @@ sales-data-warehouse/
 
 ## Data Privacy
 
-The repository should not contain source exports with customer identifiers, credentials, or internal documents. Use approved, anonymized, or synthetic sample data for public demonstrations.
+The datasets in this repository come from a real sales operation and were anonymized before publication. Location names were replaced with generic codes, and some event details were omitted. The original source files are not included in the repository, and no credentials or internal documents are published.
