@@ -37,6 +37,8 @@ Bronze values are converted to typed columns and selected business and product l
 
 The Gold layer contains dimensions for machines, products, and events, as well as fact tables for sales and payment components. The sales fact joins events by date, based on the project assumption that at most one relevant event occurs per date. Payment descriptions are split into components and normalized into method, brand, and amount fields.
 
+**Note:** The Python preprocessing script is not included in this public repository because it contains company-specific information. The preprocessed CSV files are provided to demonstrate the input format and allow the SQL Server pipeline to be explored.
+
 ## Repository Structure
 
 ```text
@@ -56,8 +58,7 @@ sales-data-warehouse/
 ├── LICENSE
 └── README.md
 ```
-
-- **`datasets/`**: preprocessed CSV files used as input for the Bronze layer.
+- **`datasets/`**: Contains the preprocessed source datasets used as input for the Bronze layer. It includes event reference data (`eventos.csv`) and sales reports (`reporte_limpo_*.csv`), with each sales file identified by the event date in its filename.
 - **`scripts/bronze/`**: SQL scripts for raw data ingestion and storage.
 - **`scripts/silver/`**: SQL scripts for data cleaning, standardization, and transformation.
 - **`scripts/gold/`**: SQL scripts for building analytical dimensions and fact tables.
