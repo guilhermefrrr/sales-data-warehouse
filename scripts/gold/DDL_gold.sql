@@ -53,6 +53,7 @@ IF OBJECT_ID ('gold.fact_vendas', 'U') IS NOT NULL
 GO
 CREATE TABLE gold.fact_vendas (
     id_evento               INT,
+    nome_comercio           VARCHAR(100),
     numero_pedido           INT,
     hora                    TIME(0),
     total                   DECIMAL(10,2),

@@ -123,6 +123,7 @@ BEGIN
         PRINT '>>> Inserting data into gold.fact_vendas';
         INSERT INTO gold.fact_vendas (
             id_evento,
+            nome_comercio,
             numero_pedido,
             hora,
             total,
@@ -138,6 +139,7 @@ BEGIN
         )
         SELECT
             e.id_evento,
+            v.nome_comercio,
             v.numero_pedido,
             v.hora,
             v.total,
