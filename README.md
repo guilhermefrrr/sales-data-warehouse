@@ -1,6 +1,6 @@
 # Sales Data Warehouse
 
-A SQL Server data warehouse project that transforms sales and event data into an analytical model using a Bronze, Silver, and Gold architecture. Python and pandas prepare the source files, while SQL Server handles data ingestion, cleaning, standardization, and the creation of dimensions and fact tables for analytical queries and reporting.
+A SQL Server data warehouse project that transforms sales and event data into an analytical model using Bronze, Silver, and Gold layers. Python and pandas prepare the source files, while SQL Server handles ingestion, cleaning, and dimensional modeling. Also available in an interactive website.
 
 ## Objectives
 
@@ -43,6 +43,9 @@ The Gold layer contains dimensions for machines, products, and events, as well a
 
 ```text
 sales-data-warehouse/
+├── index.html
+├── index-standalone.html
+├── data.json
 ├── datasets/
 │   └── ...
 ├── scripts/
@@ -52,16 +55,22 @@ sales-data-warehouse/
 │   ├── silver/
 │   │   ├── DDL_silver.sql
 │   │   └── proc_silver.sql
-│   └── gold/
-│       ├── DDL_gold.sql
-│       └── proc_gold.sql
+│   ├── gold/
+│   │   ├── DDL_gold.sql
+│   │   └── proc_gold.sql
+│   └── ssms_to_json_colab.ipynb
 ├── LICENSE
 └── README.md
 ```
+
+- **`index.html`**: Light version of the website (web). It has no data inside and loads `data.json` with `fetch()`. For GitHub Pages / server. It does not work with double-click (`file://`), because the browser blocks `fetch()` in `file://`.
+- **`index-standalone.html`**: Standalone version of the website (1 file only). It has the data embedded inside it. For sending by WhatsApp / e-mail and opening with double-click, without needing `data.json` next to it.
+- **`data.json`**: Calculated numbers used by the light version (revenue, orders, products, payments, machines). It must stay in the repository root, next to `index.html`.
 - **`datasets/`**: Contains the preprocessed source datasets used as input for the Bronze layer. It includes event reference data (`eventos.csv`) and sales reports (`reporte_limpo_*.csv`), with each sales file identified by the event date in its filename.
 - **`scripts/bronze/`**: SQL scripts for raw data ingestion and storage.
 - **`scripts/silver/`**: SQL scripts for data cleaning, standardization, and transformation.
 - **`scripts/gold/`**: SQL scripts for building analytical dimensions and fact tables.
+- **`scripts/ssms_to_json_colab.ipynb`**: Google Colab notebook that generates `data.json`, `index.html`, and `index-standalone.html` from a new SSMS dump.
 
 ## Execution Order
 
@@ -71,6 +80,22 @@ sales-data-warehouse/
 4. Execute the Bronze ingestion procedures for the sales files and event file.
 5. Execute `silver.load_silver`.
 6. Execute `gold.load_gold`.
+
+## How to update the website
+
+When new data arrives, regenerate the 3 website files together, from the same dump. Do not update only one of them.
+
+1. Open `scripts/ssms_to_json_colab.ipynb` in Google Colab.
+2. In Cell 1, upload the new `.sql` dump from SSMS.
+3. Run the cells in order. Cell 3 runs quick checks and stops if the base is incomplete.
+4. In Cell 5, upload the current `index.html` (light or standalone, either works). The notebook recreates both versions from the same `data.json`.
+5. In Cell 6, download the 3 updated files: `data.json`, `index.html`, and `index-standalone.html`.
+6. Upload the 3 files to the repository root, replacing the old ones.
+
+Notes:
+- The 2 HTML versions have exactly the same data, charts, filters, and visual. The only difference is where the data lives: in the light version, in `data.json` next to it; in the standalone version, embedded inside the HTML.
+- If you update `index.html` but forget to update `data.json`, the light version will keep showing the old data. The standalone version does not have this problem, because it already carries its data inside.
+- If the light version is opened with double-click (`file://`), it shows a warning because the browser blocks `fetch()`. In that case, use `index-standalone.html`, or open the light version with a server / GitHub Pages, with `data.json` in the same folder. As a last resort, the warning box lets you select `data.json` manually.
 
 ## Assumptions and Limitations
 
