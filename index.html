@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<!-- Sales Data Warehouse | Dados em data.json | Para atualizar: rode sql_to_json.py no dump SSMS — ele regenera data.json E embute uma cópia dos dados neste HTML. O HTML usa os dados embutidos (funciona com dois cliques / preview) e, quando servido por HTTP, tenta fetch('data.json') para usar o JSON mais novo. -->
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Relatório de vendas</title>
+<style>*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,Arial;background:#0f172a;color:#e2e8f0}
+a{color:#7dd3fc}header{padding:36px 24px 18px;max-width:1180px;margin:auto}h1{margin:0;font-size:32px}h1 span{color:#38bdf8}.sub{color:#94a3b8;margin-top:8px;line-height:1.5}
+.badge{display:inline-block;background:#1e293b;border:1px solid #334155;padding:6px 10px;border-radius:999px;font-size:12px;margin:14px 6px 0 0}
+main{max-width:1180px;margin:auto;padding:10px 24px 50px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px}
+.card{background:#1e293b;border:1px solid #334155;border-radius:16px;padding:18px;min-width:0}.card small{color:#94a3b8}.card b{font-size:clamp(20px,4vw,26px);display:block;margin-top:6px;line-height:1.1;overflow-wrap:anywhere}
+.card-hero{background:linear-gradient(135deg,#0369a1,#0ea5e9);border:1px solid #38bdf8;border-radius:16px;padding:22px;margin-bottom:14px}.card-hero small{display:block;color:#e0f2fe;font-size:14px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-bottom:12px}.card-hero b{font-size:clamp(28px,6vw,44px);color:#fff;white-space:nowrap}.card-hero b .cents{font-size:.55em;opacity:.85}.card-hero .hero-sub{color:#e0f2fe;font-size:14px;margin-top:10px;line-height:1.5}
+.blue-panel{background:linear-gradient(135deg,#0369a1,#0ea5e9)!important;color:#fff;border-color:#38bdf8}.blue-panel h2{color:#fff}.blue-panel p{color:#fff!important}.blue-panel .bar span{color:#fff;font-weight:600}.blue-panel .bar b{font-weight:700}.blue-panel .bar small{color:#fff;opacity:1}.blue-panel table{color:#fff}.blue-panel th{color:#fff;border-bottom-color:rgba(255,255,255,.35)}.blue-panel td{color:#fff;border-bottom-color:rgba(255,255,255,.15)}.blue-panel .bar-track i{background:#fff!important}.blue-panel .bar b,.blue-panel .bar small{color:#fff}.blue-panel .cat-badge{background:rgba(255,255,255,.2);color:#fff}.blue-panel .bar-wrap i{background:#fff!important}.blue-panel a{color:#fff;font-weight:600}.blue-panel code{background:rgba(255,255,255,.22);color:#fff}.blue-panel input,.blue-panel select{background:#fff!important;color:#0f172a!important;border-color:#fff!important}.blue-panel select option{background:#fff;color:#0f172a}.blue-panel label{color:#e0f2fe}.blue-panel #prodToggle{background:rgba(255,255,255,.15)!important;color:#fff!important;border-color:rgba(255,255,255,.4)!important}
+
+/* --- Interatividade: hover / toque (não vale para as seções técnicas de baixo) --- */
+#chartTooltip{position:fixed;z-index:99;pointer-events:none;background:#0f172a;color:#fff;border:1px solid #38bdf8;border-radius:12px;padding:10px 12px;font-size:13px;line-height:1.45;box-shadow:0 12px 30px rgba(0,0,0,.35);opacity:0;transform:translateY(4px);transition:opacity .12s,transform .12s;max-width:240px}
+#chartTooltip.show{opacity:1;transform:translateY(0)}
+#chartTooltip b{font-size:15px}
+#chartTooltip .tt-sub{color:#bae6fd}
+.card,.card-hero{transition:transform .15s,box-shadow .15s,border-color .15s;cursor:pointer}
+.card:hover,.card-hero:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.28);border-color:#38bdf8}
+.card.is-active,.card-hero.is-active{outline:2px solid #38bdf8;box-shadow:0 10px 24px rgba(56,189,248,.35)}
+.bar{transition:transform .15s,background .15s,box-shadow .15s;border-radius:12px;padding:10px 12px;margin:0 -12px;cursor:pointer}
+.bar:hover,.bar.is-active{background:rgba(255,255,255,.14);transform:translateX(4px);box-shadow:0 6px 18px rgba(0,0,0,.18)}
+.bar:hover .bar-track i,.bar.is-active .bar-track i{filter:brightness(1.15)}
+.bar .bar-track i{transition:width .3s,filter .15s}
+table tbody tr{transition:background .12s;cursor:pointer}
+table tbody tr:hover{background:rgba(56,189,248,.18)!important}
+table tbody tr.is-active{background:rgba(56,189,248,.32)!important;outline:1px solid #38bdf8}
+.chart-point{cursor:pointer;transition:r .15s,opacity .15s}
+.chart-point:hover,.chart-point.is-active{r:9;stroke-width:3}
+.chart-bar{cursor:pointer;transition:opacity .15s,filter .15s}
+.chart-bar:hover,.chart-bar.is-active{opacity:1!important;filter:brightness(1.2)}
+.chart-bar.dim{opacity:.35}
+.bar.dim,.card.dim{opacity:.45}
+@media(max-width:700px){#chartTooltip{max-width:200px;font-size:12px}}
+.no-interactive .card,.no-interactive .bar,.no-interactive table tbody tr{cursor:default;transform:none!important;box-shadow:none!important}
+.no-interactive table tbody tr:hover{background:transparent!important}
+@media(max-width:700px){header{padding:22px 16px 12px}header h1{font-size:24px}main{padding:6px 14px 36px}.grid{grid-template-columns:1fr 1fr;gap:10px}.card{padding:14px}.card-hero{margin-bottom:12px}.panel{padding:14px;overflow-x:auto}table{min-width:520px}.prod-controls{flex-direction:column}.prod-controls input,.prod-controls select,.prod-controls button{width:100%}}
+section{margin-top:26px}.panel{background:#fff;color:#111827;border-radius:16px;padding:20px}
+table{width:100%;border-collapse:collapse;font-size:14px}th{text-align:left;border-bottom:2px solid #e5e7eb;padding:8px}td{padding:8px;border-bottom:1px solid #f3f4f6}
+.bar{display:block;margin:14px 0}.bar-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px}.bar-top span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.bar-track{height:14px;background:rgba(255,255,255,.22);border-radius:999px;overflow:hidden;margin-top:6px}.bar-track i{display:block;height:100%;background:#fff;border-radius:999px;min-width:8px}.bar small{display:block;margin-top:4px;opacity:.9}
+#chart{width:1100px;max-width:none;height:240px;display:block}.chart-wrap{display:flex;align-items:stretch}.chart-y{flex:0 0 68px}.chart-y svg{width:68px;max-width:none;height:240px;display:block}.chart-legend th.sortable{cursor:pointer;white-space:nowrap;user-select:none}.chart-legend th.sortable:hover{color:#fff;text-decoration:underline}.chart-legend th.sortable .arrow{font-size:10px;margin-left:4px}.chart-scroll{flex:1;overflow-x:auto;padding-bottom:6px;-webkit-overflow-scrolling:touch}.rel-scroll{overflow-x:visible;padding-bottom:6px}.rel-scroll #byRelativeHour{width:100%;max-width:100%}.rel-scroll #byRelativeHour svg{width:100% !important;max-width:100% !important;height:auto !important;display:block}.chart-scroll #chart{width:1100px;max-width:none;height:240px;display:block}.chart-wrap{align-items:flex-start}.chart-wrap .chart-y{display:flex}.chart-wrap .chart-y svg{height:240px;width:68px;display:block}@media (max-width:700px){.chart-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}.chart-scroll #chart{width:1100px;min-width:1100px;height:240px}.rel-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}.rel-scroll #byRelativeHour{width:900px;max-width:none}.rel-scroll #byRelativeHour svg{width:900px !important;max-width:none !important}}.pipeline{display:flex;gap:10px;flex-wrap:wrap}.pipeline div{flex:1;min-width:180px;border-radius:14px;padding:16px}.bronze{background:#78350f}.silver{background:#475569}.gold{background:#a16207}
+input,select{padding:10px;border-radius:10px;border:1px solid #cbd5e1;background:#fff;color:#0f172a;width:100%}input::placeholder{color:#64748b}select option{background:#fff;color:#0f172a}.filters label{color:#e2e8f0}.filters{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}@media(max-width:700px){.filters{grid-template-columns:1fr}}
+
+.prod-controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}.mini-stat{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);padding:6px 12px;border-radius:999px;font-size:13px;font-weight:600;color:#fff;margin:0 0 12px}.mini-stat b{font-size:15px}.pay-toggle{display:flex;gap:8px;flex-wrap:wrap}.pay-toggle button{padding:10px 16px;border-radius:999px;border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.12);color:#fff;cursor:pointer;font-weight:600}.pay-toggle button.active{background:#fff;color:#0f172a;border-color:#fff}.prod-controls input,.prod-controls select{width:auto;flex:1;min-width:160px}
+.chart-legend{margin-top:14px}.chart-legend td:first-child{white-space:nowrap}.chart-legend td:first-child{white-space:nowrap;font-weight:600}.chart-legend td,.chart-legend th{padding:6px 8px}.chart-legend .num{text-align:right}
+.prod-table td:first-child{width:44px;text-align:center;color:#fff;font-weight:700}.blue-panel .prod-table td:first-child{color:#fff}.prod-table td:nth-child(2){font-weight:600}
+.cat-badge{display:inline-block;background:#e0f2fe;color:#075985;border-radius:999px;padding:2px 10px;font-size:12px;white-space:nowrap}
+.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}.prod-table th.num{text-align:right}
+.bar-wrap{height:10px;background:rgba(255,255,255,.22);border-radius:999px;overflow:hidden}.bar-wrap i{display:block;height:100%;background:#fff;border-radius:999px;min-width:6px}
+.pipeline code{background:rgba(255,255,255,.25);color:#fff}.note code{background:rgba(146,64,14,.12);color:#7c2d12}code{background:#0f172a;color:#7dd3fc;padding:2px 6px;border-radius:6px}.note{background:#fef3c7;color:#92400e;border-radius:12px;padding:14px 16px}</style></head>
+<body><header><h1>Relatório de vendas</h1>
+<div class="sub"><div id="eventosInfo">18 eventos entre janeiro e maio de 2026</div></div>
+<div><span class="badge" id="updated"></span></div></header>
+<main><div id="chartTooltip" role="tooltip"></div>
+
+<section class="panel" id="loadBox" style="display:none;border:2px solid #f59e0b">
+<h2>Não consegui carregar o data.json automaticamente</h2>
+<p id="loadBoxLightHint" style="display:none;background:#fef3c7;color:#92400e;border-radius:10px;padding:10px 12px"><b>Você abriu a versão leve (<code>index.html</code>).</b> Ela não funciona com dois cliques, porque ela busca o <code>data.json</code> com <code>fetch()</code> e o navegador bloqueia isso em <code>file://</code>. Para abrir com dois cliques, use o <code>index_standalone.html</code> (1 arquivo só, já com os dados dentro). Para usar esta versão leve, abra com servidor / GitHub Pages, com o <code>data.json</code> na mesma pasta.</p>
+<p>Isso acontece quando você abre o <code>index.html</code> com dois cliques (protocolo <code>file://</code>) — o navegador bloqueia o <code>fetch('data.json')</code> por segurança. <b>Os dados existem, o problema é só como o arquivo foi aberto.</b></p>
+<p>Se você está vendo esta caixa, nem os dados embutidos nem o <code>data.json</code> carregaram. Último recurso: selecione o <code>data.json</code> abaixo:</p>
+<p><input type="file" id="filePicker" accept=".json,application/json" style="background:#fff;color:#111"></p>
+<p><b>Opção 2 — abrir com servidor local:</b> na pasta dos arquivos, rode <code>python -m http.server 8000</code> e abra <code>http://localhost:8000</code></p>
+<p><b>Opção 3 — GitHub Pages:</b> suba <code>index.html</code> + <code>data.json</code> juntos para o mesmo repositório/pasta que o site passa a funcionar.</p>
+<p id="loadErrorDetail" style="color:#b91c1c"></p>
+</section>
+<div id="hero"></div><div class="grid" id="kpis"></div>
+<section class="panel blue-panel"><h2>Receita por evento / data</h2><div class="chart-wrap"><div class="chart-y"><svg id="chartY" viewBox="0 0 68 240" width="68" height="240" style="background:rgba(255,255,255,.12);border-radius:12px 0 0 12px;display:block"></svg></div><div id="chartScroll" class="chart-scroll"><svg id="chart" viewBox="0 0 1100 240" width="1100" height="240" style="background:rgba(255,255,255,.12);border-radius:0 12px 12px 0;display:block"></svg></div></div>
+<p style="color:#fff;margin:8px 0 4px">Cada ponto é um dia de evento. Clique no título de uma coluna para ordenar a tabela — o gráfico continua em ordem de data.</p>
+<table class="chart-legend"><thead><tr><th class="sortable" data-sort="date">Data <span class="arrow">▲</span></th><th class="sortable" data-sort="start">Início <span class="arrow"></span></th><th class="sortable num" data-sort="revenue">Receita <span class="arrow"></span></th><th class="sortable num" data-sort="orders">Pedidos <span class="arrow"></span></th><th class="sortable num" data-sort="items">Itens <span class="arrow"></span></th><th class="sortable num" data-sort="share">% da receita <span class="arrow"></span></th><th class="sortable" data-sort="revenue" style="width:30%">Participação <span class="arrow"></span></th></tr></thead><tbody id="chartNote"></tbody></table></section>
+
+<section class="panel blue-panel"><h2>Produtos — ranking por receita</h2>
+<div class="mini-stat" id="prodMiniStat"></div>
+<div class="prod-controls">
+<input id="prodSearch" placeholder="Buscar produto... Ex: Petra, Vinho, Crepe francês">
+<select id="prodSort"><option value="revenue">Ordenar: maior receita</option><option value="quantity">Ordenar: maior quantidade</option><option value="name">Ordenar: nome A–Z</option><option value="category">Ordenar: categoria, depois receita</option></select>
+<select id="prodCat"><option value="">Todas as categorias</option></select>
+<select id="prodComercio" title="Filtrar por comércio"><option value="">Todos os comércios</option></select>
+<select class="event-filter" id="fEventProd" title="Filtrar por evento / data"><option value="">Todos os eventos</option></select>
+<button id="prodToggle" style="padding:10px 16px;border-radius:10px;border:1px solid #334155;background:#0f172a;color:#fff;cursor:pointer">Ver todos os 71</button>
+</div>
+<table class="prod-table"><thead><tr><th>#</th><th>Produto</th><th>Categoria</th><th class="num">Qtd</th><th class="num">Receita</th><th class="num">% da receita</th><th style="width:28%">Participação</th></tr></thead><tbody id="byProduct"></tbody></table>
+<p id="prodCount" style="color:#fff"></p></section>
+<section class="panel blue-panel"><h2>Pedidos por tempo relativo ao início do evento</h2><p style="color:#fff;margin:-6px 0 10px">Cada barra é 1 hora. <b>−1h</b> = de 1h antes até o início • <b>0h</b> = primeira hora do evento • <b>+1h</b> = segunda hora do evento. Todos os 18 eventos somados, alinhados pelo início de cada um — não pela hora do relógio.</p><div class="prod-controls"><select id="relComercio" title="Filtrar por comércio"><option value="">Todos os comércios</option></select></div><div class="rel-scroll"><div id="byRelativeHour"></div></div><p id="relHourNote" style="color:#fff;margin:10px 0 0"></p></section>
+<section class="panel blue-panel"><h2>Vendas por categoria</h2><div class="prod-controls"><select class="event-filter" id="fEventCat" title="Filtrar por evento / data"><option value="">Todos os eventos</option></select></div><div id="byCategory"></div></section>
+<section class="panel blue-panel"><h2>Pagamentos</h2><div class="mini-stat" id="payMiniStat"></div><div class="prod-controls"><select class="event-filter" id="fEventPay" title="Filtrar por evento / data"><option value="">Todos os eventos</option></select></div><div class="pay-toggle"><button id="payBtnMethod" class="active">Só método</button><button id="payBtnBrand">Método + bandeira</button></div><div id="byPayments"></div></section>
+<section class="panel blue-panel"><h2>Vendas por máquina</h2><div class="mini-stat" id="machineMiniStat"></div><div class="prod-controls"><select class="event-filter" id="fEventMachine" title="Filtrar por evento / data"><option value="">Todos os eventos</option></select></div><div id="byMachine"></div></section>
+<section class="panel blue-panel"><h2>Todos os itens</h2><p style="color:#e0f2fe;margin:0 0 10px">Filtros só desta tabela abaixo — não mudam os gráficos acima. Mostrando 50 por vez para não pesar.</p>
+<div class="filters"><div><label>Filtrar por evento / data</label><select id="fEvent"><option value="">Todos os eventos</option></select></div><div><label>Filtrar por categoria</label><select id="fCat"><option value="">Todas</option></select></div><div><label>Filtrar por produto</label><select id="fProduct"><option value="">Todos</option></select></div><div><label>Buscar pedido / produto</label><input id="fSearch" placeholder="Ex: 368375 ou Pipoca"></div></div><table><thead><tr><th>Pedido</th><th>Data</th><th>Hora</th><th>Produto</th><th>Qtd</th><th>Preço un.</th><th>Total item</th><th>Pagamento</th><th>Máquina</th></tr></thead><tbody id="rows"></tbody></table><div id="rowsPager" style="display:flex;align-items:center;gap:10px;margin-top:12px;flex-wrap:wrap"><button id="rowsPrev" style="padding:8px 14px;border-radius:10px;border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.15);color:#fff;cursor:pointer">← Anterior</button><span id="rowsInfo" style="color:#fff;font-weight:600"></span><button id="rowsNext" style="padding:8px 14px;border-radius:10px;border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.15);color:#fff;cursor:pointer">Próxima →</button></div></section>
+<div id="devolucoesNote" style="margin:4px 0 18px"></div>
+<section class="no-interactive"><h2>Modelo Gold</h2><div class="pipeline"><div class="bronze"><b>Bronze</b><p>Ingestão bruta dos CSVs, controle de carga e contagem de linhas.</p></div><div class="silver"><b>Silver</b><p>Tipagem, padronização, rastreabilidade e carga incremental por arquivo.</p></div><div class="gold"><b>Gold</b><p><code>dim_evento</code> • <code>dim_maquinas</code> • <code>dim_produtos</code> • <code>fact_vendas</code> • <code>fact_pagamentos</code></p></div></div></section>
+<section class="panel blue-panel no-interactive"><h2>Privacidade &amp; como atualizar</h2><div class="note"><b>Removido do site de propósito:</b> <code>identificacao_comprador</code>, <code>ultimos_digitos_cartao</code> e <code>codigo_serie</code>. O site mostra só agregados + vendas sem identificadores.</div><p><b>Como atualizar quando chegarem dados novos?</b> O site guarda os dados em 2 lugares iguais: no arquivo <code>data.json</code> e numa cópia dentro deste <code>index.html</code>. Para não ficar com 2 versões diferentes, atualize os 2 juntos.</p><ol><li><b>Passo 1 — Gere o dump novo.</b> No SSMS, gere um novo dump da Gold (<code>Tasks &gt; Generate Scripts</code>) com as 5 tabelas: <code>dim_evento, dim_maquinas, dim_produtos, fact_vendas, fact_pagamentos</code>. Salve como <code>script.sql</code>.</li><li><b>Passo 2 — Rode o programa que atualiza os 2 lugares.</b> Você tem 2 jeitos, o resultado é o mesmo:<br><br><b>Jeito A — no terminal:</b> na pasta onde estão os arquivos, rode:<br><code>python sql_to_json.py script.sql -o data.json --html index.html</code><br><br><b>Jeito B — no Colab (sem terminal):</b> suba os 3 arquivos (<code>script.sql</code>, <code>sql_to_json.py</code> e <code>index.html</code>) para o Colab, rode numa célula:<br><code>!python sql_to_json.py script.sql -o data.json --html index.html</code><br>e baixe de volta os 2 arquivos atualizados: <code>data.json</code> e <code>index.html</code>.</li><li><b>Passo 3 — Por que 2 lugares?</b> No GitHub Pages, o site lê o <code>data.json</code>. Abrindo com dois cliques, o navegador bloqueia essa leitura, então o site lê a cópia que está dentro do <code>index.html</code>. Se atualizar só um, um jeito de abrir vai mostrar dados novos e o outro, dados velhos.</li><li><b>O que o programa faz sozinho:</b> lê o <code>script.sql</code>, tira os campos sensíveis, cria o <code>data.json</code> novo e troca a cópia dentro do <code>index.html</code>. Você não precisa copiar e colar nada à mão.</li></ol><p>Repositório: <a href="https://github.com/guilhermefrrr/sales-data-warehouse" target="_blank" rel="noopener">github.com/guilhermefrrr/sales-data-warehouse</a></p></section>
+</main>
+<!-- EMBEDDED-DATA-START: cópia de data.json gerada por sql_to_json.py. Não edite à mão — regenere. -->
+<!-- Dados carregados de data.json (versão web, sem cópia embutida para ficar leve) -->
+<!-- EMBEDDED-DATA-END -->
+<script>
+let DATA=null;const fmtDate=s=>{if(!s) return '—'; const m=String(s).match(/^(\d{4})-(\d{2})-(\d{2})/); return m?`${m[3]}/${m[2]}/${m[1].slice(2)}`:String(s);};const fmtDateShort=s=>{if(!s) return '—'; const m=String(s).match(/^(\d{4})-(\d{2})-(\d{2})/); return m?`${m[3]}/${m[2]}/${m[1].slice(2)}`:String(s);};const fmtDateX=s=>{if(!s) return '—'; const m=String(s).match(/^(\d{4})-(\d{2})-(\d{2})/); return m?`${parseInt(m[3],10)}/${parseInt(m[2],10)}`:String(s);};
+const brl=v=>(v||0).toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
+// Busca tolerante a nomes de chave (igual ao padrão do Brasil Olímpico):
+// aceita o nome atual ou apelidos antigos, sem quebrar se o JSON mudar.
+function pick(obj, names){ for(const n of names){ if(obj && obj[n]!==undefined && obj[n]!==null && obj[n]!=='') return obj[n]; } return undefined; }
+function norm(d){
+  // Normaliza o JSON para os nomes que o resto do código espera.
+  return {
+    meta: pick(d,['meta','metadata','info'])||{},
+    kpis: pick(d,['kpis','indicadores','resumo'])||{},
+    sales_by_date: pick(d,['sales_by_date','by_date','vendas_por_data'])||[],
+    sales_by_product: pick(d,['sales_by_product','by_product','vendas_por_produto'])||[],
+    sales_by_category: pick(d,['sales_by_category','by_category','vendas_por_categoria'])||[],
+    sales_by_machine: pick(d,['sales_by_machine','by_machine','vendas_por_maquina'])||[],
+    sales_by_payment: pick(d,['sales_by_payment','by_payment','vendas_por_pagamento'])||[],
+    sales_by_payment_method: pick(d,['sales_by_payment_method','by_payment_method','pagamentos_por_metodo'])||[],
+    sales_by_hour: pick(d,['sales_by_hour','by_hour','vendas_por_hora'])||[],
+    sales_by_relative_hour: pick(d,['sales_by_relative_hour','by_relative_hour','pedidos_por_hora_relativa'])||[],
+    events: pick(d,['events','eventos'])||[],
+    fact_sales_sample: pick(d,['fact_sales_sample','sample','amostra'])||[],
+    fact_sales_all: pick(d,['fact_sales_all','fact_vendas','todos_itens'])||[],
+    by_event: pick(d,['by_event','por_evento'])||{},
+    by_comercio: pick(d,['by_comercio','por_comercio'])||{},
+    sales_by_comercio: pick(d,['sales_by_comercio','by_comercio_list','vendas_por_comercio'])||[],
+  };
+}
+async function load(){
+  // 1) Dados embutidos: funcionam com dois cliques, file:// e preview — sem fetch, sem upload.
+  const el=document.getElementById('embedded-data');
+  if(el){ try{ DATA=norm(JSON.parse(el.textContent)); renderAll(); }catch(e){ console.warn('Dados embutidos inválidos', e); } }
+  // 2) Se houver servidor (GitHub Pages / localhost), tenta o data.json mais novo e re-renderiza.
+  // Se o fetch falhar (file://), simplesmente mantém os dados embutidos.
+  try{
+    const r=await fetch('data.json');
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const fresh=norm(await r.json());
+    if(JSON.stringify(fresh)!==JSON.stringify(DATA)){ DATA=fresh; renderAll(); document.getElementById('loadBox').style.display='none'; }
+    return;
+  }catch(e){
+    if(!DATA){ document.getElementById('loadBox').style.display='block'; const _lh=document.getElementById('loadBoxLightHint'); if(_lh && !document.getElementById('embedded-data')) _lh.style.display='block';
+    document.getElementById('loadErrorDetail').textContent='Detalhe técnico: '+e.message; }
+    document.getElementById('filePicker').addEventListener('change', async ev=>{
+      try{ const txt=await ev.target.files[0].text(); DATA=norm(JSON.parse(txt));
+        document.getElementById('loadBox').style.display='none'; renderAll();
+      }catch(err){ document.getElementById('loadErrorDetail').textContent='Não consegui ler esse JSON: '+err.message; }
+    });
+    return;
+  }
+  renderAll();}
+window._eventFilter='';
+window._prodComercio='';window._relComercio='';
+function comercioOptions(){const list=(DATA.sales_by_comercio||[]).map(x=>x.comercio);const keys=list.length?list:Object.keys(DATA.by_comercio||{});return '<option value="">Todos os comércios</option>'+keys.map(c=>`<option value="${c}">${c}</option>`).join('');}
+function initComercioFilters(){
+  const pc=document.getElementById('prodComercio');if(pc)pc.innerHTML=comercioOptions();
+  const rc=document.getElementById('relComercio');if(rc)rc.innerHTML=comercioOptions();
+  if(pc)pc.value=window._prodComercio||'';if(rc)rc.value=window._relComercio||'';
+  if(!window.__comercioListeners){window.__comercioListeners=true;
+    if(pc)pc.addEventListener('change',()=>{window._prodComercio=pc.value;renderProducts();});
+    if(rc)rc.addEventListener('change',()=>{window._relComercio=rc.value;drawRelativeHourChart();});
+  }
+}
+function aggregateProductsFromAll(rows){
+  const m=new Map();
+  for(const r of rows){
+    const k=r.produto||'Desconhecido';
+    if(!m.has(k))m.set(k,{product:k,category:r.categoria||'',revenue:0,quantity:0,orders:new Set()});
+    const a=m.get(k);a.revenue+=Number(r.total_produto||0);a.quantity+=Number(r.quantidade||0);a.orders.add(r.numero_pedido);
+  }
+  return [...m.values()].map(x=>({product:x.product,category:x.category,revenue:Math.round(x.revenue*100)/100,quantity:x.quantity,orders:x.orders.size}));
+}
+function eventData(){return (window._eventFilter && DATA.by_event && DATA.by_event[window._eventFilter]) ? DATA.by_event[window._eventFilter] : null;}
+function filteredList(totalKey, eventKey){const ev=eventData();return ev ? (ev[eventKey]||[]) : (DATA[totalKey]||[]);}
+function initEventFilters(){
+  const opts='<option value="">Todos os eventos</option>'+(DATA.events||[]).map(e=>`<option value="${e.date}">${fmtDate(e.date)} — ${e.tipo_evento} (${brl(e.revenue)})</option>`).join('');
+  document.querySelectorAll('.event-filter').forEach(sel=>{const cur=sel.value;sel.innerHTML=opts;sel.value=window._eventFilter||cur||'';});
+  if(!window.__eventListeners){window.__eventListeners=true;document.querySelectorAll('.event-filter').forEach(sel=>sel.addEventListener('change',()=>{window._eventFilter=sel.value;document.querySelectorAll('.event-filter').forEach(s=>s.value=window._eventFilter);renderProducts();renderEventCharts();}));const bm=document.getElementById('payBtnMethod'),bb=document.getElementById('payBtnBrand');if(bm)bm.addEventListener('click',()=>{window._payView='method';renderPayments();});if(bb)bb.addEventListener('click',()=>{window._payView='brand';renderPayments();});}
+}
+window._payView='method';
+function renderPayments(){
+  const btnM=document.getElementById('payBtnMethod'),btnB=document.getElementById('payBtnBrand');
+  if(btnM)btnM.classList.toggle('active',window._payView==='method');
+  if(btnB)btnB.classList.toggle('active',window._payView==='brand');
+  if(window._payView==='brand'){renderBars('byPayments',filteredList('sales_by_payment','sales_by_payment').slice(0,15),'method','revenue',r=>r.method+' • '+r.brand);}
+  else{renderBars('byPayments',filteredList('sales_by_payment_method','sales_by_payment_method'),'method','revenue');}
+}
+function renderEventCharts(){
+  renderBars('byCategory',filteredList('sales_by_category','sales_by_category'),'category','revenue');
+  renderPayments();
+  renderBars('byMachine',filteredList('sales_by_machine','sales_by_machine').slice(0,15),'machine','revenue');
+}
+
+function setupInteractivity(){
+  if(window.__interSetup) return; window.__interSetup=true;
+  const tip=document.getElementById('chartTooltip');
+  function showTip(el,x,y){
+    if(!tip||!el) return;
+    tip.innerHTML=`<b>${el.dataset.date||el.dataset.label||''}</b><br><span class="tt-sub">${el.dataset.rev?('Receita: '+el.dataset.rev):''}${el.dataset.orders?('<br>Pedidos: '+Number(el.dataset.orders).toLocaleString('pt-BR')):''}${el.dataset.items?('<br>Itens: '+Number(el.dataset.items).toLocaleString('pt-BR')):''}${el.dataset.share?('<br>Participação: '+el.dataset.share+'%'):''}</span>`;
+    const pad=12,w=tip.offsetWidth||220,hh=tip.offsetHeight||90;
+    let lx=Math.min(x+pad, window.innerWidth-w-8), ly=Math.min(y+pad, window.innerHeight-hh-8);
+    if(lx<8) lx=8; if(ly<8) ly=8;
+    tip.style.left=lx+'px'; tip.style.top=ly+'px'; tip.classList.add('show');
+  }
+  function hideTip(){ if(tip) tip.classList.remove('show'); }
+  // Tooltip + destaque no gráfico de linhas (mouse e toque)
+  document.addEventListener('pointerover',e=>{
+    const pt=e.target.closest('.chart-point, .chart-point-hit');
+    if(pt){
+      const idx=pt.dataset.idx;
+      document.querySelectorAll('.chart-point').forEach(c=>c.classList.toggle('is-active', c.dataset.idx===idx));
+      showTip(document.querySelector('.chart-point[data-idx="'+idx+'"]'), e.clientX, e.clientY);
+      return;
+    }
+    const bar=e.target.closest('.chart-bar');
+    if(bar){
+      document.querySelectorAll('.chart-bar').forEach(b=>b.classList.toggle('dim', b!==bar));
+      // Tooltip da barra do gráfico de hora relativa
+      tip.innerHTML=`<b>${bar.dataset.label||''}</b><br><span class="tt-sub">Receita: ${bar.dataset.rev||''}<br>Pedidos: ${Number(bar.dataset.orders||0).toLocaleString('pt-BR')}<br>Itens: ${Number(bar.dataset.items||0).toLocaleString('pt-BR')}</span>`;
+      const pad=12,w=tip.offsetWidth||220,hh=tip.offsetHeight||90; let lx=Math.min(e.clientX+pad, window.innerWidth-w-8), ly=Math.min(e.clientY+pad, window.innerHeight-hh-8); if(lx<8) lx=8; if(ly<8) ly=8;
+      tip.style.left=lx+'px'; tip.style.top=ly+'px'; tip.classList.add('show');
+      return;
+    }
+    const b2=e.target.closest('.bar');
+    if(b2){
+      b2.classList.add('is-active');
+      const _lab=b2.querySelector('.bar-top span')?.textContent||'';
+      const _rev=b2.querySelector('.bar-top b')?.textContent||'';
+      const _sub=b2.querySelector('small')?.textContent?.trim()||'';
+      tip.innerHTML=`<b>${_lab}</b><br><span class="tt-sub">Receita: ${_rev}${_sub?('<br>'+_sub):''}</span>`;
+      const pad=12,w=tip.offsetWidth||220,hh=tip.offsetHeight||90; let lx=Math.min(e.clientX+pad, window.innerWidth-w-8), ly=Math.min(e.clientY+pad, window.innerHeight-hh-8); if(lx<8) lx=8; if(ly<8) ly=8;
+      tip.style.left=lx+'px'; tip.style.top=ly+'px'; tip.classList.add('show');
+    }
+  });
+  document.addEventListener('pointerout',e=>{
+    const pt=e.target.closest('.chart-point, .chart-point-hit');
+    if(pt && !e.relatedTarget?.closest?.('.chart-point, .chart-point-hit')){ document.querySelectorAll('.chart-point').forEach(c=>c.classList.remove('is-active')); hideTip(); }
+    const bar=e.target.closest('.chart-bar');
+    if(bar){ document.querySelectorAll('.chart-bar').forEach(b=>b.classList.remove('dim')); if(!e.relatedTarget?.closest?.('.chart-bar')) hideTip(); }
+    const b2=e.target.closest('.bar');
+    if(b2 && !e.relatedTarget?.closest?.('.bar')){ b2.classList.remove('is-active'); hideTip(); }
+  });
+  document.addEventListener('pointermove',e=>{
+    const pt=e.target.closest('.chart-point, .chart-point-hit');
+    if(pt){ const idx=pt.dataset.idx; showTip(document.querySelector('.chart-point[data-idx="'+idx+'"]'), e.clientX, e.clientY); return; }
+    const _bar=e.target.closest('.chart-bar, .bar');
+    if(_bar && tip.classList.contains('show')){
+      const pad=12,w=tip.offsetWidth||220,hh=tip.offsetHeight||90; let lx=Math.min(e.clientX+pad, window.innerWidth-w-8), ly=Math.min(e.clientY+pad, window.innerHeight-hh-8); if(lx<8) lx=8; if(ly<8) ly=8;
+      tip.style.left=lx+'px'; tip.style.top=ly+'px';
+    }
+  });
+  // Clique / toque: fixa o destaque (mobile) e limpa ao clicar de novo
+  document.addEventListener('click',e=>{
+    if(e.target.closest('.no-interactive')) return;
+    const pt=e.target.closest('.chart-point, .chart-point-hit');
+    if(pt){
+      const idx=pt.dataset.idx;
+      const was=document.querySelector('.chart-point[data-idx="'+idx+'"]')?.classList.contains('is-active');
+      document.querySelectorAll('.chart-point').forEach(c=>c.classList.remove('is-active'));
+      if(!was){ document.querySelector('.chart-point[data-idx="'+idx+'"]')?.classList.add('is-active'); showTip(document.querySelector('.chart-point[data-idx="'+idx+'"]'), e.clientX, e.clientY); }
+      else hideTip();
+      return;
+    }
+    const row=e.target.closest('table tbody tr');
+    if(row){ row.classList.toggle('is-active'); return; }
+    const bar=e.target.closest('.bar');
+    if(bar){ document.querySelectorAll('.bar').forEach(b=>{ if(b!==bar) b.classList.remove('is-active'); }); const _was=bar.classList.contains('is-active'); bar.classList.toggle('is-active'); if(!_was){ const _lab=bar.querySelector('.bar-top span')?.textContent||''; const _rev=bar.querySelector('.bar-top b')?.textContent||''; const _sub=bar.querySelector('small')?.textContent?.trim()||''; tip.innerHTML=`<b>${_lab}</b><br><span class="tt-sub">Receita: ${_rev}${_sub?('<br>'+_sub):''}</span>`; const pad=12,w=tip.offsetWidth||220,hh=tip.offsetHeight||90; let lx=Math.min(e.clientX+pad, window.innerWidth-w-8), ly=Math.min(e.clientY+pad, window.innerHeight-hh-8); if(lx<8) lx=8; if(ly<8) ly=8; tip.style.left=lx+'px'; tip.style.top=ly+'px'; tip.classList.add('show'); } else hideTip(); return; }
+    const cbar=e.target.closest('.chart-bar');
+    if(cbar){ const _was=cbar.classList.contains('is-active'); document.querySelectorAll('.chart-bar').forEach(b=>b.classList.remove('is-active')); if(!_was){ cbar.classList.add('is-active'); tip.innerHTML=`<b>${cbar.dataset.label||''}</b><br><span class="tt-sub">Receita: ${cbar.dataset.rev||''}<br>Pedidos: ${Number(cbar.dataset.orders||0).toLocaleString('pt-BR')}<br>Itens: ${Number(cbar.dataset.items||0).toLocaleString('pt-BR')}</span>`; const pad=12,w=tip.offsetWidth||220,hh=tip.offsetHeight||90; let lx=Math.min(e.clientX+pad, window.innerWidth-w-8), ly=Math.min(e.clientY+pad, window.innerHeight-hh-8); if(lx<8) lx=8; if(ly<8) ly=8; tip.style.left=lx+'px'; tip.style.top=ly+'px'; tip.classList.add('show'); } else hideTip(); return; }
+    const card=e.target.closest('.card, .card-hero');
+    if(card){ document.querySelectorAll('.card, .card-hero').forEach(c=>{ if(c!==card) c.classList.remove('is-active'); }); card.classList.toggle('is-active'); return; }
+    // Clicou fora: limpa destaques
+    if(!e.target.closest('#chartTooltip')){ document.querySelectorAll('.is-active').forEach(el=>el.classList.remove('is-active')); hideTip(); }
+  });
+}
+
+function renderAll(){
+document.getElementById('updated').textContent='Atualizado: '+(DATA.meta?.last_updated||'—');
+const k=DATA.kpis;const rest=[['Pedidos',k.total_orders],['Itens vendidos',k.total_items],['Ticket médio',brl(k.avg_ticket)],['Eventos',k.events_count]];
+const _rev=brl(k.total_revenue).split(',');const _revMain=_rev[0];const _revCents=_rev[1]?','+_rev[1]:'';
+{const _evs=DATA.events||[];const _ei=document.getElementById('eventosInfo');if(_ei&&_evs.length){const _ds=_evs.map(e=>e.date).sort();const _mes=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];const _f=d=>{const pp=String(d).split('-');return {m:_mes[parseInt(pp[1],10)-1],a:pp[0]};};const _a=_f(_ds[0]),_b=_f(_ds[_ds.length-1]);_ei.textContent=`${_evs.length} evento${_evs.length>1?'s':''} entre ${_a.m} e ${_b.m} de ${_b.a}`;}}
+document.getElementById('hero').innerHTML=`<div class="card-hero"><small>Receita total</small><b>${_revMain}<span class="cents">${_revCents}</span></b></div>`;
+document.getElementById('kpis').innerHTML=rest.map(x=>`<div class="card"><small>${x[0]}</small><b>${x[1]}</b></div>`).join('');
+const _pm=document.getElementById('payMiniStat');if(_pm)_pm.innerHTML=`<b>${k.payment_records.toLocaleString('pt-BR')}</b> registros de pagamento`;
+const _dn=document.getElementById('devolucoesNote');if(_dn){const _nc=k.canceladas_count||0,_nd=k.devolucoes_count||0;const _exC=k.canceladas_exemplo,_exD=k.devolucoes_exemplo;const _par=_exC&&_exD?` (pedido ${_exC} → ${_exD})`:'';_dn.innerHTML=(_nc>0||_nd>0)?`<div class="note" style="background:#fef3c7;color:#92400e;border-radius:12px;padding:14px 16px"><b>Canceladas e devoluções — excluídas da receita</b><br>${_nc===1&&_nd===1?`${_nc} pedido com ${k.canceladas_itens||0} itens • ${brl(k.canceladas_valor||0)}`:`${_nc} cancelada${_nc>1?'s':''} • ${_nd} devolução${_nd>1?'ões':''} • ${brl(k.canceladas_valor||0)}`}<br><span>A devolução é o estorno do pedido cancelado${_par}. Elas se anulam e a receita total apresentada neste site já está líquida.</span></div>`:'';}
+const _pr=document.getElementById('prodMiniStat');if(_pr)_pr.innerHTML=`<b>${k.products_count.toLocaleString('pt-BR')}</b> produtos vendidos`;
+const _mc=document.getElementById('machineMiniStat');if(_mc)_mc.innerHTML=`<b>${k.active_machines.toLocaleString('pt-BR')}</b> máquinas com venda`;
+drawChart();initComercioFilters();drawRelativeHourChart();initProducts();initEventFilters();renderEventCharts();
+const _src=rowsSource();const cats=[...new Set(_src.map(r=>r.categoria))],prods=[...new Set(_src.map(r=>r.produto))];
+document.getElementById('fEvent').innerHTML='<option value="">Todos os eventos</option>'+(DATA.events||[]).map(e=>`<option value="${e.date}">${fmtDate(e.date)} — ${e.tipo_evento} (${brl(e.revenue)})</option>`).join('');
+document.getElementById('fCat').innerHTML='<option value="">Todas</option>'+cats.map(c=>`<option>${c}</option>`).join('');
+document.getElementById('fProduct').innerHTML='<option value="">Todos</option>'+prods.map(c=>`<option>${c}</option>`).join('');
+renderRows();if(!window.__listeners){window.__listeners=true;['fEvent','fCat','fProduct','fSearch'].forEach(id=>document.getElementById(id).addEventListener('input',()=>{_rowsPage=1;renderRows();}));document.getElementById('rowsPrev').addEventListener('click',()=>{_rowsPage--;renderRows();});document.getElementById('rowsNext').addEventListener('click',()=>{_rowsPage++;renderRows();});}}
+
+let prodShowAll=false;
+function renderProducts(){
+  const q=(document.getElementById('prodSearch').value||'').toLowerCase();
+  const sort=document.getElementById('prodSort').value;
+  const cat=document.getElementById('prodCat').value;
+  let arr;
+  if(window._prodComercio){
+    const src=rowsSource().filter(r=>(r.nome_comercio||'—')===window._prodComercio && (!window._eventFilter || r.date===window._eventFilter));
+    arr=aggregateProductsFromAll(src);
+  } else {
+    arr=[...filteredList('sales_by_product','sales_by_product')];
+  }
+  const total=arr.reduce((s,r)=>s+(r.revenue||0),0)||1;
+  if(cat) arr=arr.filter(r=>r.category===cat);
+  if(q) arr=arr.filter(r=>(r.product+' '+r.category).toLowerCase().includes(q));
+  if(sort==='revenue') arr.sort((a,b)=>b.revenue-a.revenue);
+  else if(sort==='quantity') arr.sort((a,b)=>b.quantity-a.quantity);
+  else if(sort==='name') arr.sort((a,b)=>a.product.localeCompare(b.product,'pt-BR'));
+  else if(sort==='category') arr.sort((a,b)=>a.category.localeCompare(b.category,'pt-BR')||b.revenue-a.revenue);
+  const shown=prodShowAll?arr:arr.slice(0,15);
+  document.getElementById('byProduct').innerHTML=shown.map((r,i)=>`<tr><td>${i+1}</td><td>${r.product}</td><td><span class="cat-badge">${r.category}</span></td><td class="num">${(r.quantity||0).toLocaleString('pt-BR')}</td><td class="num">${brl(r.revenue)}</td><td class="num">${((r.revenue/total)*100).toFixed(1).replace('.',',')}%</td><td><div class="bar-wrap"><i style="width:${Math.round((r.revenue/Math.max(...DATA.sales_by_product.map(x=>x.revenue),1))*100)}%"></i></div></td></tr>`).join('')||'<tr><td colspan="7">Nenhum produto com esse filtro.</td></tr>';
+  document.getElementById('prodCount').textContent=`Mostrando ${shown.length} de ${arr.length} produtos filtrados (total: ${DATA.sales_by_product.length}) • Receita total dos produtos: ${brl(total)}`;
+  document.getElementById('prodToggle').textContent=prodShowAll?'Mostrar só Top 15':'Ver todos os 71';
+}
+function initProducts(){
+  const cats=[...new Set(DATA.sales_by_product.map(r=>r.category))].sort((a,b)=>a.localeCompare(b,'pt-BR'));
+  document.getElementById('prodCat').innerHTML='<option value="">Todas as categorias</option>'+cats.map(c=>`<option>${c}</option>`).join('');
+  initComercioFilters();
+  if(!window.__prodListeners){window.__prodListeners=true;
+    ['prodSearch','prodSort','prodCat'].forEach(id=>document.getElementById(id).addEventListener('input',renderProducts));
+    document.getElementById('prodToggle').addEventListener('click',()=>{prodShowAll=!prodShowAll;renderProducts();});
+  }
+  renderProducts();
+}
+function renderBars(id,arr,k,v,fn){const max=Math.max(...arr.map(r=>r[v]||0),1);document.getElementById(id).innerHTML=arr.map(r=>`<div class="bar"><div class="bar-top"><span>${fn?fn(r):r[k]}</span><b>${brl(r[v])}</b></div><div class="bar-track"><i style="width:${Math.round((r[v]/max)*100)}%"></i></div><small>${r.quantity?r.quantity+' un.':''} ${r.orders?r.orders+' pedidos':''}</small></div>`).join('');}
+let _rowsPage=1;const _rowsPerPage=50;
+function rowsSource(){return (DATA.fact_sales_all && DATA.fact_sales_all.length) ? DATA.fact_sales_all : (DATA.fact_sales_sample||[]);}
+function renderRows(){const ev=document.getElementById('fEvent')?.value||'';const c=document.getElementById('fCat').value,p=document.getElementById('fProduct').value,s=(document.getElementById('fSearch').value||'').toLowerCase();const all=rowsSource().filter(r=>(!ev||r.date===ev)&&(!c||r.categoria===c)&&(!p||r.produto===p)&&(!s||(JSON.stringify(r)+' '+fmtDate(r.date)).toLowerCase().includes(s)));const totalPages=Math.max(1,Math.ceil(all.length/_rowsPerPage));if(_rowsPage>totalPages)_rowsPage=totalPages;if(_rowsPage<1)_rowsPage=1;const start=(_rowsPage-1)*_rowsPerPage;const page=all.slice(start,start+_rowsPerPage);document.getElementById('rows').innerHTML=page.map(r=>`<tr><td>${r.numero_pedido}</td><td>${fmtDate(r.date)}</td><td>${r.hora}</td><td>${r.produto}</td><td>${r.quantidade}</td><td>${brl(r.preco_unitario)}</td><td>${brl(r.total_produto)}</td><td>${r.metodo_pagamento}</td><td>${r.dispositivo_id}</td></tr>`).join('')||'<tr><td colspan="9">Nenhum registro com esse filtro.</td></tr>';const info=document.getElementById('rowsInfo');if(info)info.textContent=all.length?`Mostrando ${start+1}–${Math.min(start+page.length,all.length)} de ${all.length.toLocaleString('pt-BR')} itens • Página ${_rowsPage} de ${totalPages}`:`Nenhum registro com esse filtro.`;const prev=document.getElementById('rowsPrev'),next=document.getElementById('rowsNext');if(prev)prev.disabled=_rowsPage<=1;if(next)next.disabled=_rowsPage>=totalPages;if(prev)prev.style.opacity=_rowsPage<=1?'0.5':'1';if(next)next.style.opacity=_rowsPage>=totalPages?'0.5':'1';}
+function drawRelativeHourChart(){
+  const _relSrc=(window._relComercio && DATA.by_comercio && DATA.by_comercio[window._relComercio]) ? DATA.by_comercio[window._relComercio].sales_by_relative_hour : DATA.sales_by_relative_hour;
+  const arr=[...(_relSrc||[])].sort((a,b)=>a.relative_hour-b.relative_hour);
+  const box=document.getElementById('byRelativeHour');if(!box)return;
+  if(!arr.length){box.innerHTML='<p style="color:#fff">Sem dados de hora relativa. Regenere o data.json com o sql_to_json.py atualizado.</p>';return;}
+  const _relTotalForPct=(window._relComercio && DATA.by_comercio && DATA.by_comercio[window._relComercio]) ? DATA.by_comercio[window._relComercio].orders : DATA.kpis.total_orders;
+  const max=Math.max(...arr.map(r=>r.orders),1);
+  const niceMax=Math.ceil(max/500)*500; // teto arredondado: pico 2.291 -> 2.500
+  const W=900,H=312,top=54,bottom=52,left=74,right=12,plotH=H-top-bottom,plotW=W-left-right;
+  const bw=plotW/arr.length;
+  const Y=v=>top+plotH-(v/niceMax)*plotH;
+  let svg=`<svg viewBox="0 0 ${W} ${H}" width="100%" height="312" style="width:100%;max-width:100%;height:auto;display:block;background:rgba(255,255,255,.12);border-radius:12px">`;
+  // grade + eixo Y (pedidos, arredondado)
+  for(let g=0;g<=5;g++){const v=niceMax*g/5,y=Y(v);svg+=`<line x1="${left}" y1="${y}" x2="${W-right}" y2="${y}" stroke="rgba(255,255,255,.25)"/><text x="${left-8}" y="${y+4}" font-size="13" font-weight="700" fill="#ffffff" text-anchor="end">${v.toLocaleString('pt-BR')}</text>`;}
+  svg+=`<text x="12" y="14" font-size="12" font-weight="700" fill="#ffffff">Pedidos</text>`;
+  // colunas
+  arr.forEach((r,i)=>{const x=left+i*bw+bw*0.125,w=bw*0.75,y=Y(r.orders);const isPeak=r.orders===max;svg+=`<rect class="chart-bar" data-label="${r.label}" data-orders="${r.orders}" data-items="${r.items}" data-rev="${brl(r.revenue)}" x="${x}" y="${y}" width="${w}" height="${top+plotH-y}" rx="6" fill="${isPeak?'#ffffff':'rgba(255,255,255,.65)'}"><title>${r.label}: ${r.orders.toLocaleString('pt-BR')} pedidos • ${r.items.toLocaleString('pt-BR')} itens • ${brl(r.revenue)}</title></rect><text x="${x+w/2}" y="${y-28}" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">${r.orders.toLocaleString('pt-BR')}</text><text x="${x+w/2}" y="${y-10}" font-size="12" fill="#e0f2fe" text-anchor="middle">${((r.orders/_relTotalForPct)*100).toFixed(1).replace('.',',')}%</text><text x="${x+w/2}" y="${H-30}" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">${r.label.replace(' (início)','')}</text>`;});
+  // eixo X
+  svg+=`<line x1="${left}" y1="${top+plotH}" x2="${W-right}" y2="${top+plotH}" stroke="rgba(255,255,255,.5)"/><text x="${left+plotW/2}" y="${H-8}" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Tempo em relação ao início do evento (horas)</text>`;
+  svg+=`</svg>`;
+  box.innerHTML=svg;
+  const peak=arr.reduce((a,b)=>b.orders>a.orders?b:a);
+  const _relTotal=(window._relComercio && DATA.by_comercio && DATA.by_comercio[window._relComercio]) ? DATA.by_comercio[window._relComercio].orders : DATA.kpis.total_orders;
+  const _relPrefix=window._relComercio ? `Comércio: ${window._relComercio} • ` : '';
+  document.getElementById('relHourNote').textContent=`${_relPrefix}Pico: ${peak.label} com ${peak.orders.toLocaleString('pt-BR')} pedidos (${((peak.orders/_relTotal)*100).toFixed(1).replace('.',',')}% dos pedidos${window._relComercio?' desse comércio':''}).`;
+}
+function drawChart(){let arr=[...DATA.sales_by_date].sort((a,b)=>a.date.localeCompare(b.date));const _evMap=Object.fromEntries((DATA.events||[]).map(e=>[e.date,e.horario_inicio||'—']));arr=arr.map(r=>({...r,start:_evMap[r.date]||'—'}));const max=Math.max(...arr.map(r=>r.revenue),1);const total=arr.reduce((s,r)=>s+(r.revenue||0),0)||1;
+  const niceMax=Math.ceil(max/10000)*10000;
+  const fmtMil=v=>v===0?'R$ 0':'R$ '+Math.round(v/1000)+' mil';
+  const X=i=>20+i*(1060/Math.max(arr.length-1,1)), Y=v=>210-(v/niceMax)*170;
+  let ySvg='';for(let g=0;g<=4;g++){const y=210-g*42.5;ySvg+=`<text x="60" y="${y+3}" font-size="11" font-weight="700" fill="#ffffff" text-anchor="end">${fmtMil(niceMax*g/4)}</text>`;}ySvg+=`<line x1="67" y1="10" x2="67" y2="210" stroke="rgba(255,255,255,.4)" stroke-width="1"/>`;
+  document.getElementById('chartY').innerHTML=ySvg;
+  let svg='';for(let g=0;g<=4;g++){const y=210-g*42.5;svg+=`<line x1="0" y1="${y}" x2="1100" y2="${y}" stroke="rgba(255,255,255,.25)"/>`;}
+  const pts=arr.map((r,i)=>`${X(i)},${Y(r.revenue)}`).join(' ');
+  svg+=`<polyline points="${pts}" fill="none" stroke="#ffffff" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>`;
+  arr.forEach((r,i)=>{svg+=`<text x="${X(i)}" y="228" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">${fmtDateX(r.date)}</text>`;});
+  arr.forEach((r,i)=>{svg+=`<circle class="chart-point" data-idx="${i}" data-date="${fmtDate(r.date)}" data-rev="${brl(r.revenue)}" data-orders="${r.orders}" data-items="${r.items}" data-share="${((r.revenue/total)*100).toFixed(1).replace('.',',')}" cx="${X(i)}" cy="${Y(r.revenue)}" r="5" fill="#ffffff" stroke="#0369a1" stroke-width="1.5"><title>${fmtDate(r.date)} — ${brl(r.revenue)} (${r.orders} pedidos, ${r.items} itens)</title></circle><circle class="chart-point-hit" data-idx="${i}" cx="${X(i)}" cy="${Y(r.revenue)}" r="16" fill="transparent" />`;});
+  document.getElementById('chart').innerHTML=svg;const sc=document.getElementById('chartScroll');if(sc){requestAnimationFrame(()=>{sc.scrollLeft=sc.scrollWidth;});}
+  // Tabela abaixo do gráfico: data curta 11/01/26, em uma linha só, ordenável por qualquer coluna
+  window._chartArr=arr;window._chartTotal=total;window._chartNiceMax=niceMax;window._chartSort={key:'date',dir:1};
+  window.renderChartTable=()=>{const s=window._chartSort;const rows=[...window._chartArr].map(r=>({...r,share:(r.revenue/window._chartTotal)*100}));
+    rows.sort((a,b)=>{const va=s.key==='date'?a.date:(s.key==='start'?(a.start||''): (a[s.key]??0));const vb=s.key==='date'?b.date:(s.key==='start'?(b.start||''): (b[s.key]??0));return (va<vb?-1:va>vb?1:0)*s.dir;});
+    document.getElementById('chartNote').innerHTML=rows.map(r=>`<tr><td style="white-space:nowrap">${fmtDateShort(r.date)}</td><td style="white-space:nowrap">${String(r.start||'—').slice(0,5)}</td><td class="num">${brl(r.revenue)}</td><td class="num">${r.orders}</td><td class="num">${(r.items||0).toLocaleString('pt-BR')}</td><td class="num">${r.share.toFixed(1).replace('.',',')}%</td><td><div class="bar-wrap"><i style="width:${Math.round((r.revenue/window._chartNiceMax)*100)}%"></i></div></td></tr>`).join('');
+    document.querySelectorAll('.chart-legend th.sortable').forEach(th=>{const arrow=th.querySelector('.arrow');if(!arrow)return;const k=th.dataset.sort;const isActive=(k===s.key)&&(th.textContent.trim().startsWith('Participação')?s.key==='revenue':true);arrow.textContent=(k===s.key)?(s.dir===1?'▲':'▼'):'';});};
+  if(!window._chartSortListeners){window._chartSortListeners=true;document.querySelectorAll('.chart-legend th.sortable').forEach(th=>th.addEventListener('click',()=>{const k=th.dataset.sort;if(window._chartSort.key===k){window._chartSort.dir*=-1;}else{window._chartSort={key:k,dir:(k==='date'?1:-1)};}window.renderChartTable();}));}
+  window.renderChartTable();}
+setupInteractivity();load();
+</script></body></html>
