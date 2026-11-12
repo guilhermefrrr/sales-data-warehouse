@@ -45,6 +45,8 @@ CREATE TABLE silver.vendas (
     codigo_serie                        VARCHAR(50),
     --Delivery                          VARCHAR(50),
     --Estado_de_facturacion             VARCHAR(50),
+    pedido_original                     INT,
+    status_venda                        VARCHAR(20),
     estado                              INT,
     es_pre_compra                       VARCHAR(50),
     data_evento                         DATE,

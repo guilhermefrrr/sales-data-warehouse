@@ -65,6 +65,7 @@ CREATE TABLE gold.fact_vendas (
     metodo_pagamento        VARCHAR(100),
     ultimos_digitos_cartao  VARCHAR(50),
     dispositivo_id          INT,
+    status_venda            VARCHAR(20),
     estado                  INT
 );
 GO

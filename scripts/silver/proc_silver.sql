@@ -50,6 +50,8 @@ BEGIN
             ultimos_digitos_cartao,
             dispositivo_clover,
             codigo_serie,
+            pedido_original,
+            status_venda,
             estado,
             Es_pre_compra,
             data_evento,
@@ -108,6 +110,8 @@ BEGIN
             END,
             --Delivery,
             --Estado_de_facturacion,
+            NULL,
+            'Venda',
             Estado,
             Es_pre_compra,
             -- Extract YYYYMMDD from the end of the source filename and convert it using style 112.
@@ -120,6 +124,39 @@ BEGIN
             FROM silver.vendas s
             WHERE s.arquivo_fonte = b.arquivo_fonte
         );
+
+        
+        -- Identify refund records and extract the original order number.
+        PRINT '>>> Identifying refunds in silver.vendas';
+
+        UPDATE silver.vendas
+        SET
+            pedido_original = TRY_CONVERT(
+                INT,
+                LTRIM(RTRIM(
+                    SUBSTRING(
+                        metodo_pagamento,
+                        LEN(N'Devolución de orden') + 2,
+                        LEN(metodo_pagamento)
+                    )
+                ))
+            ),
+            status_venda = 'Devolução'
+        WHERE metodo_pagamento LIKE N'Devolución de orden%';
+
+
+        -- Identify original sales associated with a refund.
+        PRINT '>>> Identifying cancelled sales in silver.vendas';
+
+        UPDATE v
+        SET status_venda = 'Cancelada'
+        FROM silver.vendas v
+        WHERE EXISTS (
+            SELECT 1
+            FROM silver.vendas d
+            WHERE d.pedido_original = v.numero_pedido
+        );
+
 
         SET @end_time = GETDATE();
         PRINT '>>> Load duration: ' + CAST (DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + ' seconds';

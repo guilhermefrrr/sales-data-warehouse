@@ -135,6 +135,7 @@ BEGIN
             metodo_pagamento,
             ultimos_digitos_cartao,
             dispositivo_id,
+            status_venda,
             estado
         )
         SELECT
@@ -151,6 +152,7 @@ BEGIN
             v.metodo_pagamento,
             v.ultimos_digitos_cartao,
             m.dispositivo_id,
+            v.status_venda,
             v.estado
         FROM silver.vendas v
         LEFT JOIN gold.dim_evento e
@@ -203,6 +205,7 @@ BEGIN
                 WHEN TRIM(s.value) LIKE '%Mastercard%' THEN 'Mastercard'
                 WHEN TRIM(s.value) LIKE '%Amex%' THEN 'Amex'
                 WHEN TRIM(s.value) LIKE '%Elo%' THEN 'Elo'
+                WHEN TRIM(s.value) LIKE 'Pix' THEN NULL
                 WHEN TRIM(s.value) LIKE 'QR%' THEN NULL
                 WHEN TRIM(s.value) LIKE 'Efectivo%' THEN NULL
                 ELSE TRIM(s.value)
