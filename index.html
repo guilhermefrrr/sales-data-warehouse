@@ -16,19 +16,22 @@ main{max-width:1180px;margin:auto;padding:10px 24px 50px}.grid{display:grid;grid
 #chartTooltip b{font-size:15px}
 #chartTooltip .tt-sub{color:#bae6fd}
 .card,.card-hero{transition:transform .15s,box-shadow .15s,border-color .15s;cursor:pointer}
-.card:hover,.card-hero:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.28);border-color:#38bdf8}
+@media(hover:hover) and (pointer:fine){.card:hover,.card-hero:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.28);border-color:#38bdf8}}
 .card.is-active,.card-hero.is-active{outline:2px solid #38bdf8;box-shadow:0 10px 24px rgba(56,189,248,.35)}
 .bar{transition:transform .15s,background .15s,box-shadow .15s;border-radius:12px;padding:10px 12px;margin:0 -12px;cursor:pointer}
-.bar:hover,.bar.is-active{background:rgba(255,255,255,.14);transform:translateX(4px);box-shadow:0 6px 18px rgba(0,0,0,.18)}
+.bar.is-active{background:rgba(255,255,255,.14);transform:translateX(4px);box-shadow:0 6px 18px rgba(0,0,0,.18)}
+@media(hover:hover) and (pointer:fine){.bar:hover{background:rgba(255,255,255,.14);transform:translateX(4px);box-shadow:0 6px 18px rgba(0,0,0,.18)}}
 .bar:hover .bar-track i,.bar.is-active .bar-track i{filter:brightness(1.15)}
 .bar .bar-track i{transition:width .3s,filter .15s}
 table tbody tr{transition:background .12s;cursor:pointer}
-table tbody tr:hover{background:rgba(56,189,248,.18)!important}
+@media(hover:hover) and (pointer:fine){table tbody tr:hover{background:rgba(56,189,248,.18)!important}}
 table tbody tr.is-active{background:rgba(56,189,248,.32)!important;outline:1px solid #38bdf8}
 .chart-point{cursor:pointer;transition:r .15s,opacity .15s}
-.chart-point:hover,.chart-point.is-active{r:9;stroke-width:3}
+.chart-point.is-active{r:9;stroke-width:3}
+@media(hover:hover) and (pointer:fine){.chart-point:hover{r:9;stroke-width:3}}
 .chart-bar{cursor:pointer;transition:opacity .15s,filter .15s}
-.chart-bar:hover,.chart-bar.is-active{opacity:1!important;filter:brightness(1.2)}
+.chart-bar.is-active{opacity:1!important;filter:brightness(1.2)}
+@media(hover:hover) and (pointer:fine){.chart-bar:hover{opacity:1!important;filter:brightness(1.2)}}
 .chart-bar.dim{opacity:.35}
 .bar.dim,.card.dim{opacity:.45}
 @media(max-width:700px){#chartTooltip{max-width:200px;font-size:12px}}
@@ -39,7 +42,21 @@ section{margin-top:26px}.panel{background:#fff;color:#111827;border-radius:16px;
 table{width:100%;border-collapse:collapse;font-size:14px}th{text-align:left;border-bottom:2px solid #e5e7eb;padding:8px}td{padding:8px;border-bottom:1px solid #f3f4f6}
 .bar{display:block;margin:14px 0}.bar-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px}.bar-top span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.bar-track{height:14px;background:rgba(255,255,255,.22);border-radius:999px;overflow:hidden;margin-top:6px}.bar-track i{display:block;height:100%;background:#fff;border-radius:999px;min-width:8px}.bar small{display:block;margin-top:4px;opacity:.9}
 #chart{width:1100px;max-width:none;height:240px;display:block}.chart-wrap{display:flex;align-items:stretch}.chart-y{flex:0 0 68px}.chart-y svg{width:68px;max-width:none;height:240px;display:block}.chart-legend th.sortable{cursor:pointer;white-space:nowrap;user-select:none}.chart-legend th.sortable:hover{color:#fff;text-decoration:underline}.chart-legend th.sortable .arrow{font-size:10px;margin-left:4px}.chart-scroll{flex:1;overflow-x:auto;padding-bottom:6px;-webkit-overflow-scrolling:touch}.rel-scroll{overflow-x:visible;padding-bottom:6px}.rel-scroll #byRelativeHour{width:100%;max-width:100%}.rel-scroll #byRelativeHour svg{width:100% !important;max-width:100% !important;height:auto !important;display:block}.chart-scroll #chart{width:1100px;max-width:none;height:240px;display:block}.chart-wrap{align-items:flex-start}.chart-wrap .chart-y{display:flex}.chart-wrap .chart-y svg{height:240px;width:68px;display:block}@media (max-width:700px){.chart-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}.chart-scroll #chart{width:1100px;min-width:1100px;height:240px}.rel-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}.rel-scroll #byRelativeHour{width:900px;max-width:none}.rel-scroll #byRelativeHour svg{width:900px !important;max-width:none !important}}.pipeline{display:flex;gap:10px;flex-wrap:wrap}.pipeline div{flex:1;min-width:180px;border-radius:14px;padding:16px}.bronze{background:#78350f}.silver{background:#475569}.gold{background:#a16207}
-input,select{padding:10px;border-radius:10px;border:1px solid #cbd5e1;background:#fff;color:#0f172a;width:100%}input::placeholder{color:#64748b}select option{background:#fff;color:#0f172a}.filters label{color:#e2e8f0}.filters{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}@media(max-width:700px){.filters{grid-template-columns:1fr}}
+input,select{padding:10px;border-radius:10px;border:1px solid #cbd5e1;background:#fff;color:#0f172a;width:100%}
+/* --- Dropdown compacto: no lugar do seletor nativo (que no celular abre uma janela que cobre a tela) --- */
+.cs{position:relative;width:100%}
+.cs-btn{width:100%;text-align:left;padding:10px 36px 10px 10px;border-radius:10px;border:1px solid #cbd5e1;background:#fff;color:#0f172a;cursor:pointer;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;position:relative}
+.cs-btn::after{content:"▾";position:absolute;right:12px;top:50%;transform:translateY(-50%);color:#64748b}
+.cs-btn[aria-expanded="true"]::after{content:"▴"}
+.cs-panel{position:absolute;left:0;right:0;top:calc(100% + 4px);z-index:60;background:#fff;color:#0f172a;border:1px solid #cbd5e1;border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,.25);max-height:220px;display:none;flex-direction:column;overflow:hidden}
+.cs-panel.open{display:flex}
+.cs-search{padding:8px;border:0;border-bottom:1px solid #e2e8f0;font-size:14px;outline:none}
+.cs-list{overflow-y:auto;max-height:160px}
+.cs-opt{padding:8px 10px;font-size:14px;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cs-opt:hover,.cs-opt.sel{background:#e0f2fe}
+.cs-close{padding:8px 10px;border:0;border-top:1px solid #e2e8f0;background:#f8fafc;font-size:13px;font-weight:600;cursor:pointer;color:#0f172a}
+.blue-panel .cs-btn{background:#fff!important;color:#0f172a!important}
+@media(max-width:700px){.cs-panel{max-height:200px}.cs-list{max-height:140px}}input::placeholder{color:#64748b}select option{background:#fff;color:#0f172a}.filters label{color:#e2e8f0}.filters{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}@media(max-width:700px){.filters{grid-template-columns:1fr}}
 
 .prod-controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}.mini-stat{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);padding:6px 12px;border-radius:999px;font-size:13px;font-weight:600;color:#fff;margin:0 0 12px}.mini-stat b{font-size:15px}.pay-toggle{display:flex;gap:8px;flex-wrap:wrap}.pay-toggle button{padding:10px 16px;border-radius:999px;border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.12);color:#fff;cursor:pointer;font-weight:600}.pay-toggle button.active{background:#fff;color:#0f172a;border-color:#fff}.prod-controls input,.prod-controls select{width:auto;flex:1;min-width:160px}
 .chart-legend{margin-top:14px}.chart-legend td:first-child{white-space:nowrap}.chart-legend td:first-child{white-space:nowrap;font-weight:600}.chart-legend td,.chart-legend th{padding:6px 8px}.chart-legend .num{text-align:right}
@@ -85,7 +102,7 @@ input,select{padding:10px;border-radius:10px;border:1px solid #cbd5e1;background
 <section class="panel blue-panel"><h2>Pagamentos</h2><div class="mini-stat" id="payMiniStat"></div><div class="prod-controls"><select class="event-filter" id="fEventPay" title="Filtrar por evento / data"><option value="">Todos os eventos</option></select></div><div class="pay-toggle"><button id="payBtnMethod" class="active">Só método</button><button id="payBtnBrand">Método + bandeira</button></div><div id="byPayments"></div></section>
 <section class="panel blue-panel"><h2>Vendas por máquina</h2><div class="mini-stat" id="machineMiniStat"></div><div class="prod-controls"><select class="event-filter" id="fEventMachine" title="Filtrar por evento / data"><option value="">Todos os eventos</option></select></div><div id="byMachine"></div></section>
 <section class="panel blue-panel"><h2>Todos os itens</h2><p style="color:#e0f2fe;margin:0 0 10px">Filtros só desta tabela abaixo — não mudam os gráficos acima. Mostrando 50 por vez para não pesar.</p>
-<div class="filters"><div><label>Filtrar por evento / data</label><select id="fEvent"><option value="">Todos os eventos</option></select></div><div><label>Filtrar por categoria</label><select id="fCat"><option value="">Todas</option></select></div><div><label>Filtrar por produto</label><select id="fProduct"><option value="">Todos</option></select></div><div><label>Buscar pedido / produto</label><input id="fSearch" placeholder="Ex: 368375 ou Pipoca"></div></div><table><thead><tr><th>Pedido</th><th>Data</th><th>Hora</th><th>Produto</th><th>Qtd</th><th>Preço un.</th><th>Total item</th><th>Pagamento</th><th>Máquina</th></tr></thead><tbody id="rows"></tbody></table><div id="rowsPager" style="display:flex;align-items:center;gap:10px;margin-top:12px;flex-wrap:wrap"><button id="rowsPrev" style="padding:8px 14px;border-radius:10px;border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.15);color:#fff;cursor:pointer">← Anterior</button><span id="rowsInfo" style="color:#fff;font-weight:600"></span><button id="rowsNext" style="padding:8px 14px;border-radius:10px;border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.15);color:#fff;cursor:pointer">Próxima →</button></div></section>
+<div class="filters"><div><label>Filtrar por evento / data</label><select id="fEvent"><option value="">Todos os eventos</option></select></div><div><label>Filtrar por categoria</label><select id="fCat"><option value="">Todas</option></select></div><div><label>Filtrar por produto</label><select id="fProduct"><option value="">Todos</option></select></div><div><label>Buscar pedido</label><input id="fSearch" placeholder="Ex: 368375" inputmode="numeric"></div></div><table><thead><tr><th>Pedido</th><th>Data</th><th>Hora</th><th>Produto</th><th>Qtd</th><th>Preço un.</th><th>Total item</th><th>Pagamento</th><th>Máquina</th></tr></thead><tbody id="rows"></tbody></table><div id="rowsPager" style="display:flex;align-items:center;gap:10px;margin-top:12px;flex-wrap:wrap"><button id="rowsPrev" style="padding:8px 14px;border-radius:10px;border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.15);color:#fff;cursor:pointer">← Anterior</button><span id="rowsInfo" style="color:#fff;font-weight:600"></span><button id="rowsNext" style="padding:8px 14px;border-radius:10px;border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.15);color:#fff;cursor:pointer">Próxima →</button></div></section>
 <div id="devolucoesNote" style="margin:4px 0 18px"></div>
 <section class="no-interactive"><h2>Modelo Gold</h2><div class="pipeline"><div class="bronze"><b>Bronze</b><p>Ingestão bruta dos CSVs, controle de carga e contagem de linhas.</p></div><div class="silver"><b>Silver</b><p>Tipagem, padronização, rastreabilidade e carga incremental por arquivo.</p></div><div class="gold"><b>Gold</b><p><code>dim_evento</code> • <code>dim_maquinas</code> • <code>dim_produtos</code> • <code>fact_vendas</code> • <code>fact_pagamentos</code></p></div></div></section>
 <section class="panel blue-panel no-interactive"><h2>Privacidade &amp; como atualizar</h2><div class="note"><b>Removido do site de propósito:</b> <code>identificacao_comprador</code>, <code>ultimos_digitos_cartao</code> e <code>codigo_serie</code>. O site mostra só agregados + vendas sem identificadores.</div><p><b>Como atualizar quando chegarem dados novos?</b> O site guarda os dados em 2 lugares iguais: no arquivo <code>data.json</code> e numa cópia dentro deste <code>index.html</code>. Para não ficar com 2 versões diferentes, atualize os 2 juntos.</p><ol><li><b>Passo 1 — Gere o dump novo.</b> No SSMS, gere um novo dump da Gold (<code>Tasks &gt; Generate Scripts</code>) com as 5 tabelas: <code>dim_evento, dim_maquinas, dim_produtos, fact_vendas, fact_pagamentos</code>. Salve como <code>script.sql</code>.</li><li><b>Passo 2 — Rode o programa que atualiza os 2 lugares.</b> Você tem 2 jeitos, o resultado é o mesmo:<br><br><b>Jeito A — no terminal:</b> na pasta onde estão os arquivos, rode:<br><code>python sql_to_json.py script.sql -o data.json --html index.html</code><br><br><b>Jeito B — no Colab (sem terminal):</b> suba os 3 arquivos (<code>script.sql</code>, <code>sql_to_json.py</code> e <code>index.html</code>) para o Colab, rode numa célula:<br><code>!python sql_to_json.py script.sql -o data.json --html index.html</code><br>e baixe de volta os 2 arquivos atualizados: <code>data.json</code> e <code>index.html</code>.</li><li><b>Passo 3 — Por que 2 lugares?</b> No GitHub Pages, o site lê o <code>data.json</code>. Abrindo com dois cliques, o navegador bloqueia essa leitura, então o site lê a cópia que está dentro do <code>index.html</code>. Se atualizar só um, um jeito de abrir vai mostrar dados novos e o outro, dados velhos.</li><li><b>O que o programa faz sozinho:</b> lê o <code>script.sql</code>, tira os campos sensíveis, cria o <code>data.json</code> novo e troca a cópia dentro do <code>index.html</code>. Você não precisa copiar e colar nada à mão.</li></ol><p>Repositório: <a href="https://github.com/guilhermefrrr/sales-data-warehouse" target="_blank" rel="noopener">github.com/guilhermefrrr/sales-data-warehouse</a></p></section>
@@ -185,8 +202,60 @@ function renderEventCharts(){
   renderBars('byMachine',filteredList('sales_by_machine','sales_by_machine').slice(0,15),'machine','revenue');
 }
 
+function initCustomSelects(){
+  // Troca cada <select> de filtro por um botão + painel compacto.
+  // Por que: o <select> nativo no celular abre uma janela do sistema que cobre quase a tela
+  // inteira e mal deixa tocar fora para fechar sem escolher nada. O painel compacto fica
+  // dentro da página, com no máximo 220px de altura, e fecha tocando fora ou no botão Fechar.
+  // O <select> original continua existindo (escondido) para o resto do código continuar
+  // lendo sel.value e ouvindo 'change' como antes — o painel só espelha ele.
+  document.querySelectorAll('.filters select, .prod-controls select').forEach(sel=>{
+    if(sel.dataset.csDone) return; sel.dataset.csDone='1';
+    const wrap=document.createElement('div'); wrap.className='cs';
+    sel.parentNode.insertBefore(wrap, sel); wrap.appendChild(sel);
+    sel.style.display='none';
+    const btn=document.createElement('button'); btn.type='button'; btn.className='cs-btn'; btn.setAttribute('aria-expanded','false');
+    const panel=document.createElement('div'); panel.className='cs-panel';
+    const search=document.createElement('input'); search.className='cs-search'; search.placeholder='Buscar...'; search.type='text';
+    const list=document.createElement('div'); list.className='cs-list';
+    const closeBtn=document.createElement('button'); closeBtn.type='button'; closeBtn.className='cs-close'; closeBtn.textContent='Fechar ✕';
+    panel.append(search, list, closeBtn); wrap.append(btn, panel);
+    function labelOf(o){ return o.textContent.trim() || o.value; }
+    function refreshBtn(){
+      const o=sel.options[sel.selectedIndex];
+      btn.textContent = o ? labelOf(o) : 'Selecione';
+    }
+    function buildList(filter=''){
+      list.innerHTML='';
+      const f=(filter||'').toLowerCase();
+      [...sel.options].forEach(o=>{
+        if(f && !labelOf(o).toLowerCase().includes(f)) return;
+        const d=document.createElement('div'); d.className='cs-opt'+(o.selected?' sel':''); d.textContent=labelOf(o);
+        d.addEventListener('click',()=>{ sel.value=o.value; sel.dispatchEvent(new Event('change',{bubbles:true})); sel.dispatchEvent(new Event('input',{bubbles:true})); refreshBtn(); closePanel(); });
+        list.appendChild(d);
+      });
+      if(!list.children.length){ const e=document.createElement('div'); e.className='cs-opt'; e.style.color='#64748b'; e.textContent='Nenhum item encontrado'; list.appendChild(e); }
+    }
+    function openPanel(){ document.querySelectorAll('.cs-panel.open').forEach(p=>{ if(p!==panel){ p.classList.remove('open'); p.parentElement.querySelector('.cs-btn')?.setAttribute('aria-expanded','false'); } }); panel.classList.add('open'); btn.setAttribute('aria-expanded','true'); search.value=''; buildList(''); if(sel.options.length>8) search.style.display=''; else search.style.display='none'; setTimeout(()=>search.focus(), 0); }
+    function closePanel(){ panel.classList.remove('open'); btn.setAttribute('aria-expanded','false'); }
+    btn.addEventListener('click',e=>{ e.stopPropagation(); if(panel.classList.contains('open')) closePanel(); else openPanel(); });
+    search.addEventListener('input',()=>buildList(search.value));
+    search.addEventListener('click',e=>e.stopPropagation());
+    closeBtn.addEventListener('click',e=>{ e.stopPropagation(); closePanel(); });
+    panel.addEventListener('click',e=>e.stopPropagation());
+    // Fecha tocando fora ou apertando Esc — sem precisar escolher nada
+    document.addEventListener('click',e=>{ if(!wrap.contains(e.target)) closePanel(); });
+    document.addEventListener('keydown',e=>{ if(e.key==='Escape') closePanel(); });
+    // Quando o código recria as opções (ex: ao carregar os dados), atualiza o botão e a lista
+    const mo=new MutationObserver(()=>{ refreshBtn(); if(panel.classList.contains('open')) buildList(search.value); });
+    mo.observe(sel, {childList:true});
+    sel.addEventListener('change', refreshBtn);
+    refreshBtn(); buildList('');
+  });
+}
 function setupInteractivity(){
   if(window.__interSetup) return; window.__interSetup=true;
+  initCustomSelects();
   const tip=document.getElementById('chartTooltip');
   function showTip(el,x,y){
     if(!tip||!el) return;
@@ -243,6 +312,14 @@ function setupInteractivity(){
       tip.style.left=lx+'px'; tip.style.top=ly+'px';
     }
   });
+  // Tooltip some ao começar a deslizar / rolar (mouse ou dedo)
+  // Sem isso, o tooltip fica parado na tela mesmo depois que a página já rolou.
+  let _scrollHide=null;
+  function _hideOnScroll(){ hideTip(); if(_scrollHide) clearTimeout(_scrollHide); _scrollHide=setTimeout(()=>{ _scrollHide=null; }, 120); }
+  window.addEventListener('scroll', _hideOnScroll, {passive:true, capture:true});
+  window.addEventListener('wheel', _hideOnScroll, {passive:true});
+  document.addEventListener('touchmove', _hideOnScroll, {passive:true});
+  document.addEventListener('click',()=>{ try{ initCustomSelects(); }catch(_){} }, true);
   // Clique / toque: fixa o destaque (mobile) e limpa ao clicar de novo
   document.addEventListener('click',e=>{
     if(e.target.closest('.no-interactive')) return;
@@ -256,7 +333,7 @@ function setupInteractivity(){
       return;
     }
     const row=e.target.closest('table tbody tr');
-    if(row){ row.classList.toggle('is-active'); return; }
+    if(row){ const _wasRow=row.classList.contains('is-active'); row.classList.toggle('is-active'); if(_wasRow) hideTip(); return; }
     const bar=e.target.closest('.bar');
     if(bar){ document.querySelectorAll('.bar').forEach(b=>{ if(b!==bar) b.classList.remove('is-active'); }); const _was=bar.classList.contains('is-active'); bar.classList.toggle('is-active'); if(!_was){ const _lab=bar.querySelector('.bar-top span')?.textContent||''; const _rev=bar.querySelector('.bar-top b')?.textContent||''; const _sub=bar.querySelector('small')?.textContent?.trim()||''; tip.innerHTML=`<b>${_lab}</b><br><span class="tt-sub">Receita: ${_rev}${_sub?('<br>'+_sub):''}</span>`; const pad=12,w=tip.offsetWidth||220,hh=tip.offsetHeight||90; let lx=Math.min(e.clientX+pad, window.innerWidth-w-8), ly=Math.min(e.clientY+pad, window.innerHeight-hh-8); if(lx<8) lx=8; if(ly<8) ly=8; tip.style.left=lx+'px'; tip.style.top=ly+'px'; tip.classList.add('show'); } else hideTip(); return; }
     const cbar=e.target.closest('.chart-bar');
@@ -280,7 +357,7 @@ const _dn=document.getElementById('devolucoesNote');if(_dn){const _nc=k.cancelad
 const _pr=document.getElementById('prodMiniStat');if(_pr)_pr.innerHTML=`<b>${k.products_count.toLocaleString('pt-BR')}</b> produtos vendidos`;
 const _mc=document.getElementById('machineMiniStat');if(_mc)_mc.innerHTML=`<b>${k.active_machines.toLocaleString('pt-BR')}</b> máquinas com venda`;
 drawChart();initComercioFilters();drawRelativeHourChart();initProducts();initEventFilters();renderEventCharts();
-const _src=rowsSource();const cats=[...new Set(_src.map(r=>r.categoria))],prods=[...new Set(_src.map(r=>r.produto))];
+const _src=rowsSource();const cats=[...new Set(_src.map(r=>r.categoria))].sort((a,b)=>a.localeCompare(b,'pt-BR')),prods=[...new Set(_src.map(r=>r.produto))].sort((a,b)=>a.localeCompare(b,'pt-BR'));
 document.getElementById('fEvent').innerHTML='<option value="">Todos os eventos</option>'+(DATA.events||[]).map(e=>`<option value="${e.date}">${fmtDate(e.date)} — ${e.tipo_evento} (${brl(e.revenue)})</option>`).join('');
 document.getElementById('fCat').innerHTML='<option value="">Todas</option>'+cats.map(c=>`<option>${c}</option>`).join('');
 document.getElementById('fProduct').innerHTML='<option value="">Todos</option>'+prods.map(c=>`<option>${c}</option>`).join('');
@@ -320,10 +397,10 @@ function initProducts(){
   }
   renderProducts();
 }
-function renderBars(id,arr,k,v,fn){const max=Math.max(...arr.map(r=>r[v]||0),1);document.getElementById(id).innerHTML=arr.map(r=>`<div class="bar"><div class="bar-top"><span>${fn?fn(r):r[k]}</span><b>${brl(r[v])}</b></div><div class="bar-track"><i style="width:${Math.round((r[v]/max)*100)}%"></i></div><small>${r.quantity?r.quantity+' un.':''} ${r.orders?r.orders+' pedidos':''}</small></div>`).join('');}
+function renderBars(id,arr,k,v,fn){const max=Math.max(...arr.map(r=>r[v]||0),1);document.getElementById(id).innerHTML=arr.map(r=>`<div class="bar"><div class="bar-top"><span>${fn?fn(r):r[k]}</span><b>${brl(r[v])}</b></div><div class="bar-track"><i style="width:${Math.round((r[v]/max)*100)}%"></i></div><small>${(r.quantity&&r.orders)?(r.quantity+' itens em '+r.orders+' pedidos'):(r.orders?(r.orders+' pedidos'):(r.quantity?(r.quantity+' itens'):''))}</small></div>`).join('');}
 let _rowsPage=1;const _rowsPerPage=50;
 function rowsSource(){return (DATA.fact_sales_all && DATA.fact_sales_all.length) ? DATA.fact_sales_all : (DATA.fact_sales_sample||[]);}
-function renderRows(){const ev=document.getElementById('fEvent')?.value||'';const c=document.getElementById('fCat').value,p=document.getElementById('fProduct').value,s=(document.getElementById('fSearch').value||'').toLowerCase();const all=rowsSource().filter(r=>(!ev||r.date===ev)&&(!c||r.categoria===c)&&(!p||r.produto===p)&&(!s||(JSON.stringify(r)+' '+fmtDate(r.date)).toLowerCase().includes(s)));const totalPages=Math.max(1,Math.ceil(all.length/_rowsPerPage));if(_rowsPage>totalPages)_rowsPage=totalPages;if(_rowsPage<1)_rowsPage=1;const start=(_rowsPage-1)*_rowsPerPage;const page=all.slice(start,start+_rowsPerPage);document.getElementById('rows').innerHTML=page.map(r=>`<tr><td>${r.numero_pedido}</td><td>${fmtDate(r.date)}</td><td>${r.hora}</td><td>${r.produto}</td><td>${r.quantidade}</td><td>${brl(r.preco_unitario)}</td><td>${brl(r.total_produto)}</td><td>${r.metodo_pagamento}</td><td>${r.dispositivo_id}</td></tr>`).join('')||'<tr><td colspan="9">Nenhum registro com esse filtro.</td></tr>';const info=document.getElementById('rowsInfo');if(info)info.textContent=all.length?`Mostrando ${start+1}–${Math.min(start+page.length,all.length)} de ${all.length.toLocaleString('pt-BR')} itens • Página ${_rowsPage} de ${totalPages}`:`Nenhum registro com esse filtro.`;const prev=document.getElementById('rowsPrev'),next=document.getElementById('rowsNext');if(prev)prev.disabled=_rowsPage<=1;if(next)next.disabled=_rowsPage>=totalPages;if(prev)prev.style.opacity=_rowsPage<=1?'0.5':'1';if(next)next.style.opacity=_rowsPage>=totalPages?'0.5':'1';}
+function renderRows(){const ev=document.getElementById('fEvent')?.value||'';const c=document.getElementById('fCat').value,p=document.getElementById('fProduct').value,s=(document.getElementById('fSearch').value||'').toLowerCase();const all=rowsSource().filter(r=>(!ev||r.date===ev)&&(!c||r.categoria===c)&&(!p||r.produto===p)&&(!s||String(r.numero_pedido).includes(s)));const totalPages=Math.max(1,Math.ceil(all.length/_rowsPerPage));if(_rowsPage>totalPages)_rowsPage=totalPages;if(_rowsPage<1)_rowsPage=1;const start=(_rowsPage-1)*_rowsPerPage;const page=all.slice(start,start+_rowsPerPage);document.getElementById('rows').innerHTML=page.map(r=>`<tr><td>${r.numero_pedido}</td><td>${fmtDate(r.date)}</td><td>${r.hora}</td><td>${r.produto}</td><td>${r.quantidade}</td><td>${brl(r.preco_unitario)}</td><td>${brl(r.total_produto)}</td><td>${r.metodo_pagamento}</td><td>${r.dispositivo_id}</td></tr>`).join('')||'<tr><td colspan="9">Nenhum registro com esse filtro.</td></tr>';const info=document.getElementById('rowsInfo');if(info)info.textContent=all.length?`Mostrando ${start+1}–${Math.min(start+page.length,all.length)} de ${all.length.toLocaleString('pt-BR')} itens • Página ${_rowsPage} de ${totalPages}`:`Nenhum registro com esse filtro.`;const prev=document.getElementById('rowsPrev'),next=document.getElementById('rowsNext');if(prev)prev.disabled=_rowsPage<=1;if(next)next.disabled=_rowsPage>=totalPages;if(prev)prev.style.opacity=_rowsPage<=1?'0.5':'1';if(next)next.style.opacity=_rowsPage>=totalPages?'0.5':'1';}
 function drawRelativeHourChart(){
   const _relSrc=(window._relComercio && DATA.by_comercio && DATA.by_comercio[window._relComercio]) ? DATA.by_comercio[window._relComercio].sales_by_relative_hour : DATA.sales_by_relative_hour;
   const arr=[...(_relSrc||[])].sort((a,b)=>a.relative_hour-b.relative_hour);
