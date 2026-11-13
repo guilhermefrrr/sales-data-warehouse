@@ -132,8 +132,6 @@ BEGIN
             preco_unitario,
             total_produto,
             identificacao_comprador,
-            metodo_pagamento,
-            ultimos_digitos_cartao,
             dispositivo_id,
             status_venda,
             estado
@@ -149,8 +147,6 @@ BEGIN
             v.preco_unitario,
             v.total_produto,
             v.identificacao_comprador,
-            v.metodo_pagamento,
-            v.ultimos_digitos_cartao,
             m.dispositivo_id,
             v.status_venda,
             v.estado

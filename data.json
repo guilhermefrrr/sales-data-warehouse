@@ -4,7 +4,7 @@
     "architecture": "Medallion (Bronze → Silver → Gold) • SQL Server (SSMS)",
     "source": "gold — dim_evento, dim_maquinas, dim_produtos, fact_vendas, fact_pagamentos",
     "currency": "BRL",
-    "privacy_note": "Campos sensíveis removidos: identificacao_comprador, ultimos_digitos_cartao, codigo_serie.",
+    "privacy_note": "Campo sensível removido: dim_maquinas.codigo_serie. fact_vendas não tem mais identificacao_comprador, ultimos_digitos_cartao, metodo_pagamento nem bandeira.",
     "devolucoes_note": "Devoluções / estornos / cancelados excluídos da receita e contados à parte em kpis.devolucoes_*.",
     "last_updated": "12/11/2026"
   },
@@ -1398,7 +1398,7 @@
       "preco_unitario": 15.0,
       "total_produto": 15.0,
       "total_pedido": 15.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1413,7 +1413,7 @@
       "preco_unitario": 10.0,
       "total_produto": 10.0,
       "total_pedido": 34.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1428,7 +1428,7 @@
       "preco_unitario": 8.0,
       "total_produto": 24.0,
       "total_pedido": 34.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1443,7 +1443,7 @@
       "preco_unitario": 8.0,
       "total_produto": 8.0,
       "total_pedido": 36.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1458,7 +1458,7 @@
       "preco_unitario": 20.0,
       "total_produto": 20.0,
       "total_pedido": 36.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1473,7 +1473,7 @@
       "preco_unitario": 8.0,
       "total_produto": 8.0,
       "total_pedido": 36.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1488,7 +1488,7 @@
       "preco_unitario": 15.0,
       "total_produto": 15.0,
       "total_pedido": 25.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1503,7 +1503,7 @@
       "preco_unitario": 10.0,
       "total_produto": 10.0,
       "total_pedido": 25.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1518,7 +1518,7 @@
       "preco_unitario": 20.0,
       "total_produto": 20.0,
       "total_pedido": 20.0,
-      "metodo_pagamento": "QR - Pix",
+      "metodo_pagamento": "Pix",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1533,7 +1533,7 @@
       "preco_unitario": 12.0,
       "total_produto": 24.0,
       "total_pedido": 24.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1548,7 +1548,7 @@
       "preco_unitario": 10.0,
       "total_produto": 10.0,
       "total_pedido": 10.0,
-      "metodo_pagamento": "QR - Pix",
+      "metodo_pagamento": "Pix",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1563,7 +1563,7 @@
       "preco_unitario": 35.0,
       "total_produto": 70.0,
       "total_pedido": 83.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1578,7 +1578,7 @@
       "preco_unitario": 13.0,
       "total_produto": 13.0,
       "total_pedido": 83.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1593,7 +1593,7 @@
       "preco_unitario": 15.0,
       "total_produto": 15.0,
       "total_pedido": 55.0,
-      "metodo_pagamento": "QR - Pix",
+      "metodo_pagamento": "Pix",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1608,7 +1608,7 @@
       "preco_unitario": 10.0,
       "total_produto": 20.0,
       "total_pedido": 55.0,
-      "metodo_pagamento": "QR - Pix",
+      "metodo_pagamento": "Pix",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1623,7 +1623,7 @@
       "preco_unitario": 20.0,
       "total_produto": 20.0,
       "total_pedido": 55.0,
-      "metodo_pagamento": "QR - Pix",
+      "metodo_pagamento": "Pix",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1638,7 +1638,7 @@
       "preco_unitario": 20.0,
       "total_produto": 20.0,
       "total_pedido": 48.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1653,7 +1653,7 @@
       "preco_unitario": 14.0,
       "total_produto": 28.0,
       "total_pedido": 48.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1668,7 +1668,7 @@
       "preco_unitario": 10.0,
       "total_produto": 20.0,
       "total_pedido": 35.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1683,7 +1683,7 @@
       "preco_unitario": 15.0,
       "total_produto": 15.0,
       "total_pedido": 35.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1698,7 +1698,7 @@
       "preco_unitario": 20.0,
       "total_produto": 20.0,
       "total_pedido": 20.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1713,7 +1713,7 @@
       "preco_unitario": 13.0,
       "total_produto": 13.0,
       "total_pedido": 13.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1728,7 +1728,7 @@
       "preco_unitario": 20.0,
       "total_produto": 20.0,
       "total_pedido": 20.0,
-      "metodo_pagamento": "QR - Pix",
+      "metodo_pagamento": "Pix",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1743,7 +1743,7 @@
       "preco_unitario": 10.0,
       "total_produto": 10.0,
       "total_pedido": 45.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1758,7 +1758,7 @@
       "preco_unitario": 35.0,
       "total_produto": 35.0,
       "total_pedido": 45.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1773,7 +1773,7 @@
       "preco_unitario": 10.0,
       "total_produto": 10.0,
       "total_pedido": 10.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1788,7 +1788,7 @@
       "preco_unitario": 25.0,
       "total_produto": 25.0,
       "total_pedido": 45.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1803,7 +1803,7 @@
       "preco_unitario": 20.0,
       "total_produto": 20.0,
       "total_pedido": 45.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1818,7 +1818,7 @@
       "preco_unitario": 35.0,
       "total_produto": 35.0,
       "total_pedido": 35.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1833,7 +1833,7 @@
       "preco_unitario": 15.0,
       "total_produto": 15.0,
       "total_pedido": 60.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1848,7 +1848,7 @@
       "preco_unitario": 25.0,
       "total_produto": 25.0,
       "total_pedido": 60.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1863,7 +1863,7 @@
       "preco_unitario": 10.0,
       "total_produto": 10.0,
       "total_pedido": 60.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1878,7 +1878,7 @@
       "preco_unitario": 10.0,
       "total_produto": 10.0,
       "total_pedido": 60.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1893,7 +1893,7 @@
       "preco_unitario": 10.0,
       "total_produto": 10.0,
       "total_pedido": 10.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1908,7 +1908,7 @@
       "preco_unitario": 14.0,
       "total_produto": 28.0,
       "total_pedido": 28.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1923,7 +1923,7 @@
       "preco_unitario": 35.0,
       "total_produto": 35.0,
       "total_pedido": 35.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1938,7 +1938,7 @@
       "preco_unitario": 15.0,
       "total_produto": 15.0,
       "total_pedido": 15.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1953,7 +1953,7 @@
       "preco_unitario": 8.0,
       "total_produto": 8.0,
       "total_pedido": 30.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1968,7 +1968,7 @@
       "preco_unitario": 12.0,
       "total_produto": 12.0,
       "total_pedido": 30.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1983,7 +1983,7 @@
       "preco_unitario": 10.0,
       "total_produto": 10.0,
       "total_pedido": 30.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -1998,7 +1998,7 @@
       "preco_unitario": 12.0,
       "total_produto": 12.0,
       "total_pedido": 12.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2013,7 +2013,7 @@
       "preco_unitario": 35.0,
       "total_produto": 70.0,
       "total_pedido": 70.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2028,7 +2028,7 @@
       "preco_unitario": 20.0,
       "total_produto": 20.0,
       "total_pedido": 20.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2043,7 +2043,7 @@
       "preco_unitario": 35.0,
       "total_produto": 35.0,
       "total_pedido": 35.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2058,7 +2058,7 @@
       "preco_unitario": 14.0,
       "total_produto": 42.0,
       "total_pedido": 42.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2073,7 +2073,7 @@
       "preco_unitario": 10.0,
       "total_produto": 10.0,
       "total_pedido": 10.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2088,7 +2088,7 @@
       "preco_unitario": 35.0,
       "total_produto": 70.0,
       "total_pedido": 115.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2103,7 +2103,7 @@
       "preco_unitario": 14.0,
       "total_produto": 14.0,
       "total_pedido": 115.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2118,7 +2118,7 @@
       "preco_unitario": 15.0,
       "total_produto": 15.0,
       "total_pedido": 115.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2133,7 +2133,7 @@
       "preco_unitario": 8.0,
       "total_produto": 16.0,
       "total_pedido": 115.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2148,7 +2148,7 @@
       "preco_unitario": 15.0,
       "total_produto": 45.0,
       "total_pedido": 45.0,
-      "metodo_pagamento": "Efectivo",
+      "metodo_pagamento": "Dinheiro",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2163,7 +2163,7 @@
       "preco_unitario": 13.0,
       "total_produto": 26.0,
       "total_pedido": 46.0,
-      "metodo_pagamento": "Tarjeta - Elo Credit",
+      "metodo_pagamento": "Cartão de crédito • Elo",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2178,7 +2178,7 @@
       "preco_unitario": 20.0,
       "total_produto": 20.0,
       "total_pedido": 46.0,
-      "metodo_pagamento": "Tarjeta - Elo Credit",
+      "metodo_pagamento": "Cartão de crédito • Elo",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2193,7 +2193,7 @@
       "preco_unitario": 8.0,
       "total_produto": 4.0,
       "total_pedido": 28.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2208,7 +2208,7 @@
       "preco_unitario": 12.0,
       "total_produto": 24.0,
       "total_pedido": 28.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2223,7 +2223,7 @@
       "preco_unitario": 20.0,
       "total_produto": 20.0,
       "total_pedido": 20.0,
-      "metodo_pagamento": "Tarjeta - Amex",
+      "metodo_pagamento": "Cartão • Amex",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2238,7 +2238,7 @@
       "preco_unitario": 15.0,
       "total_produto": 15.0,
       "total_pedido": 28.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2253,7 +2253,7 @@
       "preco_unitario": 13.0,
       "total_produto": 13.0,
       "total_pedido": 28.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2268,7 +2268,7 @@
       "preco_unitario": 15.0,
       "total_produto": 45.0,
       "total_pedido": 65.0,
-      "metodo_pagamento": "Efectivo",
+      "metodo_pagamento": "Dinheiro",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2283,7 +2283,7 @@
       "preco_unitario": 20.0,
       "total_produto": 20.0,
       "total_pedido": 65.0,
-      "metodo_pagamento": "Efectivo",
+      "metodo_pagamento": "Dinheiro",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2298,7 +2298,7 @@
       "preco_unitario": 8.0,
       "total_produto": 8.0,
       "total_pedido": 92.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2313,7 +2313,7 @@
       "preco_unitario": 12.0,
       "total_produto": 84.0,
       "total_pedido": 92.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2328,7 +2328,7 @@
       "preco_unitario": 35.0,
       "total_produto": 70.0,
       "total_pedido": 70.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2343,7 +2343,7 @@
       "preco_unitario": 10.0,
       "total_produto": 10.0,
       "total_pedido": 10.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2358,7 +2358,7 @@
       "preco_unitario": 12.0,
       "total_produto": 30.0,
       "total_pedido": 30.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2373,7 +2373,7 @@
       "preco_unitario": 13.0,
       "total_produto": 26.0,
       "total_pedido": 26.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2388,7 +2388,7 @@
       "preco_unitario": 12.0,
       "total_produto": 24.0,
       "total_pedido": 24.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2403,7 +2403,7 @@
       "preco_unitario": 20.0,
       "total_produto": 60.0,
       "total_pedido": 60.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2418,7 +2418,7 @@
       "preco_unitario": 12.0,
       "total_produto": 24.0,
       "total_pedido": 24.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2433,7 +2433,7 @@
       "preco_unitario": 13.0,
       "total_produto": 13.0,
       "total_pedido": 13.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 18,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2448,7 +2448,7 @@
       "preco_unitario": 15.0,
       "total_produto": 15.0,
       "total_pedido": 29.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2463,7 +2463,7 @@
       "preco_unitario": 14.0,
       "total_produto": 14.0,
       "total_pedido": 29.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2478,7 +2478,7 @@
       "preco_unitario": 10.0,
       "total_produto": 10.0,
       "total_pedido": 10.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2493,7 +2493,7 @@
       "preco_unitario": 15.0,
       "total_produto": 30.0,
       "total_pedido": 30.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2508,7 +2508,7 @@
       "preco_unitario": 35.0,
       "total_produto": 35.0,
       "total_pedido": 35.0,
-      "metodo_pagamento": "QR - Pix",
+      "metodo_pagamento": "Pix",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2523,7 +2523,7 @@
       "preco_unitario": 13.0,
       "total_produto": 39.0,
       "total_pedido": 39.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 34,
       "evento": "futebol",
       "nome_comercio": "Ilha 3"
@@ -2538,7 +2538,7 @@
       "preco_unitario": 14.0,
       "total_produto": 14.0,
       "total_pedido": 32.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2553,7 +2553,7 @@
       "preco_unitario": 8.0,
       "total_produto": 8.0,
       "total_pedido": 32.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2568,7 +2568,7 @@
       "preco_unitario": 10.0,
       "total_produto": 10.0,
       "total_pedido": 32.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2583,7 +2583,7 @@
       "preco_unitario": 10.0,
       "total_produto": 30.0,
       "total_pedido": 48.0,
-      "metodo_pagamento": "QR - Pix",
+      "metodo_pagamento": "Pix",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2598,7 +2598,7 @@
       "preco_unitario": 8.0,
       "total_produto": 8.0,
       "total_pedido": 48.0,
-      "metodo_pagamento": "QR - Pix",
+      "metodo_pagamento": "Pix",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2613,7 +2613,7 @@
       "preco_unitario": 10.0,
       "total_produto": 10.0,
       "total_pedido": 48.0,
-      "metodo_pagamento": "QR - Pix",
+      "metodo_pagamento": "Pix",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2628,7 +2628,7 @@
       "preco_unitario": 15.0,
       "total_produto": 15.0,
       "total_pedido": 15.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2643,7 +2643,7 @@
       "preco_unitario": 8.0,
       "total_produto": 4.0,
       "total_pedido": 4.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2658,7 +2658,7 @@
       "preco_unitario": 15.0,
       "total_produto": 15.0,
       "total_pedido": 15.0,
-      "metodo_pagamento": "QR - Pix",
+      "metodo_pagamento": "Pix",
       "dispositivo_id": 26,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2673,7 +2673,7 @@
       "preco_unitario": 15.0,
       "total_produto": 15.0,
       "total_pedido": 25.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 26,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2688,7 +2688,7 @@
       "preco_unitario": 10.0,
       "total_produto": 10.0,
       "total_pedido": 25.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 26,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2703,7 +2703,7 @@
       "preco_unitario": 15.0,
       "total_produto": 15.0,
       "total_pedido": 15.0,
-      "metodo_pagamento": "Efectivo",
+      "metodo_pagamento": "Dinheiro",
       "dispositivo_id": 26,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2718,7 +2718,7 @@
       "preco_unitario": 8.0,
       "total_produto": 8.0,
       "total_pedido": 18.0,
-      "metodo_pagamento": "Tarjeta - Elo Debit",
+      "metodo_pagamento": "Cartão de débito • Elo",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2733,7 +2733,7 @@
       "preco_unitario": 10.0,
       "total_produto": 10.0,
       "total_pedido": 18.0,
-      "metodo_pagamento": "Tarjeta - Elo Debit",
+      "metodo_pagamento": "Cartão de débito • Elo",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2748,7 +2748,7 @@
       "preco_unitario": 15.0,
       "total_produto": 15.0,
       "total_pedido": 15.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 26,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2763,7 +2763,7 @@
       "preco_unitario": 15.0,
       "total_produto": 15.0,
       "total_pedido": 15.0,
-      "metodo_pagamento": "QR - Pix",
+      "metodo_pagamento": "Pix",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2778,7 +2778,7 @@
       "preco_unitario": 12.0,
       "total_produto": 18.0,
       "total_pedido": 18.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2793,7 +2793,7 @@
       "preco_unitario": 8.0,
       "total_produto": 16.0,
       "total_pedido": 16.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2808,7 +2808,7 @@
       "preco_unitario": 12.0,
       "total_produto": 48.0,
       "total_pedido": 48.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2823,7 +2823,7 @@
       "preco_unitario": 12.0,
       "total_produto": 42.0,
       "total_pedido": 42.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 26,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2838,7 +2838,7 @@
       "preco_unitario": 10.0,
       "total_produto": 10.0,
       "total_pedido": 71.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2853,7 +2853,7 @@
       "preco_unitario": 25.0,
       "total_produto": 25.0,
       "total_pedido": 71.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2868,7 +2868,7 @@
       "preco_unitario": 8.0,
       "total_produto": 16.0,
       "total_pedido": 71.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2883,7 +2883,7 @@
       "preco_unitario": 20.0,
       "total_produto": 20.0,
       "total_pedido": 71.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2898,7 +2898,7 @@
       "preco_unitario": 10.0,
       "total_produto": 10.0,
       "total_pedido": 10.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Debit",
+      "metodo_pagamento": "Cartão de débito • Mastercard",
       "dispositivo_id": 26,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2913,7 +2913,7 @@
       "preco_unitario": 20.0,
       "total_produto": 20.0,
       "total_pedido": 20.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2928,7 +2928,7 @@
       "preco_unitario": 8.0,
       "total_produto": 8.0,
       "total_pedido": 47.0,
-      "metodo_pagamento": "Efectivo",
+      "metodo_pagamento": "Dinheiro",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2943,7 +2943,7 @@
       "preco_unitario": 13.0,
       "total_produto": 39.0,
       "total_pedido": 47.0,
-      "metodo_pagamento": "Efectivo",
+      "metodo_pagamento": "Dinheiro",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2958,7 +2958,7 @@
       "preco_unitario": 20.0,
       "total_produto": 20.0,
       "total_pedido": 20.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2973,7 +2973,7 @@
       "preco_unitario": 20.0,
       "total_produto": 20.0,
       "total_pedido": 28.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -2988,7 +2988,7 @@
       "preco_unitario": 8.0,
       "total_produto": 8.0,
       "total_pedido": 28.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -3003,7 +3003,7 @@
       "preco_unitario": 20.0,
       "total_produto": 20.0,
       "total_pedido": 20.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -3018,7 +3018,7 @@
       "preco_unitario": 8.0,
       "total_produto": 8.0,
       "total_pedido": 8.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -3033,7 +3033,7 @@
       "preco_unitario": 8.0,
       "total_produto": 8.0,
       "total_pedido": 28.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 26,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -3048,7 +3048,7 @@
       "preco_unitario": 20.0,
       "total_produto": 20.0,
       "total_pedido": 28.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 26,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -3063,7 +3063,7 @@
       "preco_unitario": 10.0,
       "total_produto": 5.0,
       "total_pedido": 29.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 26,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -3078,7 +3078,7 @@
       "preco_unitario": 12.0,
       "total_produto": 24.0,
       "total_pedido": 29.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 26,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -3093,7 +3093,7 @@
       "preco_unitario": 12.0,
       "total_produto": 24.0,
       "total_pedido": 32.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -3108,7 +3108,7 @@
       "preco_unitario": 8.0,
       "total_produto": 8.0,
       "total_pedido": 32.0,
-      "metodo_pagamento": "Tarjeta - Visa Credito",
+      "metodo_pagamento": "Cartão de crédito • Visa",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -3123,7 +3123,7 @@
       "preco_unitario": 10.0,
       "total_produto": 5.0,
       "total_pedido": 45.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -3138,7 +3138,7 @@
       "preco_unitario": 8.0,
       "total_produto": 4.0,
       "total_pedido": 45.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -3153,7 +3153,7 @@
       "preco_unitario": 12.0,
       "total_produto": 36.0,
       "total_pedido": 45.0,
-      "metodo_pagamento": "Tarjeta - Visa Debito",
+      "metodo_pagamento": "Cartão de débito • Visa",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -3168,7 +3168,7 @@
       "preco_unitario": 20.0,
       "total_produto": 20.0,
       "total_pedido": 36.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"
@@ -3183,7 +3183,7 @@
       "preco_unitario": 8.0,
       "total_produto": 16.0,
       "total_pedido": 36.0,
-      "metodo_pagamento": "Tarjeta - Mastercard Credi",
+      "metodo_pagamento": "Cartão de crédito • Mastercard",
       "dispositivo_id": 38,
       "evento": "futebol",
       "nome_comercio": "Ilha 4"

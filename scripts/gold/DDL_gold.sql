@@ -62,8 +62,6 @@ CREATE TABLE gold.fact_vendas (
     preco_unitario          DECIMAL(10,2),
     total_produto           DECIMAL(10,2),
     identificacao_comprador VARCHAR(100),
-    metodo_pagamento        VARCHAR(100),
-    ultimos_digitos_cartao  VARCHAR(50),
     dispositivo_id          INT,
     status_venda            VARCHAR(20),
     estado                  INT
