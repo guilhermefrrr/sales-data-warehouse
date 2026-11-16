@@ -110,4 +110,4 @@ Notes:
 
 ## Data Privacy
 
-The datasets in this repository come from a real sales operation and were anonymized before publication. Location names were replaced with generic codes, and some event details were omitted. The original source files are not included in the repository, and no credentials or internal documents are published.
+The datasets in this repository come from a real sales operation and were anonymized before publication. Location, product, and device names were replaced with generic labels, prices and quantities were altered, and event details were omitted. The original source files are not included in the repository, and no credentials or internal documents are published.
